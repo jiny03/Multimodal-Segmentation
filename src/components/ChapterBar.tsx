@@ -1,10 +1,5 @@
 import React from 'react';
-
-interface Chapter {
-  title: string;
-  color: string;
-  start: number;
-}
+import Chapter from './types';
 
 interface ChapterBarProps {
   chapters: Chapter[];

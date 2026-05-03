@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron';
+import { app, BrowserWindow, ipcMain } from 'electron';
 import path from 'node:path';
 import started from 'electron-squirrel-startup';
 
@@ -54,3 +54,34 @@ app.on('activate', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
+const { spawn } = require('child_process');
+
+ipcMain.handle('run-analysis', async (event, videoPath) => {
+  return new Promise((resolve, reject) => {
+    // Replace 'python' with 'python3' depending on your environment
+    const pythonProcess = spawn('python', ['./backend/main.py', videoPath]);
+
+    let result = '';
+    let error = '';
+
+    pythonProcess.stdout.on('data', (data: { toString: () => string; }) => {
+      result += data.toString();
+    });
+
+    pythonProcess.stderr.on('data', (data: { toString: () => string; }) => {
+      error += data.toString();
+    });
+
+    pythonProcess.on('close', (code: number) => {
+      if (code === 0) {
+        try {
+          resolve(JSON.parse(result));
+        } catch (e) {
+          resolve({ error: "Failed to parse Python output", raw: result });
+        }
+      } else {
+        reject(error || `Process exited with code ${code}`);
+      }
+    });
+  });
+});
