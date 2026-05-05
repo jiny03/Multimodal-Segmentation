@@ -1,0 +1,870 @@
+{
+  "video_filename": "test_002.mp4",
+  "module": "audio_speech_music",
+  "ad_segments": [
+    {
+      "start": 270.5,
+      "end": 301.1,
+      "duration": 30.600000000000023,
+      "non_content_score": 1.0,
+      "source": "llm_full_transcript",
+      "speech_score": 1.0,
+      "audio_boundary_score": 0.36153537034988403,
+      "music_delta": 0.46909928985738325,
+      "low_speech_score": 0.0
+    },
+    {
+      "start": 677.0,
+      "end": 710.0,
+      "duration": 33.0,
+      "non_content_score": 0.6884695000552433,
+      "source": "audio_boundary_structural",
+      "speech_score": 0.0,
+      "audio_boundary_score": 0.47301554679870605,
+      "music_delta": 0.582259344062526,
+      "low_speech_score": 0.9733333333333335
+    }
+  ],
+  "transcript_segments": [
+    {
+      "start": 0.08,
+      "end": 13.32,
+      "duration": 13.24,
+      "text": "10, 9, 8, 7, RS-25 engines lit, 4, 3, 2, 1, booster ignition, and lift off."
+    },
+    {
+      "start": 15.9,
+      "end": 18.04,
+      "duration": 2.139999999999999,
+      "text": "Artemis II now bound for the moon."
+    },
+    {
+      "start": 18.52,
+      "end": 19.72,
+      "duration": 1.1999999999999993,
+      "text": "Humanity's next great."
+    },
+    {
+      "start": 19.9,
+      "end": 22.68,
+      "duration": 2.780000000000001,
+      "text": "Houston Integrity, good roll pitch."
+    },
+    {
+      "start": 24.0,
+      "end": 25.68,
+      "duration": 1.6799999999999997,
+      "text": "Roger, roll pitch."
+    },
+    {
+      "start": 25.68,
+      "end": 69.98,
+      "duration": 44.300000000000004,
+      "text": "Fully on."
+    },
+    {
+      "start": 135.62,
+      "end": 136.68,
+      "duration": 1.0600000000000023,
+      "text": "Guidance converged."
+    },
+    {
+      "start": 136.82,
+      "end": 137.66,
+      "duration": 0.8400000000000034,
+      "text": "Performance nominal."
+    },
+    {
+      "start": 137.98,
+      "end": 139.64,
+      "duration": 1.6599999999999966,
+      "text": "Upper stage RCS ready."
+    },
+    {
+      "start": 147.35,
+      "end": 149.21,
+      "duration": 1.8600000000000136,
+      "text": "Integrity SM priming complete."
+    },
+    {
+      "start": 156.4,
+      "end": 159.78,
+      "duration": 3.3799999999999955,
+      "text": "And Houston has you loud and clear on T-Gras at the Carmen line."
+    },
+    {
+      "start": 160.18,
+      "end": 169.94,
+      "duration": 9.759999999999991,
+      "text": "50 seconds into the flight of Artemis II."
+    },
+    {
+      "start": 170.12,
+      "end": 173.84,
+      "duration": 3.719999999999999,
+      "text": "Wiseman, Glover, Hook, and Bands across the boundary of the space with good conscience."
+    },
+    {
+      "start": 174.38,
+      "end": 177.92,
+      "duration": 3.539999999999992,
+      "text": "GPS signals acquired after last get us and now working on internal checks."
+    },
+    {
+      "start": 177.98,
+      "end": 178.36,
+      "duration": 0.3800000000000239,
+      "text": "You hear it."
+    },
+    {
+      "start": 179.08,
+      "end": 179.52,
+      "duration": 0.4399999999999977,
+      "text": "Whoa."
+    },
+    {
+      "start": 180.4,
+      "end": 182.44,
+      "duration": 2.039999999999992,
+      "text": "So that's, that is separate."
+    },
+    {
+      "start": 182.44,
+      "end": 183.44,
+      "duration": 1.0,
+      "text": "That is separate."
+    },
+    {
+      "start": 183.44,
+      "end": 188.04,
+      "duration": 4.599999999999994,
+      "text": "One of the biggest surprises was how smooth riding those solids was."
+    },
+    {
+      "start": 188.22,
+      "end": 192.1,
+      "duration": 3.8799999999999955,
+      "text": "We all expected a really just dynamic ride, a lot of motion."
+    },
+    {
+      "start": 192.36,
+      "end": 199.18,
+      "duration": 6.819999999999993,
+      "text": "We were prepared to potentially not being able to see telemetry, maybe even not being able to, you know, touch switches."
+    },
+    {
+      "start": 199.54,
+      "end": 201.98,
+      "duration": 2.4399999999999977,
+      "text": "And it was very smooth."
+    },
+    {
+      "start": 202.14,
+      "end": 206.52,
+      "duration": 4.380000000000024,
+      "text": "It was a definite difference when they separated and we were just on the main engines."
+    },
+    {
+      "start": 206.52,
+      "end": 210.94,
+      "duration": 4.4199999999999875,
+      "text": "But just a steady rumble and a great ride."
+    },
+    {
+      "start": 216.43,
+      "end": 217.23,
+      "duration": 0.799999999999983,
+      "text": "Well, let's see."
+    },
+    {
+      "start": 217.23,
+      "end": 221.71,
+      "duration": 4.480000000000018,
+      "text": "So we've been off the planet for, what, about 30 hours now, and we've had two very short naps."
+    },
+    {
+      "start": 221.83,
+      "end": 224.93,
+      "duration": 3.0999999999999943,
+      "text": "We actually just gathered for our first meal together in space."
+    },
+    {
+      "start": 225.05,
+      "end": 227.79,
+      "duration": 2.7399999999999807,
+      "text": "That is how busy we have been the last day and a half."
+    },
+    {
+      "start": 227.85,
+      "end": 231.81,
+      "duration": 3.960000000000008,
+      "text": "It has been really an amazing beginning flight plan."
+    },
+    {
+      "start": 232.11,
+      "end": 234.69,
+      "duration": 2.579999999999984,
+      "text": "But sleeping here is actually sort of comical."
+    },
+    {
+      "start": 235.13,
+      "end": 240.69,
+      "duration": 5.560000000000002,
+      "text": "Christina has been sleeping heads down in the middle of the vehicle, kind of like a bat suspended from our docking tunnel."
+    },
+    {
+      "start": 241.31,
+      "end": 243.05,
+      "duration": 1.740000000000009,
+      "text": "Victor's been up where Jeremy is right now."
+    },
+    {
+      "start": 243.11,
+      "end": 244.83,
+      "duration": 1.7199999999999989,
+      "text": "He's got a nice little nook wedged in there."
+    },
+    {
+      "start": 244.83,
+      "end": 252.01,
+      "duration": 7.179999999999978,
+      "text": "And then Jeremy has been stretched out on seat one, and I've been sleeping under the displays just in case anything goes wrong."
+    },
+    {
+      "start": 252.35,
+      "end": 257.65,
+      "duration": 5.299999999999983,
+      "text": "It's more comfortable than you would think, and it's nice to sleep in weightlessness again."
+    },
+    {
+      "start": 257.85,
+      "end": 263.03,
+      "duration": 5.17999999999995,
+      "text": "Every time I was dozing off last night, I had that image that I was tripping off a curb and I was waking myself up."
+    },
+    {
+      "start": 263.09,
+      "end": 266.43,
+      "duration": 3.340000000000032,
+      "text": "So my body's getting re-acclimated. It's been a few years since I've been up here."
+    },
+    {
+      "start": 267.57,
+      "end": 270.53,
+      "duration": 2.9599999999999795,
+      "text": "As you all know, there is so much division at home."
+    },
+    {
+      "start": 270.53,
+      "end": 292.38,
+      "duration": 21.850000000000023,
+      "text": "just finally got some time to do my own thing i'll send you a link i'm doing some prints trying to"
+    },
+    {
+      "start": 292.38,
+      "end": 301.06,
+      "duration": 8.680000000000007,
+      "text": "make accessories from them i'm really really happy you like them hey it's k davis what's happened"
+    },
+    {
+      "start": 301.06,
+      "end": 333.07,
+      "duration": 32.00999999999999,
+      "text": "to be honest it's just not what we're looking for right now what is it that you're feeling and what"
+    },
+    {
+      "start": 333.07,
+      "end": 336.49,
+      "duration": 3.420000000000016,
+      "text": "message do you want to send to the american people about what you're saying out that window"
+    },
+    {
+      "start": 336.49,
+      "end": 349.08,
+      "duration": 12.589999999999975,
+      "text": "well the first thing i would say is uh trust us you look amazing you look beautiful and from up"
+    },
+    {
+      "start": 349.08,
+      "end": 354.24,
+      "duration": 5.160000000000025,
+      "text": "here you also look like one thing you know homo sapiens is all of us no matter where you're from"
+    },
+    {
+      "start": 354.24,
+      "end": 360.1,
+      "duration": 5.860000000000014,
+      "text": "or or uh you know what you look like we're all one people and so you know this mission one of"
+    },
+    {
+      "start": 360.1,
+      "end": 365.92,
+      "duration": 5.819999999999993,
+      "text": "the things that's amazing about being around and just being in an astronaut you know serving our"
+    },
+    {
+      "start": 365.92,
+      "end": 371.56,
+      "duration": 5.639999999999986,
+      "text": "countries at this time is that we get to to give ourselves a mission that we can hold on to to say"
+    },
+    {
+      "start": 371.56,
+      "end": 377.06,
+      "duration": 5.5,
+      "text": "hey look at what we did for for for the rest of our lives you know we call amazing things that"
+    },
+    {
+      "start": 377.06,
+      "end": 382.4,
+      "duration": 5.339999999999975,
+      "text": "humans do moonshots for a reason, because this brought us together and showed us what we can do"
+    },
+    {
+      "start": 382.4,
+      "end": 386.08,
+      "duration": 3.680000000000007,
+      "text": "when we put, not just putting our differences aside, when we bring our differences together"
+    },
+    {
+      "start": 386.08,
+      "end": 391.14,
+      "duration": 5.060000000000002,
+      "text": "and use all the strengths to accomplish something great. And so this mission will give us one of"
+    },
+    {
+      "start": 391.14,
+      "end": 396.4,
+      "duration": 5.259999999999991,
+      "text": "those that we all can remember and hold on to for the rest of our days. And I hope people will"
+    },
+    {
+      "start": 396.4,
+      "end": 404.26,
+      "duration": 7.860000000000014,
+      "text": "tune in and give us a chance. There's a lot of happiness. Just to experience these unique things"
+    },
+    {
+      "start": 404.26,
+      "end": 410.46,
+      "duration": 6.199999999999989,
+      "text": "just brings you joy as a human we're explorers at heart as human beings and we really feel like"
+    },
+    {
+      "start": 410.46,
+      "end": 416.14,
+      "duration": 5.680000000000007,
+      "text": "we're exploring out here and it brings a lot of excitement and then you know right away you are"
+    },
+    {
+      "start": 416.14,
+      "end": 422.3,
+      "duration": 6.160000000000025,
+      "text": "humbled the fact that four of us get to be out here just brings you to your knees the thought"
+    },
+    {
+      "start": 422.3,
+      "end": 427.62,
+      "duration": 5.319999999999993,
+      "text": "that we get this experience we're doing our best to show it uh with the camera but you can't do it"
+    },
+    {
+      "start": 427.62,
+      "end": 434.24,
+      "duration": 6.6200000000000045,
+      "text": "i know those photos are amazing but let me assure you it is another level of amazing up here and"
+    },
+    {
+      "start": 434.24,
+      "end": 438.12,
+      "duration": 3.8799999999999955,
+      "text": "There's a lot of gratitude for the teams of people that made this possible."
+    },
+    {
+      "start": 438.34,
+      "end": 440.68,
+      "duration": 2.340000000000032,
+      "text": "I can really see Earth as one thing."
+    },
+    {
+      "start": 440.82,
+      "end": 446.44,
+      "duration": 5.6200000000000045,
+      "text": "When I read the Bible and I look at all of the amazing things that were done for us who were created,"
+    },
+    {
+      "start": 446.68,
+      "end": 450.32,
+      "duration": 3.6399999999999864,
+      "text": "you have this amazing place, this spaceship."
+    },
+    {
+      "start": 450.5,
+      "end": 454.02,
+      "duration": 3.519999999999982,
+      "text": "You guys are talking to us because we're in a spaceship really far from Earth,"
+    },
+    {
+      "start": 454.12,
+      "end": 460.4,
+      "duration": 6.279999999999973,
+      "text": "but you're on a spaceship called Earth that was created to give us a place to live in the universe, in the cosmos."
+    },
+    {
+      "start": 460.4,
+      "end": 467.1,
+      "duration": 6.7000000000000455,
+      "text": "I think maybe the distance we are from you makes you think what we're doing is special, but we're the same distance from you."
+    },
+    {
+      "start": 467.16,
+      "end": 471.54,
+      "duration": 4.3799999999999955,
+      "text": "And I'm trying to tell you, just trust me, you are special in all of this emptiness."
+    },
+    {
+      "start": 471.62,
+      "end": 474.42,
+      "duration": 2.8000000000000114,
+      "text": "This is a whole bunch of nothing. This thing we call the universe."
+    },
+    {
+      "start": 474.54,
+      "end": 479.3,
+      "duration": 4.759999999999991,
+      "text": "You have this oasis, this beautiful place that we get to exist together."
+    },
+    {
+      "start": 479.82,
+      "end": 487.36,
+      "duration": 7.5400000000000205,
+      "text": "I think as we go into Easter Sunday, thinking about, you know, all the cultures all around the world, whether you celebrate it or not, whether you believe in God or not."
+    },
+    {
+      "start": 487.36,
+      "end": 493.96,
+      "duration": 6.599999999999966,
+      "text": "this is an opportunity for us to remember where we are, who we are, and that we are the same thing"
+    },
+    {
+      "start": 493.96,
+      "end": 495.44,
+      "duration": 1.4800000000000182,
+      "text": "and that we've got to get through this together."
+    },
+    {
+      "start": 517.45,
+      "end": 523.97,
+      "duration": 6.519999999999982,
+      "text": "Integrity Crew, on April 15, 1970, during the Apollo 13 mission,"
+    },
+    {
+      "start": 524.69,
+      "end": 529.57,
+      "duration": 4.8799999999999955,
+      "text": "three explorers set the record for the farthest distance humans have ever traveled from our home planet."
+    },
+    {
+      "start": 529.57,
+      "end": 541.25,
+      "duration": 11.67999999999995,
+      "text": "At that time, over 55 years ago, Lovell, Swigert, and Hayes flew 248,655 statute miles away from Earth."
+    },
+    {
+      "start": 542.17,
+      "end": 545.83,
+      "duration": 3.660000000000082,
+      "text": "Today, for all humanity, you're pushing beyond that frontier."
+    },
+    {
+      "start": 546.75,
+      "end": 547.79,
+      "duration": 1.0399999999999636,
+      "text": "Integrity, over to you."
+    },
+    {
+      "start": 678.71,
+      "end": 679.59,
+      "duration": 0.8799999999999955,
+      "text": "Okay, grab me one, too."
+    },
+    {
+      "start": 710.25,
+      "end": 712.53,
+      "duration": 2.2799999999999727,
+      "text": "Amaze, amaze, amaze. Thank you, Reid."
+    },
+    {
+      "start": 764.34,
+      "end": 768.9,
+      "duration": 4.559999999999945,
+      "text": "Integrity from Earth, our single system, fragile and interconnected, we copy."
+    },
+    {
+      "start": 769.58,
+      "end": 771.34,
+      "duration": 1.759999999999991,
+      "text": "Those of us that can are looking back."
+    },
+    {
+      "start": 772.48,
+      "end": 782.46,
+      "duration": 9.980000000000018,
+      "text": "Integrity, Houston, in mission control, all of your flight controllers and your flight director have flipped their Artemis II patches around."
+    },
+    {
+      "start": 782.96,
+      "end": 785.16,
+      "duration": 2.199999999999932,
+      "text": "We are Earth-bound and ready to bring you home."
+    },
+    {
+      "start": 786.32,
+      "end": 792.92,
+      "duration": 6.599999999999909,
+      "text": "You're getting a live look from Orion as the crew observes a solar eclipse from the moon."
+    },
+    {
+      "start": 804.44,
+      "end": 806.8,
+      "duration": 2.3599999999999,
+      "text": "Thanks for the report. We sure wish we were there with you."
+    },
+    {
+      "start": 807.22,
+      "end": 809.96,
+      "duration": 2.740000000000009,
+      "text": "You're looking at a live view inside Integrity."
+    },
+    {
+      "start": 810.46,
+      "end": 814.92,
+      "duration": 4.459999999999923,
+      "text": "Reid Wiseman on the left doing a fist bump with pilot Victor Glover on the right"
+    },
+    {
+      "start": 814.92,
+      "end": 817.78,
+      "duration": 2.8600000000000136,
+      "text": "and down in the mid-deck area just below their feet."
+    },
+    {
+      "start": 818.32,
+      "end": 822.34,
+      "duration": 4.019999999999982,
+      "text": "Suited up in their launch and entry suits are mission specialists Christina Cook"
+    },
+    {
+      "start": 822.34,
+      "end": 826.04,
+      "duration": 3.699999999999932,
+      "text": "and Jeremy Hansen of the Canadian Space Agency."
+    },
+    {
+      "start": 830.96,
+      "end": 834.64,
+      "duration": 3.67999999999995,
+      "text": "And we have confirmation of crew module service module separation."
+    },
+    {
+      "start": 835.28,
+      "end": 839.24,
+      "duration": 3.9600000000000364,
+      "text": "The European service module now separated from Integrity."
+    },
+    {
+      "start": 839.44,
+      "end": 840.56,
+      "duration": 1.1199999999998909,
+      "text": "A job well done."
+    },
+    {
+      "start": 840.96,
+      "end": 846.75,
+      "duration": 5.789999999999964,
+      "text": "And we have crossed the threshold, now entering the Earth's atmosphere."
+    },
+    {
+      "start": 847.75,
+      "end": 852.65,
+      "duration": 4.899999999999977,
+      "text": "We're at 400,000 feet, traveling 34,800 feet per second."
+    },
+    {
+      "start": 853.15,
+      "end": 860.49,
+      "duration": 7.340000000000032,
+      "text": "And as predicted, we've entered our communications blackout."
+    },
+    {
+      "start": 862.17,
+      "end": 864.77,
+      "duration": 2.6000000000000227,
+      "text": "Integrity, Houston, comm check post-blackout."
+    },
+    {
+      "start": 867.3,
+      "end": 869.4,
+      "duration": 2.1000000000000227,
+      "text": "Houston, Integrity, we have you loud and clear."
+    },
+    {
+      "start": 871.08,
+      "end": 875.36,
+      "duration": 4.279999999999973,
+      "text": "Your trajectory is nominal, and your recovery teams have visual."
+    },
+    {
+      "start": 875.36,
+      "end": 889.77,
+      "duration": 14.409999999999968,
+      "text": "We're at 50,000 feet, and there go the first series of parachutes, and we're on drogues."
+    },
+    {
+      "start": 891.25,
+      "end": 893.59,
+      "duration": 2.340000000000032,
+      "text": "And Houston, we're visual. Two drogues out the window."
+    },
+    {
+      "start": 897.37,
+      "end": 899.97,
+      "duration": 2.6000000000000227,
+      "text": "Two good drogues chutes. Next up..."
+    },
+    {
+      "start": 899.97,
+      "end": 901.03,
+      "duration": 1.0599999999999454,
+      "text": "We copy. We see them."
+    },
+    {
+      "start": 901.99,
+      "end": 905.85,
+      "duration": 3.8600000000000136,
+      "text": "Next up, the deployment of pilot parachutes that will pull the main chutes out."
+    },
+    {
+      "start": 906.79,
+      "end": 909.57,
+      "duration": 2.7800000000000864,
+      "text": "Time to splash down three minutes and ten seconds."
+    },
+    {
+      "start": 909.57,
+      "end": 956.63,
+      "duration": 47.059999999999945,
+      "text": "Passing through 10,000 feet. Still on drogues. Main chute deploy. We're at 5,000 feet. Search and recovery beacon has been activated on Integrity. And we have three good main chutes. Good three main chutes. Good reefing. Good descent rate."
+    },
+    {
+      "start": 956.63,
+      "end": 959.29,
+      "duration": 2.659999999999968,
+      "text": "We see rates, and we see three good-looking parachutes."
+    },
+    {
+      "start": 968.06,
+      "end": 978.64,
+      "duration": 10.580000000000041,
+      "text": "Integrity about to complete a journey spanning 694,481 miles from its launch from the Kennedy Space Center back on April 1st,"
+    },
+    {
+      "start": 978.64,
+      "end": 1016.06,
+      "duration": 37.41999999999996,
+      "text": "and a trip around the moon passing through 1,000 feet."
+    },
+    {
+      "start": 1056.59,
+      "end": 1058.83,
+      "duration": 2.240000000000009,
+      "text": "Splashdown sending post-landing command now."
+    },
+    {
+      "start": 1059.65,
+      "end": 1060.93,
+      "duration": 1.2799999999999727,
+      "text": "Splashdown confirmed."
+    },
+    {
+      "start": 1061.43,
+      "end": 1063.35,
+      "duration": 1.9199999999998454,
+      "text": "Copy Splashdown waiting on VLDR."
+    },
+    {
+      "start": 1064.05,
+      "end": 1069.63,
+      "duration": 5.580000000000155,
+      "text": "Splashdown confirmed at 7.07 p.m. Central Time, 5.07 p.m. Pacific Time."
+    },
+    {
+      "start": 1071.01,
+      "end": 1074.85,
+      "duration": 3.839999999999918,
+      "text": "From the pages of Jules Verne to a modern-day mission to the moon,"
+    },
+    {
+      "start": 1075.35,
+      "end": 1078.93,
+      "duration": 3.5800000000001546,
+      "text": "a new chapter of the exploration of our celestial neighbor is complete."
+    },
+    {
+      "start": 1079.61,
+      "end": 1082.21,
+      "duration": 2.6000000000001364,
+      "text": "Integrity's astronauts, back on Earth."
+    },
+    {
+      "start": 1083.73,
+      "end": 1085.59,
+      "duration": 1.8599999999999,
+      "text": "Perfect communications established."
+    },
+    {
+      "start": 1085.59,
+      "end": 1089.59,
+      "duration": 4.0,
+      "text": "A journey. We are stable one, four, green."
+    },
+    {
+      "start": 1093.39,
+      "end": 1094.45,
+      "duration": 1.0599999999999454,
+      "text": "Houston copies all."
+    },
+    {
+      "start": 1095.45,
+      "end": 1098.33,
+      "duration": 2.8799999999998818,
+      "text": "Reed Wiseman reporting four green crew members."
+    },
+    {
+      "start": 1098.49,
+      "end": 1099.79,
+      "duration": 1.2999999999999545,
+      "text": "That is not their complexion."
+    },
+    {
+      "start": 1100.15,
+      "end": 1102.95,
+      "duration": 2.7999999999999545,
+      "text": "That is the fact that they're in great condition."
+    },
+    {
+      "start": 1103.15,
+      "end": 1104.13,
+      "duration": 0.9800000000000182,
+      "text": "That's what that means."
+    },
+    {
+      "start": 1104.67,
+      "end": 1183.8,
+      "duration": 79.12999999999988,
+      "text": "And as there are mission audio loops in mission control in Houston,"
+    },
+    {
+      "start": 1184.1,
+      "end": 1186.72,
+      "duration": 2.6200000000001182,
+      "text": "there is a mission audio loop here on the ship."
+    },
+    {
+      "start": 1187.1,
+      "end": 1190.6,
+      "duration": 3.5,
+      "text": "And it was just reported out that the side hatch is open."
+    },
+    {
+      "start": 1192.7,
+      "end": 1195.08,
+      "duration": 2.3799999999998818,
+      "text": "Side hatch of integrity is open."
+    },
+    {
+      "start": 1199.15,
+      "end": 1202.31,
+      "duration": 3.1599999999998545,
+      "text": "You're getting these beautiful shots from our aerial assets."
+    },
+    {
+      "start": 1203.19,
+      "end": 1206.71,
+      "duration": 3.519999999999982,
+      "text": "The ship itself, where I'm on, just 3,000 yards away."
+    },
+    {
+      "start": 1211.21,
+      "end": 1217.51,
+      "duration": 6.2999999999999545,
+      "text": "Again, plenty of people on the boat here, glued to the side, closest to where they can see all this action."
+    },
+    {
+      "start": 1217.67,
+      "end": 1222.69,
+      "duration": 5.019999999999982,
+      "text": "And again, with just 3,000 yards separating us, great views from the bow here."
+    },
+    {
+      "start": 1223.81,
+      "end": 1246.78,
+      "duration": 22.970000000000027,
+      "text": "And the initial, you can hear it, jubilation here in the flight control room."
+    },
+    {
+      "start": 1246.86,
+      "end": 1248.7,
+      "duration": 1.8400000000001455,
+      "text": "The first crew member is out of integrity."
+    },
+    {
+      "start": 1248.7,
+      "end": 1264.23,
+      "duration": 15.529999999999973,
+      "text": "Look at the power of those blades."
+    },
+    {
+      "start": 1266.07,
+      "end": 1275.07,
+      "duration": 9.0,
+      "text": "throwing water out at the center there, the front porch with now three astronauts and the"
+    },
+    {
+      "start": 1275.07,
+      "end": 1288.97,
+      "duration": 13.900000000000091,
+      "text": "recovery specialists. Again, crews already outfitted with a harness vest. And here we go."
+    },
+    {
+      "start": 1289.85,
+      "end": 1294.77,
+      "duration": 4.920000000000073,
+      "text": "Second astronaut now off the front porch, getting hoisted into the second helicopter."
+    },
+    {
+      "start": 1315.35,
+      "end": 1320.41,
+      "duration": 5.060000000000173,
+      "text": "There we see Christina there, also smiling, finally peering out, waving at the cameras."
+    },
+    {
+      "start": 1320.41,
+      "end": 1326.53,
+      "duration": 6.119999999999891,
+      "text": "Hello to you too, Christina. Yes. Welcome back. Welcome, welcome home."
+    },
+    {
+      "start": 1330.08,
+      "end": 1340.5,
+      "duration": 10.420000000000073,
+      "text": "Applause from the group there on the flight deck, I'm sure, as well as on the level just above them, packed with people."
+    },
+    {
+      "start": 1344.56,
+      "end": 1348.36,
+      "duration": 3.7999999999999545,
+      "text": "Reed looking good as he takes his steps towards the medical bay."
+    }
+  ]
+}
