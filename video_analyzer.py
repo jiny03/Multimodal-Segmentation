@@ -112,7 +112,7 @@ def merge_same(segs):
 
 
 def refine_labels(segs, total):
-    # use position in video to upgrade some labels to intro/outro
+    # use position in video to upgrade some labels to intro/outro/ad_break
     intro_cutoff = min(120.0, total * 0.15)
     outro_cutoff = min(120.0, total * 0.10)
 
@@ -120,16 +120,103 @@ def refine_labels(segs, total):
     for s in segs:
         label = s["type"]
         dur = round(s["end"] - s["start"], 2)
+        in_intro = s["start"] < intro_cutoff
+        in_outro = s["end"] > (total - outro_cutoff)
+        in_middle = not in_intro and not in_outro
 
-        if s["start"] < intro_cutoff and label in ("static_screen", "low_motion", "dead_air"):
+        if in_intro and label in ("static_screen", "low_motion", "dead_air"):
             label = "intro"
-        elif s["end"] > (total - outro_cutoff) and label in ("static_screen", "low_motion", "dead_air"):
+        elif in_outro and label in ("static_screen", "low_motion", "dead_air"):
             label = "outro"
+        elif in_middle and label in ("static_screen", "dead_air"):
+            # static or black screen in the middle of the video = likely an ad break or transition
+            label = "ad_break"
         elif label == "dead_air" and dur < 2.0:
             label = "content"
 
         out.append({"start": s["start"], "end": s["end"], "type": label, "duration": dur})
     return out
+
+
+def compute_window_scores(times, motions, bris, vars_, window_sec=1.0):
+    """
+    For each 1-second window, compute a non-content score between 0 and 1.
+    High score = likely non-content (ad, transition, dead air, intro/outro).
+    Low score = likely real content.
+
+    Based on visual features only - meant to be combined with Jin's audio scores.
+    Formula: weighted combo of low-motion, low-variance, and darkness signals.
+    """
+    if not times:
+        return []
+
+    total = times[-1]
+    scores = []
+    t = 0.0
+
+    while t < total:
+        t_end = t + window_sec
+        # grab all frame samples that fall in this window
+        m_vals, b_vals, v_vals = [], [], []
+        for i in range(len(times)):
+            if t <= times[i] < t_end:
+                m_vals.append(motions[i])
+                b_vals.append(bris[i])
+                v_vals.append(vars_[i])
+
+        if not m_vals:
+            # no frames sampled in this window, carry forward 0
+            scores.append({"time": round(t, 2), "score": 0.0})
+            t += window_sec
+            continue
+
+        avg_motion = np.mean(m_vals)
+        avg_bri = np.mean(b_vals)
+        avg_var = np.mean(v_vals)
+
+        # each component gives 0-1, then weighted together
+        # low motion -> more likely non-content
+        motion_score = max(0.0, 1.0 - avg_motion / MOTION_MED)
+        # low variance -> static screen
+        var_score = max(0.0, 1.0 - avg_var / STATIC_VAR)
+        # dark frame
+        dark_score = max(0.0, 1.0 - avg_bri / 128.0)
+
+        score = round(0.5 * motion_score + 0.3 * var_score + 0.2 * dark_score, 4)
+        scores.append({"time": round(t, 2), "score": score})
+        t += window_sec
+
+    return scores
+
+
+def find_ad_candidates(window_scores, threshold=0.55, min_dur=5.0):
+    # find runs of consecutive high-score windows and merge them into intervals
+    # threshold: score above this = likely non-content
+    # min_dur: ignore intervals shorter than this (seconds)
+    candidates = []
+    in_ad = False
+    start = 0.0
+
+    for entry in window_scores:
+        t = entry["time"]
+        s = entry["score"]
+        if s >= threshold and not in_ad:
+            in_ad = True
+            start = t
+        elif s < threshold and in_ad:
+            dur = t - start
+            if dur >= min_dur:
+                candidates.append({"start": round(start, 2), "end": round(t, 2), "duration": round(dur, 2)})
+            in_ad = False
+
+    # close out if video ends while still in an ad region
+    if in_ad and window_scores:
+        t = window_scores[-1]["time"] + 1.0
+        dur = t - start
+        if dur >= min_dur:
+            candidates.append({"start": round(start, 2), "end": round(t, 2), "duration": round(dur, 2)})
+
+    return candidates
 
 
 def analyze(video_path, out_path=None, verbose=True, sample_n=None):
@@ -153,6 +240,8 @@ def analyze(video_path, out_path=None, verbose=True, sample_n=None):
     labels = []
     times = []
     motions = []
+    bris = []
+    vars_ = []
     prev_gray = None
     idx = 0
     count = 0
@@ -172,6 +261,8 @@ def analyze(video_path, out_path=None, verbose=True, sample_n=None):
                 labels.append(lbl)
                 times.append(t)
                 motions.append(motion)
+                bris.append(bri)
+                vars_.append(var)
                 count += 1
 
                 if verbose and count % 300 == 0:
@@ -201,6 +292,12 @@ def analyze(video_path, out_path=None, verbose=True, sample_n=None):
         if "duration" not in s:
             s["duration"] = round(s["end"] - s["start"], 2)
 
+    # per-second window scores for integration with audio module
+    window_scores = compute_window_scores(times, motions, bris, vars_, window_sec=1.0)
+
+    # time intervals that are likely ads/non-content based on window scores
+    ad_candidates = find_ad_candidates(window_scores)
+
     totals = {}
     for s in segs:
         totals[s["type"]] = totals.get(s["type"], 0) + s["duration"]
@@ -211,6 +308,8 @@ def analyze(video_path, out_path=None, verbose=True, sample_n=None):
         "fps": round(fps, 2),
         "resolution": f"{w}x{h}",
         "segments": segs,
+        "ad_candidates": ad_candidates,
+        "window_scores": window_scores,
         "summary": {k: round(v, 1) for k, v in totals.items()}
     }
 
@@ -231,6 +330,12 @@ def analyze(video_path, out_path=None, verbose=True, sample_n=None):
         print()
         for t, v in sorted(totals.items(), key=lambda x: -x[1]):
             print(f"  {t}: {v:.0f}s ({100*v/duration:.1f}%)")
+        print(f"\nWindow scores: {len(window_scores)} entries (1s each)")
+        print(f"Ad candidates: {len(ad_candidates)} intervals")
+        for a in ad_candidates:
+            am, as_ = divmod(a["start"], 60)
+            em, es = divmod(a["end"], 60)
+            print(f"  {int(am):02d}:{as_:04.1f} -> {int(em):02d}:{es:04.1f}  ({a['duration']:.0f}s)")
 
     return output
 
