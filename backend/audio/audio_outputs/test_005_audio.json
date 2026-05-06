@@ -1,0 +1,1333 @@
+{
+  "video_filename": "test_005.mp4",
+  "module": "audio_speech_music",
+  "ad_segments": [
+    {
+      "start": 677.3,
+      "end": 698.7,
+      "duration": 21.40000000000009,
+      "non_content_score": 1.0,
+      "source": "llm_full_transcript",
+      "speech_score": 1.0,
+      "audio_boundary_score": 0.3331896662712097,
+      "music_delta": 0.3936485097610525,
+      "low_speech_score": 0.0
+    }
+  ],
+  "transcript_segments": [
+    {
+      "start": 83.54,
+      "end": 84.7,
+      "duration": 1.1599999999999966,
+      "text": "Look, puppy. Look, can you see?"
+    },
+    {
+      "start": 85.34,
+      "end": 86.7,
+      "duration": 1.3599999999999994,
+      "text": "This is where Daddy's going to go."
+    },
+    {
+      "start": 87.06,
+      "end": 91.26,
+      "duration": 4.200000000000003,
+      "text": "He's going to go and climb this mountain."
+    },
+    {
+      "start": 93.32,
+      "end": 95.1,
+      "duration": 1.7800000000000011,
+      "text": "My name is Julian Bayliss."
+    },
+    {
+      "start": 95.28,
+      "end": 97.68,
+      "duration": 2.4000000000000057,
+      "text": "I'm a conservation scientist. I'm an ecologist."
+    },
+    {
+      "start": 99.04,
+      "end": 103.28,
+      "duration": 4.239999999999995,
+      "text": "My job is to try and help conserve and protect areas"
+    },
+    {
+      "start": 103.28,
+      "end": 106.94,
+      "duration": 3.6599999999999966,
+      "text": "that are not previously under any form of official protection."
+    },
+    {
+      "start": 107.38,
+      "end": 111.82,
+      "duration": 4.439999999999998,
+      "text": "I saw this site through satellite imagery,"
+    },
+    {
+      "start": 111.82,
+      "end": 115.26,
+      "duration": 3.440000000000012,
+      "text": "and I've never, ever come across a site like this."
+    },
+    {
+      "start": 115.26,
+      "end": 120.26,
+      "duration": 5.0,
+      "text": "What was interesting about this site was the surrounding land was heavily cultivated"
+    },
+    {
+      "start": 120.26,
+      "end": 126.26,
+      "duration": 6.0,
+      "text": "and then the crater containing rainforest was very dense and intact."
+    },
+    {
+      "start": 126.26,
+      "end": 132.26,
+      "duration": 5.999999999999986,
+      "text": "And I thought that was a little bit strange because there should be evidence of human disturbance."
+    },
+    {
+      "start": 132.26,
+      "end": 137.26,
+      "duration": 5.0,
+      "text": "So then I thought well maybe actually you cannot get to the forest."
+    },
+    {
+      "start": 137.26,
+      "end": 143.54,
+      "duration": 6.280000000000001,
+      "text": "Therefore potentially this forest has never had any human interference."
+    },
+    {
+      "start": 146.14,
+      "end": 148.08,
+      "duration": 1.9400000000000261,
+      "text": "To actually find a site with no human interference"
+    },
+    {
+      "start": 148.08,
+      "end": 150.78,
+      "duration": 2.6999999999999886,
+      "text": "gives us this unique chance to investigate and measure"
+    },
+    {
+      "start": 150.78,
+      "end": 197.7,
+      "duration": 46.91999999999999,
+      "text": "aspects of climate change."
+    },
+    {
+      "start": 201.67,
+      "end": 202.37,
+      "duration": 0.700000000000017,
+      "text": "Can Daddy help you?"
+    },
+    {
+      "start": 202.79,
+      "end": 206.88,
+      "duration": 4.090000000000003,
+      "text": "The speed at which climate change is occurring at the moment,"
+    },
+    {
+      "start": 206.88,
+      "end": 210.7,
+      "duration": 3.819999999999993,
+      "text": "there is only one variable that wasn't there before,"
+    },
+    {
+      "start": 211.24,
+      "end": 214.54,
+      "duration": 3.299999999999983,
+      "text": "and that's the number of human beings that are on this planet."
+    },
+    {
+      "start": 215.5,
+      "end": 218.08,
+      "duration": 2.5800000000000125,
+      "text": "We're planting a forest on Daddy's hands."
+    },
+    {
+      "start": 220.87,
+      "end": 222.83,
+      "duration": 1.960000000000008,
+      "text": "My hope for this expedition to Mount Liko"
+    },
+    {
+      "start": 222.83,
+      "end": 226.51,
+      "duration": 3.6799999999999784,
+      "text": "is that it will help us understand various aspects of climate change."
+    },
+    {
+      "start": 226.97,
+      "end": 253.05,
+      "duration": 26.080000000000013,
+      "text": "It's about a kilometre across."
+    },
+    {
+      "start": 253.29,
+      "end": 257.89,
+      "duration": 4.599999999999994,
+      "text": "It has a crater, it has a rim, and it has a basin of rainforest."
+    },
+    {
+      "start": 258.57,
+      "end": 261.19,
+      "duration": 2.6200000000000045,
+      "text": "It has these very smooth granite edges"
+    },
+    {
+      "start": 261.19,
+      "end": 264.45,
+      "duration": 3.259999999999991,
+      "text": "that rise up to over half a kilometre."
+    },
+    {
+      "start": 266.05,
+      "end": 268.05,
+      "duration": 2.0,
+      "text": "It looks a little bit like a fortress."
+    },
+    {
+      "start": 271.57,
+      "end": 271.97,
+      "duration": 0.4000000000000341,
+      "text": "Good morning."
+    },
+    {
+      "start": 272.59,
+      "end": 273.39,
+      "duration": 0.8000000000000114,
+      "text": "Good morning. How are you?"
+    },
+    {
+      "start": 273.83,
+      "end": 274.47,
+      "duration": 0.6400000000000432,
+      "text": "Good morning."
+    },
+    {
+      "start": 275.61,
+      "end": 279.65,
+      "duration": 4.039999999999964,
+      "text": "Everybody, welcome to this expedition to Mount Lico."
+    },
+    {
+      "start": 279.87,
+      "end": 283.31,
+      "duration": 3.4399999999999977,
+      "text": "We've got a great team together, lots of specialities, lots of nationalities."
+    },
+    {
+      "start": 284.31,
+      "end": 287.07,
+      "duration": 2.759999999999991,
+      "text": "Young and old and everything in between."
+    },
+    {
+      "start": 288.51,
+      "end": 292.93,
+      "duration": 4.420000000000016,
+      "text": "The two climbers, Jules Lyons, one of the best free climbers in the UK,"
+    },
+    {
+      "start": 293.45,
+      "end": 296.55,
+      "duration": 3.1000000000000227,
+      "text": "and Mike Robinson, also one of the best free climbers in the UK,"
+    },
+    {
+      "start": 297.03,
+      "end": 301.53,
+      "duration": 4.5,
+      "text": "have been rigging the climb. It's 125 metres the last couple of days now,"
+    },
+    {
+      "start": 301.61,
+      "end": 304.05,
+      "duration": 2.4399999999999977,
+      "text": "and it's basically ready. They're going to finish it off this morning,"
+    },
+    {
+      "start": 304.19,
+      "end": 306.23,
+      "duration": 2.0400000000000205,
+      "text": "and then we're going to start sending people up."
+    },
+    {
+      "start": 306.41,
+      "end": 309.35,
+      "duration": 2.9399999999999977,
+      "text": "So good. I think this is going to be a really interesting expedition."
+    },
+    {
+      "start": 309.35,
+      "end": 312.23,
+      "duration": 2.8799999999999955,
+      "text": "I think it's going to be a really exciting expedition."
+    },
+    {
+      "start": 312.23,
+      "end": 316.23,
+      "duration": 4.0,
+      "text": "I'm expecting to find lots of new stuff, new species hopefully,"
+    },
+    {
+      "start": 317.11,
+      "end": 319.35,
+      "duration": 2.240000000000009,
+      "text": "and make this trip really worthwhile."
+    },
+    {
+      "start": 319.35,
+      "end": 321.51,
+      "duration": 2.159999999999968,
+      "text": "Anyway, everybody's welcome. Thank you very much for coming."
+    },
+    {
+      "start": 322.15,
+      "end": 323.19,
+      "duration": 1.0400000000000205,
+      "text": "Let's start working."
+    },
+    {
+      "start": 330.53,
+      "end": 332.37,
+      "duration": 1.8400000000000318,
+      "text": "I'm very nervous about the climb, yes."
+    },
+    {
+      "start": 343.11,
+      "end": 347.99,
+      "duration": 4.8799999999999955,
+      "text": "The thought of being alone and exposed on the rock face"
+    },
+    {
+      "start": 347.99,
+      "end": 350.63,
+      "duration": 2.6399999999999864,
+      "text": "is terrifying to most of the scientists"
+    },
+    {
+      "start": 350.63,
+      "end": 352.63,
+      "duration": 2.0,
+      "text": "because none of us are actually climbers."
+    },
+    {
+      "start": 352.63,
+      "end": 364.36,
+      "duration": 11.730000000000018,
+      "text": "For local people, we know of nobody in the surrounding communities who has ever been up to the forest."
+    },
+    {
+      "start": 364.36,
+      "end": 366.36,
+      "duration": 2.0,
+      "text": "OK, so that feels OK?"
+    },
+    {
+      "start": 366.36,
+      "end": 367.36,
+      "duration": 1.0,
+      "text": "Yeah, that feels OK."
+    },
+    {
+      "start": 367.36,
+      "end": 372.76,
+      "duration": 5.399999999999977,
+      "text": "OK, so you keep doing that."
+    },
+    {
+      "start": 372.76,
+      "end": 373.76,
+      "duration": 1.0,
+      "text": "Tighter and tighter."
+    },
+    {
+      "start": 373.76,
+      "end": 377.26,
+      "duration": 3.5,
+      "text": "Yeah, and then up you get this."
+    },
+    {
+      "start": 377.26,
+      "end": 379.57,
+      "duration": 2.3100000000000023,
+      "text": "Step in like this."
+    },
+    {
+      "start": 379.57,
+      "end": 396.92,
+      "duration": 17.350000000000023,
+      "text": "If you can, your foot should be tight and the leg will walk the time."
+    },
+    {
+      "start": 396.92,
+      "end": 439.52,
+      "duration": 42.599999999999966,
+      "text": "OK?"
+    },
+    {
+      "start": 439.52,
+      "end": 440.52,
+      "duration": 1.0,
+      "text": "OK, I'm up!"
+    },
+    {
+      "start": 440.52,
+      "end": 453.14,
+      "duration": 12.620000000000005,
+      "text": "Look at all these beautiful butterflies."
+    },
+    {
+      "start": 453.14,
+      "end": 470.72,
+      "duration": 17.58000000000004,
+      "text": "Beautiful."
+    },
+    {
+      "start": 470.72,
+      "end": 475.8,
+      "duration": 5.079999999999984,
+      "text": "Very, very nice to be here."
+    },
+    {
+      "start": 475.8,
+      "end": 489.19,
+      "duration": 13.389999999999986,
+      "text": "As a scientist, I'm very lucky to be able to visit all these largely unexplored natural areas such as these rainforests"
+    },
+    {
+      "start": 489.19,
+      "end": 496.19,
+      "duration": 7.0,
+      "text": "and to spend time in them and to see the magic and the beauty that they have to offer and to show people."
+    },
+    {
+      "start": 501.5,
+      "end": 503.26,
+      "duration": 1.759999999999991,
+      "text": "We can't camp up here unless we find some water."
+    },
+    {
+      "start": 504.12,
+      "end": 509.88,
+      "duration": 5.759999999999991,
+      "text": "But I noticed from down the base camp there's a massive seepage thing coming off the cliff over that side."
+    },
+    {
+      "start": 509.88,
+      "end": 515.72,
+      "duration": 5.840000000000032,
+      "text": "So we can find a source of that, have a camp nearby there, should be good."
+    },
+    {
+      "start": 515.84,
+      "end": 518.84,
+      "duration": 3.0,
+      "text": "Okay, let's go to this flatbed up here."
+    },
+    {
+      "start": 518.84,
+      "end": 528.27,
+      "duration": 9.42999999999995,
+      "text": "This would make a lovely campsite."
+    },
+    {
+      "start": 528.27,
+      "end": 531.27,
+      "duration": 3.0,
+      "text": "Look at it, beautiful."
+    },
+    {
+      "start": 531.27,
+      "end": 534.27,
+      "duration": 3.0,
+      "text": "Nice on the edge, nice and open."
+    },
+    {
+      "start": 534.27,
+      "end": 536.27,
+      "duration": 2.0,
+      "text": "Okay, let's set up camp."
+    },
+    {
+      "start": 536.27,
+      "end": 544.43,
+      "duration": 8.159999999999968,
+      "text": "We have the best scientists in the world on this expedition."
+    },
+    {
+      "start": 544.43,
+      "end": 547.43,
+      "duration": 3.0,
+      "text": "We have a truly international and global team."
+    },
+    {
+      "start": 547.43,
+      "end": 550.43,
+      "duration": 3.0,
+      "text": "There's nobody being paid for this expedition."
+    },
+    {
+      "start": 550.43,
+      "end": 555.43,
+      "duration": 5.0,
+      "text": "Everybody who is here is here because of the desire to conserve these places."
+    },
+    {
+      "start": 555.43,
+      "end": 556.43,
+      "duration": 1.0,
+      "text": "places."
+    },
+    {
+      "start": 556.43,
+      "end": 557.43,
+      "duration": 1.0,
+      "text": "John?"
+    },
+    {
+      "start": 557.43,
+      "end": 558.43,
+      "duration": 1.0,
+      "text": "Come on."
+    },
+    {
+      "start": 558.43,
+      "end": 561.43,
+      "duration": 3.0,
+      "text": "It's all the way up the hill."
+    },
+    {
+      "start": 561.43,
+      "end": 562.43,
+      "duration": 1.0,
+      "text": "Are you exhausted?"
+    },
+    {
+      "start": 562.43,
+      "end": 564.43,
+      "duration": 2.0,
+      "text": "Not exhausted, excited."
+    },
+    {
+      "start": 573.68,
+      "end": 578.41,
+      "duration": 4.730000000000018,
+      "text": "Climate change will change habitats."
+    },
+    {
+      "start": 578.41,
+      "end": 583.41,
+      "duration": 5.0,
+      "text": "Nothing works in isolation, so if the climate changes, then the forest changes, the plants"
+    },
+    {
+      "start": 583.41,
+      "end": 587.24,
+      "duration": 3.830000000000041,
+      "text": "change, the animals change."
+    },
+    {
+      "start": 587.24,
+      "end": 591.54,
+      "duration": 4.2999999999999545,
+      "text": "When you've got human interference on top of these habitats, it's very difficult to"
+    },
+    {
+      "start": 591.54,
+      "end": 595.48,
+      "duration": 3.9400000000000546,
+      "text": "actually distinguish between what is actually relating to climate change and what is actually"
+    },
+    {
+      "start": 595.48,
+      "end": 604.4,
+      "duration": 8.919999999999959,
+      "text": "relating to human interference so here we have a very unique experience with a forest which has"
+    },
+    {
+      "start": 604.4,
+      "end": 609.92,
+      "duration": 5.519999999999982,
+      "text": "had no human interference and so therefore any changes that we find on Mount Lico compared to"
+    },
+    {
+      "start": 609.92,
+      "end": 616.24,
+      "duration": 6.32000000000005,
+      "text": "other forests that we looked at will be down to climate change to have a good baseline to compare"
+    },
+    {
+      "start": 616.24,
+      "end": 620.96,
+      "duration": 4.720000000000027,
+      "text": "it to so it'd be like this is the carbon that should be in the forest and then compare that to"
+    },
+    {
+      "start": 620.96,
+      "end": 625.2,
+      "duration": 4.240000000000009,
+      "text": "other sites that are disturbed we can see effectively what the human influence is and"
+    },
+    {
+      "start": 625.2,
+      "end": 628.16,
+      "duration": 2.9599999999999227,
+      "text": "and add that to the man-made climate change part of the equation."
+    },
+    {
+      "start": 628.68,
+      "end": 630.12,
+      "duration": 1.4400000000000546,
+      "text": "Because it's not the forest releasing carbon,"
+    },
+    {
+      "start": 630.24,
+      "end": 632.26,
+      "duration": 2.019999999999982,
+      "text": "it's us causing the forest to release carbon."
+    },
+    {
+      "start": 635.23,
+      "end": 637.59,
+      "duration": 2.3600000000000136,
+      "text": "We're looking to maybe, through the soil cores,"
+    },
+    {
+      "start": 637.69,
+      "end": 639.25,
+      "duration": 1.5599999999999454,
+      "text": "go down, go back in history,"
+    },
+    {
+      "start": 639.61,
+      "end": 641.19,
+      "duration": 1.580000000000041,
+      "text": "and see if we can get some estimation"
+    },
+    {
+      "start": 641.19,
+      "end": 644.47,
+      "duration": 3.2799999999999727,
+      "text": "on what the climate was like maybe 1,000 years ago here."
+    },
+    {
+      "start": 644.69,
+      "end": 648.47,
+      "duration": 3.7799999999999727,
+      "text": "We're looking for a history, a bit of a storyline between then and now."
+    },
+    {
+      "start": 652.76,
+      "end": 654.48,
+      "duration": 1.7200000000000273,
+      "text": "The other major aspects of this expedition"
+    },
+    {
+      "start": 654.48,
+      "end": 656.98,
+      "duration": 2.5,
+      "text": "will be to look for new species to science."
+    },
+    {
+      "start": 657.4,
+      "end": 659.04,
+      "duration": 1.6399999999999864,
+      "text": "I'm going to pass me a bucket, so I have an idea."
+    },
+    {
+      "start": 659.04,
+      "end": 660.28,
+      "duration": 1.240000000000009,
+      "text": "There's a bucket right here."
+    },
+    {
+      "start": 661.06,
+      "end": 661.9,
+      "duration": 0.8400000000000318,
+      "text": "See how you're doing."
+    },
+    {
+      "start": 662.04,
+      "end": 663.84,
+      "duration": 1.8000000000000682,
+      "text": "Oh, it's so good."
+    },
+    {
+      "start": 663.84,
+      "end": 664.24,
+      "duration": 0.39999999999997726,
+      "text": "Oh, goodness."
+    },
+    {
+      "start": 665.32,
+      "end": 667.54,
+      "duration": 2.2199999999999136,
+      "text": "We put them level with the soil."
+    },
+    {
+      "start": 667.98,
+      "end": 671.2,
+      "duration": 3.2200000000000273,
+      "text": "So what we're doing is putting in buckets"
+    },
+    {
+      "start": 671.2,
+      "end": 674.96,
+      "duration": 3.759999999999991,
+      "text": "so that we can catch small vertebrates."
+    },
+    {
+      "start": 675.26,
+      "end": 676.98,
+      "duration": 1.7200000000000273,
+      "text": "So any shrew we get up here."
+    },
+    {
+      "start": 677.28,
+      "end": 678.5,
+      "duration": 1.2200000000000273,
+      "text": "Hi, can I take your order?"
+    },
+    {
+      "start": 678.64,
+      "end": 681.0,
+      "duration": 2.3600000000000136,
+      "text": "Can I get a plate of half jow mein, half super greens,"
+    },
+    {
+      "start": 681.28,
+      "end": 682.7,
+      "duration": 1.4200000000000728,
+      "text": "orange chicken, and kang pao?"
+    },
+    {
+      "start": 682.74,
+      "end": 683.62,
+      "duration": 0.8799999999999955,
+      "text": "Beef and cheddar sandwich."
+    },
+    {
+      "start": 684.08,
+      "end": 684.52,
+      "duration": 0.4399999999999409,
+      "text": "Rice."
+    },
+    {
+      "start": 685.08,
+      "end": 685.68,
+      "duration": 0.599999999999909,
+      "text": "Curly fries."
+    },
+    {
+      "start": 686.02,
+      "end": 686.66,
+      "duration": 0.6399999999999864,
+      "text": "Then for dessert."
+    },
+    {
+      "start": 687.78,
+      "end": 690.04,
+      "duration": 2.259999999999991,
+      "text": "Three deluxe butter burgers, Wisconsin cheese curds."
+    },
+    {
+      "start": 690.24,
+      "end": 691.04,
+      "duration": 0.7999999999999545,
+      "text": "Ooh, I'll do the pizza."
+    },
+    {
+      "start": 691.06,
+      "end": 692.22,
+      "duration": 1.1600000000000819,
+      "text": "Two-piece combo."
+    },
+    {
+      "start": 692.38,
+      "end": 693.78,
+      "duration": 1.3999999999999773,
+      "text": "Classic white meat kitten rice."
+    },
+    {
+      "start": 696.71,
+      "end": 697.31,
+      "duration": 0.599999999999909,
+      "text": "To drink."
+    },
+    {
+      "start": 698.17,
+      "end": 698.73,
+      "duration": 0.5600000000000591,
+      "text": "And a Coke."
+    },
+    {
+      "start": 706.99,
+      "end": 711.03,
+      "duration": 4.039999999999964,
+      "text": "Here is almost certainly going to be new to science."
+    },
+    {
+      "start": 711.37,
+      "end": 713.99,
+      "duration": 2.6200000000000045,
+      "text": "So any shrew I will be very excited about."
+    },
+    {
+      "start": 714.47,
+      "end": 718.77,
+      "duration": 4.2999999999999545,
+      "text": "The world is full of secrets."
+    },
+    {
+      "start": 719.27,
+      "end": 723.49,
+      "duration": 4.220000000000027,
+      "text": "And we have not discovered a fraction of them."
+    },
+    {
+      "start": 724.49,
+      "end": 726.89,
+      "duration": 2.3999999999999773,
+      "text": "And the more new species a particular site has,"
+    },
+    {
+      "start": 726.93,
+      "end": 729.39,
+      "duration": 2.4600000000000364,
+      "text": "the more importance you can then attribute to that site."
+    },
+    {
+      "start": 729.39,
+      "end": 732.47,
+      "duration": 3.080000000000041,
+      "text": "And that can then leverage what's protecting these sites."
+    },
+    {
+      "start": 732.47,
+      "end": 744.19,
+      "duration": 11.720000000000027,
+      "text": "The idea is to raise the butterfly trap as high as possible,"
+    },
+    {
+      "start": 744.19,
+      "end": 748.19,
+      "duration": 4.0,
+      "text": "and then you bait it with a fermenting banana mix,"
+    },
+    {
+      "start": 748.19,
+      "end": 751.19,
+      "duration": 3.0,
+      "text": "and that attracts the canopy-flying butterflies,"
+    },
+    {
+      "start": 751.19,
+      "end": 753.19,
+      "duration": 2.0,
+      "text": "such as your Caraxes."
+    },
+    {
+      "start": 753.19,
+      "end": 756.19,
+      "duration": 3.0,
+      "text": "If we could find a new species of Caraxes,"
+    },
+    {
+      "start": 756.19,
+      "end": 759.19,
+      "duration": 3.0,
+      "text": "that would be as big as it gets in the butterfly world."
+    },
+    {
+      "start": 759.19,
+      "end": 762.56,
+      "duration": 3.369999999999891,
+      "text": "That's like finding a new monkey."
+    },
+    {
+      "start": 762.56,
+      "end": 769.71,
+      "duration": 7.150000000000091,
+      "text": "Not too far off."
+    },
+    {
+      "start": 769.71,
+      "end": 774.46,
+      "duration": 4.75,
+      "text": "This time, probably tomorrow,"
+    },
+    {
+      "start": 774.46,
+      "end": 776.46,
+      "duration": 2.0,
+      "text": "we'll come back and we'll have a look at it."
+    },
+    {
+      "start": 776.46,
+      "end": 781.46,
+      "duration": 5.0,
+      "text": "And I can almost guarantee we'll have butterflies in there."
+    },
+    {
+      "start": 781.46,
+      "end": 784.46,
+      "duration": 3.0,
+      "text": "They are very magical creatures."
+    },
+    {
+      "start": 784.46,
+      "end": 786.46,
+      "duration": 2.0,
+      "text": "Most of the time I just like watching them."
+    },
+    {
+      "start": 786.46,
+      "end": 791.92,
+      "duration": 5.459999999999923,
+      "text": "We only have a limited amount of time in the forest on Mount Lico"
+    },
+    {
+      "start": 791.92,
+      "end": 794.92,
+      "duration": 3.0,
+      "text": "to discover as much as we can."
+    },
+    {
+      "start": 794.92,
+      "end": 802.04,
+      "duration": 7.1200000000000045,
+      "text": "It's going to be intense work."
+    },
+    {
+      "start": 802.04,
+      "end": 803.04,
+      "duration": 1.0,
+      "text": "Saucygeum."
+    },
+    {
+      "start": 803.04,
+      "end": 809.65,
+      "duration": 6.610000000000014,
+      "text": "No, no, no, no."
+    },
+    {
+      "start": 809.65,
+      "end": 810.65,
+      "duration": 1.0,
+      "text": "Saucygeum."
+    },
+    {
+      "start": 810.65,
+      "end": 812.65,
+      "duration": 2.0,
+      "text": "That's the first one."
+    },
+    {
+      "start": 812.65,
+      "end": 835.5,
+      "duration": 22.850000000000023,
+      "text": "I've been lucky enough to find quite a few new species over the years,"
+    },
+    {
+      "start": 835.5,
+      "end": 842.46,
+      "duration": 6.960000000000036,
+      "text": "including many butterflies and for my daughter's first birthday i named a butterfly after her"
+    },
+    {
+      "start": 843.42,
+      "end": 855.42,
+      "duration": 12.0,
+      "text": "poppyana my beautiful daughter poppy she's very inquisitive so she says daddy's going to the"
+    },
+    {
+      "start": 855.42,
+      "end": 866.86,
+      "duration": 11.440000000000055,
+      "text": "mountain or daddy's going to the forest so she already knows where i am it is a unique experience"
+    },
+    {
+      "start": 866.86,
+      "end": 869.3,
+      "duration": 2.439999999999941,
+      "text": "to see the wonders of nature, see the magic of nature."
+    },
+    {
+      "start": 869.82,
+      "end": 873.26,
+      "duration": 3.439999999999941,
+      "text": "And for my daughter not to be able to experience that"
+    },
+    {
+      "start": 873.26,
+      "end": 875.16,
+      "duration": 1.8999999999999773,
+      "text": "would make me, makes me very sad."
+    },
+    {
+      "start": 876.52,
+      "end": 878.44,
+      "duration": 1.9200000000000728,
+      "text": "It is a possibility that she won't,"
+    },
+    {
+      "start": 878.52,
+      "end": 880.7,
+      "duration": 2.1800000000000637,
+      "text": "because it is possible that these sites won't be there."
+    },
+    {
+      "start": 886.93,
+      "end": 889.27,
+      "duration": 2.340000000000032,
+      "text": "They're just being destroyed through climate change"
+    },
+    {
+      "start": 889.27,
+      "end": 891.39,
+      "duration": 2.1200000000000045,
+      "text": "or through human destruction."
+    },
+    {
+      "start": 903.5,
+      "end": 906.42,
+      "duration": 2.919999999999959,
+      "text": "Animals and plants that are being forced into extinction"
+    },
+    {
+      "start": 906.42,
+      "end": 909.5,
+      "duration": 3.080000000000041,
+      "text": "have been evolving over millions and millions of years"
+    },
+    {
+      "start": 909.5,
+      "end": 911.0,
+      "duration": 1.5,
+      "text": "to get to where they are today."
+    },
+    {
+      "start": 911.0,
+      "end": 920.67,
+      "duration": 9.669999999999959,
+      "text": "and for them to be just destroyed in a matter of years by ignorance and"
+    },
+    {
+      "start": 920.67,
+      "end": 1009.54,
+      "duration": 88.87,
+      "text": "short-sightedness makes me very angry. Antelope is this big but this is"
+    },
+    {
+      "start": 1009.54,
+      "end": 1013.74,
+      "duration": 4.2000000000000455,
+      "text": "obviously his part of the mountain so maybe we put a camera trap here and a"
+    },
+    {
+      "start": 1013.74,
+      "end": 1029.74,
+      "duration": 16.0,
+      "text": "new species of beanbuck maybe. There's somebody inside. Have you got something"
+    },
+    {
+      "start": 1029.74,
+      "end": 1032.74,
+      "duration": 3.0,
+      "text": "We got a musk shrew, yes."
+    },
+    {
+      "start": 1032.74,
+      "end": 1036.74,
+      "duration": 4.0,
+      "text": "Hey! That could be our first new species. Superb!"
+    },
+    {
+      "start": 1036.74,
+      "end": 1037.74,
+      "duration": 1.0,
+      "text": "I hope so."
+    },
+    {
+      "start": 1037.74,
+      "end": 1039.74,
+      "duration": 2.0,
+      "text": "It's pretty cool. Yeah, I was very happy."
+    },
+    {
+      "start": 1039.74,
+      "end": 1041.74,
+      "duration": 2.0,
+      "text": "Our first decent discovery, excellent."
+    },
+    {
+      "start": 1041.74,
+      "end": 1045.74,
+      "duration": 4.0,
+      "text": "That's great. All that hard work has paid off already."
+    },
+    {
+      "start": 1045.74,
+      "end": 1050.08,
+      "duration": 4.339999999999918,
+      "text": "Every layer of soil is going back in time,"
+    },
+    {
+      "start": 1050.08,
+      "end": 1054.08,
+      "duration": 4.0,
+      "text": "and at this point, well, the deepest part of this..."
+    },
+    {
+      "start": 1054.08,
+      "end": 1061.97,
+      "duration": 7.8900000000001,
+      "text": "In the search for wonder, there are no endings, only new beginnings."
+    },
+    {
+      "start": 1062.97,
+      "end": 1082.89,
+      "duration": 19.920000000000073,
+      "text": "to discover unexpected wonders."
+    },
+    {
+      "start": 1083.77,
+      "end": 1086.13,
+      "duration": 2.3600000000001273,
+      "text": "This pit is probably at 1.3 meters,"
+    },
+    {
+      "start": 1086.79,
+      "end": 1089.17,
+      "duration": 2.380000000000109,
+      "text": "and at the average rate of deposition around here,"
+    },
+    {
+      "start": 1089.25,
+      "end": 1091.99,
+      "duration": 2.740000000000009,
+      "text": "we'd expect to be several thousands of years old."
+    },
+    {
+      "start": 1092.47,
+      "end": 1096.03,
+      "duration": 3.5599999999999454,
+      "text": "We were expecting maybe a 30-centimeter saw pit."
+    },
+    {
+      "start": 1096.71,
+      "end": 1098.05,
+      "duration": 1.3399999999999181,
+      "text": "To go back this deep,"
+    },
+    {
+      "start": 1098.27,
+      "end": 1102.37,
+      "duration": 4.099999999999909,
+      "text": "back in that many thousands of years of life history of this forest,"
+    },
+    {
+      "start": 1102.37,
+      "end": 1104.89,
+      "duration": 2.520000000000209,
+      "text": "and knowing that that's been without people is,"
+    },
+    {
+      "start": 1105.49,
+      "end": 1107.01,
+      "duration": 1.5199999999999818,
+      "text": "well, it'd be fascinating."
+    },
+    {
+      "start": 1107.15,
+      "end": 1108.69,
+      "duration": 1.5399999999999636,
+      "text": "The results from this will be incredible."
+    },
+    {
+      "start": 1108.69,
+      "end": 1113.69,
+      "duration": 5.0,
+      "text": "They could dramatically improve our understanding of how climate change is affecting our planet."
+    },
+    {
+      "start": 1113.69,
+      "end": 1117.69,
+      "duration": 4.0,
+      "text": "But I'm surprised how many animals have made it up."
+    },
+    {
+      "start": 1117.69,
+      "end": 1119.69,
+      "duration": 2.0,
+      "text": "The droppings that you found that you found."
+    },
+    {
+      "start": 1119.69,
+      "end": 1122.69,
+      "duration": 3.0,
+      "text": "And there's antelope. We haven't seen the antelope yet."
+    },
+    {
+      "start": 1122.69,
+      "end": 1124.69,
+      "duration": 2.0,
+      "text": "We've put camera traps out."
+    },
+    {
+      "start": 1124.69,
+      "end": 1127.69,
+      "duration": 3.0,
+      "text": "But how would an antelope get up that cliff face?"
+    },
+    {
+      "start": 1127.69,
+      "end": 1138.7,
+      "duration": 11.009999999999991,
+      "text": "It's just bizarre. I don't know. It's very interesting."
+    },
+    {
+      "start": 1138.7,
+      "end": 1140.7,
+      "duration": 2.0,
+      "text": "Okay, there's five here."
+    },
+    {
+      "start": 1140.7,
+      "end": 1143.7,
+      "duration": 3.0,
+      "text": "Three of them are the black characters, which is that group."
+    },
+    {
+      "start": 1143.7,
+      "end": 1157.54,
+      "duration": 13.839999999999918,
+      "text": "Oh, black margarita, and they're the two that are remaining, so these are the interesting ones."
+    },
+    {
+      "start": 1157.54,
+      "end": 1165.54,
+      "duration": 8.0,
+      "text": "Of the black corexis group, which is a very interesting group, there is potential for this to be new."
+    },
+    {
+      "start": 1165.54,
+      "end": 1170.4,
+      "duration": 4.860000000000127,
+      "text": "So there's a fair chance that this could be a new species."
+    },
+    {
+      "start": 1170.4,
+      "end": 1176.4,
+      "duration": 6.0,
+      "text": "Within these forests you could have all sorts of medicines and new antibiotics"
+    },
+    {
+      "start": 1176.4,
+      "end": 1182.4,
+      "duration": 6.0,
+      "text": "that we as a human race could actually use to make our lives more valuable and richer and healthier."
+    },
+    {
+      "start": 1185.22,
+      "end": 1191.06,
+      "duration": 5.839999999999918,
+      "text": "a rainforest also where 70 percent of all terrestrial life is found on this planet"
+    },
+    {
+      "start": 1194.29,
+      "end": 1201.97,
+      "duration": 7.680000000000064,
+      "text": "what is being lost is disgraceful it's actually disgusting and i'm almost a little bit ashamed"
+    },
+    {
+      "start": 1202.77,
+      "end": 1208.45,
+      "duration": 5.680000000000064,
+      "text": "that we as a human race cannot actually gather ourselves together and see the magic and the"
+    },
+    {
+      "start": 1208.45,
+      "end": 1213.45,
+      "duration": 5.0,
+      "text": "the quality and the value that these habitats actually contain."
+    },
+    {
+      "start": 1213.45,
+      "end": 1220.32,
+      "duration": 6.869999999999891,
+      "text": "Yeah. Oh look."
+    },
+    {
+      "start": 1220.32,
+      "end": 1223.32,
+      "duration": 3.0,
+      "text": "It is grumpy."
+    },
+    {
+      "start": 1223.32,
+      "end": 1228.32,
+      "duration": 5.0,
+      "text": "Hopefully the evidence that we generate, the research, the new species,"
+    },
+    {
+      "start": 1228.32,
+      "end": 1231.32,
+      "duration": 3.0,
+      "text": "all of that we're going to use towards protecting these sites"
+    },
+    {
+      "start": 1231.32,
+      "end": 1237.2,
+      "duration": 5.880000000000109,
+      "text": "and conserving them for future generations."
+    },
+    {
+      "start": 1237.2,
+      "end": 1239.2,
+      "duration": 2.0,
+      "text": "Is that Poppy? Daddy."
+    },
+    {
+      "start": 1239.2,
+      "end": 1241.2,
+      "duration": 2.0,
+      "text": "Hello Poppy, it's Daddy."
+    },
+    {
+      "start": 1241.2,
+      "end": 1244.2,
+      "duration": 3.0,
+      "text": "Daddy's in the forest on the mountain."
+    },
+    {
+      "start": 1244.2,
+      "end": 1251.22,
+      "duration": 7.019999999999982,
+      "text": "I'm having a lovely day on the mountain, thank you Poppy, yes."
+    },
+    {
+      "start": 1251.22,
+      "end": 1253.82,
+      "duration": 2.599999999999909,
+      "text": "I wish you could be here Poppy."
+    },
+    {
+      "start": 1253.82,
+      "end": 1261.29,
+      "duration": 7.470000000000027,
+      "text": "I think we have it in us to find a different path."
+    },
+    {
+      "start": 1261.29,
+      "end": 1263.13,
+      "duration": 1.8400000000001455,
+      "text": "I have to believe that it's not too late."
+    }
+  ]
+}

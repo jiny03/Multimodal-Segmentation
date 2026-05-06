@@ -1,0 +1,27 @@
+{
+  "input_dir": "videos_with_ads",
+  "output_dir": "audio_outputs",
+  "num_videos": 5,
+  "videos": [
+    {
+      "video_filename": "test_001.mp4",
+      "num_ad_segments": 2
+    },
+    {
+      "video_filename": "test_002.mp4",
+      "num_ad_segments": 2
+    },
+    {
+      "video_filename": "test_003.mp4",
+      "num_ad_segments": 0
+    },
+    {
+      "video_filename": "test_004.mp4",
+      "num_ad_segments": 0
+    },
+    {
+      "video_filename": "test_005.mp4",
+      "num_ad_segments": 1
+    }
+  ]
+}
