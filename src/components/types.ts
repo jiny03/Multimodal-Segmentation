@@ -1,9 +1,7 @@
 interface Chapter {
   title: string;
-  color: string;
+  type: 'content' | 'ad' | 'intro' | 'outro'; // Replaces color: string
   start: number;
 }
-
-
 
 export default Chapter;

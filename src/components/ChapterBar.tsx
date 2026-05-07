@@ -17,15 +17,28 @@ interface ChapterBarProps {
 const ChapterBar: React.FC<ChapterBarProps> = ({ chapters, duration, currentTime, onChapterClick }) => {
   const totalTime = duration || 1;
 
+  // Helper to map type to color
+  const getColor = (type: any) => {
+    // Debug: Check if 'type' is actually reaching this function
+    // console.log("Segment Type:", type);
+
+    if (!type) return '#888'; // Grey fallback
+
+    const normalized = String(type).trim().toLowerCase();
+    
+    // Logic: content is green, everything else is red
+    if (normalized === 'content') return '#4CAF50';
+    if (['ad', 'intro', 'outro'].includes(normalized)) return '#f44336';
+    
+    return '#888'; // Default for unrecognized types
+  };
+
   return (
     <div style={{ width: '100%', boxSizing: 'border-box', padding: '10px' }}>
-      {/* BAR CONTAINER */}
       <div style={{ display: 'flex', width: '100%', height: '12px', gap: '2px' }}>
         {chapters.map((chapter, index) => {
           const nextStart = chapters[index + 1] ? chapters[index + 1].start : totalTime;
           const segmentDuration = nextStart - chapter.start;
-          
-          // Determine if this segment is active for the bar highlight (optional)
           const isActive = currentTime >= chapter.start && currentTime < nextStart;
 
           return (
@@ -33,10 +46,10 @@ const ChapterBar: React.FC<ChapterBarProps> = ({ chapters, duration, currentTime
               key={`bar-${index}`}
               style={{
                 flex: `${segmentDuration} 1 0%`, 
-                backgroundColor: chapter.color,
+                backgroundColor: getColor(chapter.type), // UPDATED: Function call
                 height: '100%',
                 borderRadius: '1px',
-                opacity: isActive ? 1 : 0.6, // Dim inactive segments slightly
+                opacity: isActive ? 1 : 0.6,
                 transition: 'opacity 0.2s'
               }}
             />
