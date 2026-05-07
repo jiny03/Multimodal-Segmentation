@@ -1,0 +1,694 @@
+[
+    {
+        "timestamp": 7.9,
+        "detected_text": [
+            "F; Ideas worth spreading"
+        ],
+        "label": "intro/outro"
+    },
+    {
+        "timestamp": 9.87,
+        "detected_text": [
+            "ULaO; Ideas worth spreading"
+        ],
+        "label": "intro/outro"
+    },
+    {
+        "timestamp": 11.85,
+        "detected_text": [
+            "UEDTaalks Now ideas Gvery weekday TED.com"
+        ],
+        "label": "intro/outro"
+    },
+    {
+        "timestamp": 13.82,
+        "detected_text": [
+            "VEDTaalks Now ideas overy weekday TED.com"
+        ],
+        "label": "intro/outro"
+    },
+    {
+        "timestamp": 17.77,
+        "detected_text": [
+            "DANGILBERT"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 19.75,
+        "detected_text": [
+            "DANGILBERT"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 21.72,
+        "detected_text": [
+            "DANGILBERT"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 25.67,
+        "detected_text": [
+            "2004",
+            "N",
+            "CAliFoRnia"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 27.65,
+        "detected_text": [
+            "FFR2004",
+            "MONTFRFYCALIFORNIA"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 29.62,
+        "detected_text": [
+            "FF2004",
+            "MONTFKFYCALIFORNIA"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 84.92,
+        "detected_text": [
+            "02",
+            "M ~"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 106.64,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 108.62,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 110.59,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 112.57,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 114.54,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 116.52,
+        "detected_text": [
+            "faster"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 120.47,
+        "detected_text": [
+            "apple com/switch"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 122.44,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 124.42,
+        "detected_text": [
+            "ur phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 126.39,
+        "detected_text": [
+            "your phjpne",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 128.37,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 130.34,
+        "detected_text": [
+            "smoother"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 132.32,
+        "detected_text": [
+            "smoother"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 134.29,
+        "detected_text": [
+            "apple.com/switc}"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 136.27,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 138.24,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 140.22,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 142.19,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 144.17,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 146.14,
+        "detected_text": [
+            "privacy matters"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 150.09,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 152.07,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 154.04,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 156.01,
+        "detected_text": [
+            "your phone:",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 157.99,
+        "detected_text": [
+            "your phone",
+            "more secure"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 159.96,
+        "detected_text": [
+            "yourphone",
+            "more secure"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 161.94,
+        "detected_text": [
+            "yourbhune",
+            "more secure"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 163.91,
+        "detected_text": [
+            "apple com/switch"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 165.89,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 167.86,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 169.84,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 171.81,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 173.79,
+        "detected_text": [
+            "moveyour contacts"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 175.76,
+        "detected_text": [
+            "move your contacts"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 177.74,
+        "detected_text": [
+            "it's that easy"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 179.71,
+        "detected_text": [
+            "apple com/switch"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 181.69,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 183.66,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 185.64,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 187.61,
+        "detected_text": [
+            "move your music"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 189.59,
+        "detected_text": [
+            "it's that easy"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 191.56,
+        "detected_text": [
+            "it's that easy"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 193.54,
+        "detected_text": [
+            "apple com[switch"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 195.51,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 197.49,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 199.46,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 201.44,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 203.41,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 205.39,
+        "detected_text": [
+            "move your photos"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 207.36,
+        "detected_text": [
+            "it's that easy"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 209.34,
+        "detected_text": [
+            "apple_comIswitch"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 211.31,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 213.29,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 215.26,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 217.24,
+        "detected_text": [
+            "your phone",
+            "iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 219.21,
+        "detected_text": [
+            "move to iPhone"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 221.19,
+        "detected_text": [
+            "it's that easy"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 242.91,
+        "detected_text": [
+            "3"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 485.82,
+        "detected_text": [
+            "F"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 578.64,
+        "detected_text": [
+            "{"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 631.96,
+        "detected_text": [
+            "AnyL JeL",
+            "@e; He",
+            "\"elg kgy _",
+            "TofWeptel"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 635.91,
+        "detected_text": [
+            "@s",
+            "@",
+            "H5",
+            "[@95 g5 @ @; Iy"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 637.88,
+        "detected_text": [
+            "@y: D9iws) @; %",
+            "{Qt gS",
+            "'4S",
+            "0; %5 'Jm [9S @s 'Qcuys"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 639.86,
+        "detected_text": [
+            "43"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 641.83,
+        "detected_text": [
+            "jarbecue",
+            "Jarbecue"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 647.76,
+        "detected_text": [
+            "7"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 649.73,
+        "detected_text": [
+            "2",
+            "00og 40"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 651.71,
+        "detected_text": [
+            "gys'\" \"'Qysy @",
+            "A"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 655.66,
+        "detected_text": [
+            "%5 4"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 657.63,
+        "detected_text": [
+            "S",
+            "W3ze"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 659.61,
+        "detected_text": [
+            "Lgyys (Igyys) Salt & Solir Creds\" Chedcar : SOur iZarbecue Vinegar Cnion Gezn"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 661.58,
+        "detected_text": [
+            "lgggs (Igys) L@ys) Salt & Solir Creds\" Cheduai 5 Sour = Barbecue Vinegar Cnion Cean}"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 730.7,
+        "detected_text": [
+            "7\""
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 770.2,
+        "detected_text": [
+            "="
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 839.32,
+        "detected_text": [
+            "7 5"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 906.47,
+        "detected_text": [
+            "3"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1111.85,
+        "detected_text": [
+            "DIF ItF4 Jettihier fittu \"#A dripi ir"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1408.08,
+        "detected_text": [
+            "17'"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1455.48,
+        "detected_text": [
+            "UZD New TEDTALKS every day at WWWTED_com @e0tt"
+        ],
+        "label": "intro/outro"
+    },
+    {
+        "timestamp": 1457.45,
+        "detected_text": [
+            "UAD New TEDTALKS every day at WWWTED_com @ernrs"
+        ],
+        "label": "intro/outro"
+    }
+]

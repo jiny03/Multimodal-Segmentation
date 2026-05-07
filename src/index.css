@@ -6,6 +6,7 @@ body {
   padding: 2rem;
   margin: 0;
   padding-right: 40px;
-  overflow: hidden; /* Prevents bounce scrolling on Mac */
+  overflow-y: auto;   /* Forces the scrollbar to appear when content overflows */
+  overflow-x: hidden; /* Prevents awkward side-scrolling */
   background-color: black;
 }

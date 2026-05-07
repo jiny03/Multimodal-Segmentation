@@ -3,38 +3,34 @@ import Chapter from './types';
 
 export const useFileHandlers = () => {
   const [videoSrc, setVideoSrc] = useState<string | null>(null);
-  const [chaptersData, setChaptersData] = useState<Chapter[]>([]); // For manual JSON
-  const [analysisData, setAnalysisData] = useState<any>(null);    // For Python results
+  const [trueChapters, setTrueChapters] = useState<Chapter[]>([]); 
+  const [videoPredicted, setVideoPredicted] = useState<Chapter[]>([]);
+  const [textPredicted, setTextPredicted] = useState<Chapter[]>([]);
+  const [audioPredicted, setAudioPredicted] = useState<Chapter[]>([]);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
 
-    const handleVideoUpload = async (e: ChangeEvent<HTMLInputElement>) => {
-        const file = e.target.files?.[0];
-        if (!file) return;
+  const handleVideoUpload = async (e: ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
 
-        setIsAnalyzing(true);
-        setAnalysisData(null);
+    setIsAnalyzing(true);
+    const url = URL.createObjectURL(file);
+    setVideoSrc(url);
 
-        const url = URL.createObjectURL(file);
-        setVideoSrc(url);
+    const absolutePath = (window as any).electronAPI.getFilePath(file);
 
-        const absolutePath = (window as any).electronAPI.getFilePath(file);
-
-        if (!absolutePath || absolutePath === "undefined") {
-            console.error("Could not resolve file path. Check Electron contextIsolation settings.");
-            setAnalysisData({ error: "File path resolution failed." });
-            setIsAnalyzing(false);
-            return;
-        }
-
-        try {
-            const result = await (window as any).electronAPI.runAnalysis(absolutePath);
-            setAnalysisData(result);
-        } catch (err) {
-            setAnalysisData({ error: "Python execution failed", details: err });
-        } finally {
-            setIsAnalyzing(false);
-        }
-    };
+    try {
+      const result = await (window as any).electronAPI.runAnalysis(absolutePath);
+      // Assuming result is the JSON object: { video: [...], text: [...] }
+      if (result.video) setVideoPredicted(result.video);
+      if (result.text) setTextPredicted(result.text);
+      if (result.audio) setAudioPredicted(result.audio);
+    } catch (err) {
+      console.error("Analysis failed", err);
+    } finally {
+      setIsAnalyzing(false);
+    }
+  };
 
   const handleJsonUpload = (e: ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -43,9 +39,9 @@ export const useFileHandlers = () => {
       reader.onload = (event) => {
         try {
           const json = JSON.parse(event.target?.result as string);
-          setChaptersData(json);
+          setTrueChapters(json);
         } catch (err) {
-          alert("Invalid Chapter JSON file.");
+          alert("Invalid JSON");
         }
       };
       reader.readAsText(file);
@@ -54,8 +50,10 @@ export const useFileHandlers = () => {
 
   return {
     videoSrc,
-    chaptersData,
-    analysisData,
+    trueChapters,
+    videoPredicted,
+    textPredicted,
+    audioPredicted,
     isAnalyzing,
     handleVideoUpload,
     handleJsonUpload
