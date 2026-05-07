@@ -1,0 +1,20 @@
+torch
+numpy
+scipy
+scikit-learn
+
+# Audio
+ffmpeg-python
+faster-whisper
+librosa
+soundfile
+pyloudnorm
+panns-inference
+
+# Text/Video
+opencv-python
+easyocr
+rapidfuzz
+requests
+
+

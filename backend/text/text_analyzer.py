@@ -1,7 +1,6 @@
 import cv2
 import easyocr
-import json
-import numpy as np
+from rapidfuzz import process, fuzz
 
 # Initialize EasyOCR for English
 # GPU is recommended for multimodal reasoning efficiency 
@@ -14,11 +13,8 @@ TAXONOMY_MAP = {
     'recap': ['previously', 'last time', 'recap'] 
 }
 
+
 def preprocess_for_ocr(img):
-    """
-    Enhances low-contrast text (like white text on tan backgrounds) 
-    to improve detection accuracy.
-    """
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     
     # Increase contrast using CLAHE
@@ -31,11 +27,34 @@ def preprocess_for_ocr(img):
     return thresh
 
 def classify_text(detected_text):
+    if not detected_text:
+        return "core content"
+
     combined_text = " ".join(detected_text).lower()
+    words_in_frame = combined_text.split()
+
     for label, keywords in TAXONOMY_MAP.items():
-        if any(word in combined_text for word in keywords):
-            return label
-    return "core content" 
+        for keyword in keywords:
+            # 1. Exact Substring Match (Highest priority)
+            if keyword in combined_text:
+                return label
+            
+            best_match = process.extractOne(keyword, words_in_frame, scorer=fuzz.WRatio)
+            
+            if best_match:
+                match_str, score, _ = best_match
+                
+                # GUARD 1: Ignore matches where the OCR noise is too short (e.g., "S", "M ~")
+                if len(match_str) < 3:
+                    continue
+                
+                # GUARD 2: Dynamic thresholding
+                effective_threshold = 95 if len(keyword) <= 4 else 85
+                
+                if score >= effective_threshold:
+                    return label
+                
+    return "core content"
 
 def process_video(video_path, verbose=False, interval_sec=2):
     cap = cv2.VideoCapture(video_path)
@@ -84,10 +103,6 @@ def process_video(video_path, verbose=False, interval_sec=2):
     # Return both the list and the duration
     return metadata, round(duration, 2)
 def group_metadata_segments(metadata, verbose=False,gap_threshold=60):
-    """
-    Groups consecutive detections of the same label into intervals, 
-    ignoring 'core content'.
-    """
     # 1. Filter out core content
     filtered_data = [m for m in metadata if m['label'] != 'core content']
     

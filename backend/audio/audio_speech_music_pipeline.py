@@ -740,10 +740,10 @@ def run_all_videos(input_dir="videos_with_ads", output_dir="audio_outputs", forc
 
 
 def run_audio_speech_music(video_path, output_json_path, force_recompute=False):
-    # Integration entry point for callers that want to process one video directly.
     if torch.cuda.is_available():
         output = analyze_single_video(video_path,output_json_path,force_recompute)
-    else:
+
+    else: # load in dummy data to prevent crash
         with open(output_json_path, 'r') as f:
             output = json.load(f)
         
