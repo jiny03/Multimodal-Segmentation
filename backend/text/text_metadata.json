@@ -1,0 +1,5063 @@
+[
+    {
+        "timestamp": 0.0,
+        "detected_text": [
+            "Stanford ENGINEERING"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 2.0,
+        "detected_text": [
+            "Stanford ENGINEERING"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 3.99,
+        "detected_text": [
+            "Stanford ENGINEERING"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 7.99,
+        "detected_text": [
+            "LIIUL \"7",
+            "Sranford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 9.98,
+        "detected_text": [
+            "Ld+a 1e4",
+            "Stanford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 11.98,
+        "detected_text": [
+            "36",
+            "StanforcE"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 13.98,
+        "detected_text": [
+            "taixtord"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 15.97,
+        "detected_text": [
+            "Mc intorcl"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 17.97,
+        "detected_text": [
+            "ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 19.97,
+        "detected_text": [
+            "ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 21.96,
+        "detected_text": [
+            "Beyond the model:",
+            "Enhancing LLM applications"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 23.96,
+        "detected_text": [
+            "KTA",
+            "Sratnford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 25.96,
+        "detected_text": [
+            "LntTA",
+            "Sranford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 27.96,
+        "detected_text": [
+            "Ant G",
+            "Sranford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 29.95,
+        "detected_text": [
+            "KrT ",
+            "Sraaford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 31.95,
+        "detected_text": [
+            "Lt }",
+            "Si ,[) ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 33.95,
+        "detected_text": [
+            "37Lt3",
+            "Si,1 ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 35.94,
+        "detected_text": [
+            "7t4t",
+            "Sta} ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 37.94,
+        "detected_text": [
+            "37741+X",
+            "Sta} ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 39.94,
+        "detected_text": [
+            "37Lr3 17L",
+            "Stainford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 41.93,
+        "detected_text": [
+            "376+ra. 17L",
+            "Scanford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 43.93,
+        "detected_text": [
+            "371 Lr. I5u",
+            "Scanford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 45.93,
+        "detected_text": [
+            "3Su LrrL1",
+            "Scanford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 47.92,
+        "detected_text": [
+            "1et+A ICu",
+            "[7",
+            "Sia ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 49.92,
+        "detected_text": [
+            "4artx",
+            "Stanford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 51.92,
+        "detected_text": [
+            "4artx",
+            "Staford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 53.91,
+        "detected_text": [
+            "37h4+X OF",
+            "Ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 55.91,
+        "detected_text": [
+            "37h4+X OF",
+            "Sldil Ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 57.91,
+        "detected_text": [
+            "4+X",
+            "Sutnford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 59.9,
+        "detected_text": [
+            "4t",
+            "Sunford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 61.9,
+        "detected_text": [
+            "4t++X",
+            "Su Ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 63.9,
+        "detected_text": [
+            "74Lrx",
+            "Stantord"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 93.85,
+        "detected_text": [
+            "nfo_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 189.7,
+        "detected_text": [
+            "+4t4",
+            "L3i",
+            "Fct"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 191.69,
+        "detected_text": [
+            "76Lt+o",
+            "Jic |",
+            "(4l1 ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 193.69,
+        "detected_text": [
+            "24Lta",
+            "Jic |",
+            "(4l1 ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 195.69,
+        "detected_text": [
+            "Lanta",
+            "1#'",
+            "(4 ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 197.68,
+        "detected_text": [
+            "70 Lr A",
+            "Si_",
+            "ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 199.68,
+        "detected_text": [
+            "LIt Z",
+            "{\"1",
+            "Sta fotd"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 201.68,
+        "detected_text": [
+            "LuttX",
+            "{\"1",
+            "Stanford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 203.67,
+        "detected_text": [
+            "Lant4",
+            "{\"!",
+            "Sta fordl"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 215.66,
+        "detected_text": [
+            "7t Lrt 4",
+            "S (fcra"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 217.65,
+        "detected_text": [
+            "7t Lrt 4 T",
+            "S (fcra"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 219.65,
+        "detected_text": [
+            "LttTA #L",
+            "}t^",
+            "Su. ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 221.65,
+        "detected_text": [
+            "Lart+X",
+            "Stu) ford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 237.62,
+        "detected_text": [
+            "C+z"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 239.62,
+        "detected_text": [
+            "Cta 50"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 241.61,
+        "detected_text": [
+            "Cta 50"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 243.61,
+        "detected_text": [
+            "Stanf:"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 245.61,
+        "detected_text": [
+            "Stanf"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 247.6,
+        "detected_text": [
+            "Cra"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 249.6,
+        "detected_text": [
+            "Ctat"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 251.6,
+        "detected_text": [
+            "Cra\""
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 253.6,
+        "detected_text": [
+            "Cra\""
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 255.59,
+        "detected_text": [
+            "Cta"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 259.59,
+        "detected_text": [
+            "Cr="
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 261.58,
+        "detected_text": [
+            "Cranf_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 263.58,
+        "detected_text": [
+            "Cr _ anf"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 265.58,
+        "detected_text": [
+            "Order"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 287.54,
+        "detected_text": [
+            "imlovin' it'"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 289.54,
+        "detected_text": [
+            "Cra"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 291.53,
+        "detected_text": [
+            "Gtant"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 293.53,
+        "detected_text": [
+            "Ctant"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 295.53,
+        "detected_text": [
+            "Cant"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 297.53,
+        "detected_text": [
+            "Ctsnf ,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 299.52,
+        "detected_text": [
+            "Ctanf_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 301.52,
+        "detected_text": [
+            "Ctanf_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 303.52,
+        "detected_text": [
+            "Ctanfi"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 305.51,
+        "detected_text": [
+            "Ctsnf "
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 307.51,
+        "detected_text": [
+            "Gtan;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 309.51,
+        "detected_text": [
+            "AnE"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 311.5,
+        "detected_text": [
+            "Ctanf ,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 313.5,
+        "detected_text": [
+            "Ctanf ,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 315.5,
+        "detected_text": [
+            "Cra Dfc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 317.49,
+        "detected_text": [
+            "Ctanf_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 319.49,
+        "detected_text": [
+            "Cra nf"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 321.49,
+        "detected_text": [
+            "Crae"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 337.46,
+        "detected_text": [
+            "Scanforel"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 339.46,
+        "detected_text": [
+            "I}}fcrci"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 341.46,
+        "detected_text": [
+            "nfordl"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 343.45,
+        "detected_text": [
+            "ranurd"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 345.45,
+        "detected_text": [
+            "ranlurd"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 347.45,
+        "detected_text": [
+            "Sranlurd"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 349.44,
+        "detected_text": [
+            "Sanlord"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 351.44,
+        "detected_text": [
+            "znlord"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 353.44,
+        "detected_text": [
+            "mnford"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 355.43,
+        "detected_text": [
+            "ranlord"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 357.43,
+        "detected_text": [
+            "anlDIc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 359.43,
+        "detected_text": [
+            "anluca"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 361.42,
+        "detected_text": [
+            "Sranfura"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 363.42,
+        "detected_text": [
+            "Sranfurd"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 365.42,
+        "detected_text": [
+            "Sranfurd"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 367.41,
+        "detected_text": [
+            "\"n JCC"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 369.41,
+        "detected_text": [
+            "\"n CC"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 371.41,
+        "detected_text": [
+            "rnifc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 373.4,
+        "detected_text": [
+            "Cri fri="
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 375.4,
+        "detected_text": [
+            "Cri fri="
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 377.4,
+        "detected_text": [
+            "Pri fril"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 381.39,
+        "detected_text": [
+            "Qs="
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 385.39,
+        "detected_text": [
+            "Gra"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 387.38,
+        "detected_text": [
+            "Gra"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 389.38,
+        "detected_text": [
+            "Granf;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 391.38,
+        "detected_text": [
+            "aiuui"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 393.37,
+        "detected_text": [
+            "aiuui"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 395.37,
+        "detected_text": [
+            "ci[l|()"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 397.37,
+        "detected_text": [
+            "ciili()"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 399.36,
+        "detected_text": [
+            "J( 4i()"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 401.36,
+        "detected_text": [
+            "Lilc)l"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 407.35,
+        "detected_text": [
+            "di)c)l"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 413.34,
+        "detected_text": [
+            ")ai)()"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 415.34,
+        "detected_text": [
+            "3aili()"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 427.32,
+        "detected_text": [
+            "[[)4"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 431.31,
+        "detected_text": [
+            "Jidiil()i"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 433.31,
+        "detected_text": [
+            "Jidiil()i"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 447.29,
+        "detected_text": [
+            "Sf4({"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 451.28,
+        "detected_text": [
+            "joF"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 453.28,
+        "detected_text": [
+            "Jal"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 503.2,
+        "detected_text": [
+            "Ct?"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 537.14,
+        "detected_text": [
+            "Im"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 555.11,
+        "detected_text": [
+            "eeenrnn Uhetennteerl",
+            "377",
+            "CEEEE",
+            "EZ7"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 557.11,
+        "detected_text": [
+            "een #aeleroe Nberal 3 CEEEEE",
+            "377"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 559.11,
+        "detected_text": [
+            "ee #realarre Nberal",
+            "25555",
+            "Elt",
+            "Enat"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 561.1,
+        "detected_text": [
+            "e #aealerdrmberal",
+            "Ent"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 563.1,
+        "detected_text": [
+            "Fee Fra #rhtarl404774",
+            "Ae"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 565.1,
+        "detected_text": [
+            "Fee Fra #rhtarl404774",
+            "Ete"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 567.1,
+        "detected_text": [
+            "Fee Fra #rhtarl404774",
+            "Ete"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 569.09,
+        "detected_text": [
+            "e Frat #rhtarl404774",
+            "Ete"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 571.09,
+        "detected_text": [
+            "ea Frat #eaoerdrhbteal",
+            "Aa"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 573.09,
+        "detected_text": [
+            "ea Frat #eaoerdrhbteal",
+            "Aa"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 575.08,
+        "detected_text": [
+            "#eaoerdrhbteal",
+            "Aa"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 577.08,
+        "detected_text": [
+            "#eaoerdrhbteal",
+            "Aa"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 583.07,
+        "detected_text": [
+            "FE",
+            "Ticr"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 615.02,
+        "detected_text": [
+            "The LLM may underperform in your task"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 617.02,
+        "detected_text": [
+            "The LLM may underperform in your task"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 619.01,
+        "detected_text": [
+            "The LLM may underperform in your task"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 621.01,
+        "detected_text": [
+            "The LLM may underperformn in Your task."
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 623.01,
+        "detected_text": [
+            "The LLM may underperfor in your task."
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 625.0,
+        "detected_text": [
+            "The LLM may underperfor in your task."
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 627.0,
+        "detected_text": [
+            "The LLM may underperforn in your task."
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 629.0,
+        "detected_text": [
+            "The LLM may underperforn in your task."
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 644.97,
+        "detected_text": [
+            "Detanee",
+            "L tcln",
+            "The LLM may underperforrn in your task,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 646.97,
+        "detected_text": [
+            "Detanee",
+            "L tcln",
+            "The LLM may underperforrn in your task,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 648.96,
+        "detected_text": [
+            "DA",
+            "L titn",
+            "The LLM may underperforrn in your task,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 650.96,
+        "detected_text": [
+            "De",
+            "Jean",
+            "The LLM may underperforrn in your task."
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 652.96,
+        "detected_text": [
+            "D",
+            "Eta",
+            "The LLM may underperformn in your task;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 654.95,
+        "detected_text": [
+            "D",
+            "Eta",
+            "The LLM may underperformn in your task;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 656.95,
+        "detected_text": [
+            "D",
+            "a",
+            "The LLM may underperformn in your task."
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 658.95,
+        "detected_text": [
+            "D",
+            "a",
+            "The LLM may underperformn in your task."
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 660.95,
+        "detected_text": [
+            "De",
+            "The LLM may underperforn in your task."
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 662.94,
+        "detected_text": [
+            "Deaane",
+            "L ea",
+            "The LLM may underperforrn in your task."
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 664.94,
+        "detected_text": [
+            "Deaane",
+            "L ea",
+            "The LLM may underperforrn in your task."
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 666.94,
+        "detected_text": [
+            "Deaane",
+            "The LLM may underperforrn in your task."
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 668.93,
+        "detected_text": [
+            "Deianee",
+            "Lta",
+            "The LLM may underperforn in your task;",
+            "Intab BeadembtLaI Ca Dltcbimott #l Eenne Knennnnnn Me"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 670.93,
+        "detected_text": [
+            "Deianee",
+            "Lta",
+            "The LLM may underperforn in your task;",
+            "Intab BeadembtLaI C Dltcbimott Mteol Eennne Knennnnnt Mdnn"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 672.93,
+        "detected_text": [
+            "D",
+            "En",
+            "Lita",
+            "The LLM may underperforn in your task;",
+            "rtal Eteadeabulta Ie Leteteedtr Wol Een Kneenncenn Veede Ltoi"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 674.92,
+        "detected_text": [
+            "D",
+            "En",
+            "Lita",
+            "The LLM may underperforn in your task;",
+            "rtal Eteadeabulta Ie Leteteedtr Wol Een Kneenncenn Veede Ltoi"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 676.92,
+        "detected_text": [
+            "Deianeele",
+            "L ettn",
+            "The LLM may underperfor in your task.",
+            "rectalt Eeidtaabitry Dlltcbeintat Lnrdal Rrelt Lnentnent Vedo Lt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 678.92,
+        "detected_text": [
+            "Deianeele",
+            "Le",
+            "The LLM may underperfor in your task.",
+            "rectalt Eeidteabittry Can Daltcbmintat Lnrdal Rret Lnentnent Vedo Lttt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 680.91,
+        "detected_text": [
+            "Deianeele",
+            "Le",
+            "The LLM may underperfor in your task.",
+            "rectalt Eeidteabittry Can Daltcbminbat Lnrdal Rret Lnentnent Vedo Lttt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 682.91,
+        "detected_text": [
+            "Deianeele",
+            "Le",
+            "The LLM may underperfor in your task.",
+            "rectalt Eeidteabittry Can Daltcbminbat Lnrdal Rret Lnentnent Vedo Lttt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 684.91,
+        "detected_text": [
+            "Deianeele",
+            "Le",
+            "The LLM may underperform in your task.",
+            "rectalt Eeidteabittry Can Ditcbnminbat Lanrdal Rtt Lnentnent Vedo Lttt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 686.9,
+        "detected_text": [
+            "Deane",
+            "Lte",
+            "The LLM may underperform in your task.",
+            "realt Eeoeadilta Dtcbineaabat Ten",
+            "Eenn Vetndo",
+            "Lennnentantnnn Leine"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 688.9,
+        "detected_text": [
+            "Deane",
+            "Lte",
+            "The LLM may underperform in your task.",
+            "realt Eeoeadilta Dtcbineaabat Ten",
+            "Eenn Vetndo",
+            "Lennnentantnnn Leine"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 690.9,
+        "detected_text": [
+            "Deane",
+            "Lte",
+            "The LLM may underperform in your task.",
+            "realt Ee#odtita Dtcbineaabat Ten",
+            "Eenn Vetndo",
+            "Lennnentantnnn Leine"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 692.89,
+        "detected_text": [
+            "Deane",
+            "Lte",
+            "The LLM may underperform in your task.",
+            "realt Ee#odtita Dtcbineaabat Ten",
+            "Eenn Vetndo",
+            "Lennnentantnnn Leine"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 694.89,
+        "detected_text": [
+            "Dlaanet",
+            "L tnin",
+            "The LLM may underperformn in your task.",
+            "#al Eeadeeanoltry Caa Eeleatr Aeda",
+            "Eenn Gedtit",
+            "Knenen Ltoi"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 696.89,
+        "detected_text": [
+            "Dlianele",
+            "L tern",
+            "The LLM may underperformn in your task.",
+            "#al Eedeenitltry Caa Eeleatr Aeda",
+            "Eenn Gedtit",
+            "Knenen Ltoi"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 698.88,
+        "detected_text": [
+            "Dlianele",
+            "L tern",
+            "The LLM may underperformn in your task.",
+            "#al Eedeenitltry Caa Eeleatr Aeda",
+            "Eenn Gedtit",
+            "Knenen Ltoi"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 700.88,
+        "detected_text": [
+            "Dlianele",
+            "L tern",
+            "The LLM may underperformn in your task.",
+            "#al Eedeenitltry Caa Eeleatr Aeda",
+            "Eenn Gedtit",
+            "Knenen Ltoi"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 702.88,
+        "detected_text": [
+            "Deanele",
+            "L e",
+            "The LLM may underperform in your task;",
+            "#enalt Eeaoaanolltr atcbneaabat",
+            "Eenne Vetnde",
+            "Lnnent"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 704.88,
+        "detected_text": [
+            "Deanele",
+            "L e",
+            "The LLM may underperform in your task;",
+            "#enalt Eeaoaanolltr atcbneaabat",
+            "Eenne Vetnde",
+            "Lnnent"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 706.87,
+        "detected_text": [
+            "Deanele",
+            "L e",
+            "The LLM may underperform in your task;",
+            "#enalt Eeaoaanolltr atcbneaabat",
+            "Eenne Vetnde",
+            "Lnnent"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 708.87,
+        "detected_text": [
+            "Deaneele",
+            "Lia",
+            "The LLM may underperform in your task;",
+            "#enaue Eeadanolltr atcbneaabat Mat Eenn Lnnent Vetnde"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 710.87,
+        "detected_text": [
+            "Deaane",
+            "Lern",
+            "The LLM may underperformn in your task.",
+            "#eale Eadeeabltatay Cap Dittcbaneat LCE",
+            "AterHx Veede",
+            "Lnent Lotine"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 712.86,
+        "detected_text": [
+            "Deaane",
+            "Lern",
+            "The LLM may underperformn in your task.",
+            "#eale Eadeeabltatay Cap Dittcbaneat LCE",
+            "AterHx Veede",
+            "Lnent Lotine"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 714.86,
+        "detected_text": [
+            "Deannet",
+            "Aecnn",
+            "The LLM may underperforrn in your task.",
+            "#eal Eeadeeabltatay Can Dettcbanet At",
+            "AterHx Veenndeeri",
+            "Knenen",
+            "Se",
+            "Detaui Biaettnlmdontiet",
+            "Itaitttdtdi det EeMAan MNearbeatu tIbt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 716.86,
+        "detected_text": [
+            "Deannet",
+            "Aecnn",
+            "The LLM may underperforrn in your task.",
+            "#eal Eeadeeabltatay Can Dettcbanet At",
+            "AterHx Veenndeeri",
+            "Knenen Lotine",
+            "F Detm LttnLoedoaret Ieautotdtdt dett_ EnaAt Eearrmttabt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 718.85,
+        "detected_text": [
+            "Deannet",
+            "Aecnn",
+            "The LLM may underperformn in your task.",
+            "#eal Eeadeeabltatay Can Dettcbanetat",
+            "AterHx Veenndeeri",
+            "Knenen",
+            "Se",
+            "DAaoitam Ounenttt Lorboaet Ieouetoiood deett_ Eeamn Lebtrtueud tat"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 720.85,
+        "detected_text": [
+            "D",
+            "Rienn",
+            "The LLM may underperform in your task;",
+            "reau Eeadentltay Cd L ahnenantatta a",
+            "Eetn Leende",
+            "atkmmbauttctm Lt",
+            "Danac um Ountnttt Lonboata ItitatIoatoi Neatt_ Atlxutat4ceiertnbentdtnbt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 722.85,
+        "detected_text": [
+            "D",
+            "Rienn",
+            "The LLM may underperform in your task;",
+            "reau Eeadentltay Cd L ahnenantatta a",
+            "Eetn Leende",
+            "atkmmbauttctm Lt",
+            "Danac um Ountnttt Lonboata ItitatIoatoi Neatt_ Atlxutat4ceiertnbentdtnbt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 724.84,
+        "detected_text": [
+            "D",
+            "Rienn",
+            "The LLM may underperform in your task;",
+            "reau Eeadentltay C L Eee erALL tt At",
+            "Eetn Leende",
+            "atkmmbauttctm Lt",
+            "Danac um Ountnttt Lonboata ItitatIoatoi Neatt_ Leuata t#cctetnbentdtntbt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 726.84,
+        "detected_text": [
+            "D",
+            "Rienn",
+            "The LLM may underperform in your task.",
+            "reau Eeadentltay C L ahenenantatta At",
+            "Eetn Leede",
+            "atkummbauttctm Lt",
+            "Danac um Ountntialorboatat ItitatIoatdi Nert  Leuatua ##cntettbentdtntbt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 728.84,
+        "detected_text": [
+            "Deeanea",
+            "Ltetn",
+            "The LLM may underperfon in your task.",
+            "rtalt Eeoattitry Cna LeedeeerinG",
+            "Eetne Getde",
+            "Halammiautom Lotine",
+            "Oium",
+            "Ereiok Auneettt Lonaboatet Ieouitao Idatot deutl Rtte Wgtue #actieebeltentdtnbt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 730.83,
+        "detected_text": [
+            "Deeaanel",
+            "Ltee",
+            "The LLM may underperfon in your task.",
+            "rtalt Eeoaattitry Cna LtedeeamAG",
+            "Eetne Getde",
+            "Knennnneneenen Lotine",
+            "Datcum Ereiok #uneettt Lonebon Ieouitao Idatot det Rtte Wgtue #ectieeeltentdtnbt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 732.83,
+        "detected_text": [
+            "Deeaanel",
+            "Ltee",
+            "The LLM may underperfon in your task.",
+            "rtalt Eeoaattitry Cna Ltedeeatr",
+            "Eene Getde",
+            "Halammiautom Lotine",
+            "Datcum Ereiok #uneettt Lonebon Ieouitao Idatot det Rtte Wgtue #ectieeeltentdtnbt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 772.77,
+        "detected_text": [
+            "Tha LUMH may Underpartorm in your Iask,",
+            "Context windows are limited,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 774.76,
+        "detected_text": [
+            "Tha LLH may Underparform in your Iask,",
+            "Context windows are limited;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 776.76,
+        "detected_text": [
+            "Tha LLM may underparform in your Iask,",
+            "Contexl windows are limited;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 778.76,
+        "detected_text": [
+            "Tha LL may underparform in your task,",
+            "Contexl windows are limited;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 780.75,
+        "detected_text": [
+            "Tha LL may underparform in your task,",
+            "Contexl windows are limited;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 782.75,
+        "detected_text": [
+            "Tha LLM may underparform in your Iask,",
+            "Conlext windows are limited,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 784.75,
+        "detected_text": [
+            "Tha LLM may underparform in your Iask,",
+            "Conlext windows are limited,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 786.74,
+        "detected_text": [
+            "Tha LLM may underparform in your Iask,",
+            "Conlext windows are limited,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 788.74,
+        "detected_text": [
+            "Tha LL may undarparform in your Iask,",
+            "Conlext windows are limited,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 790.74,
+        "detected_text": [
+            "Tha LL M9y underperform in your Iask,",
+            "Conlext windows are limited;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 792.74,
+        "detected_text": [
+            "Tha LL M9y underperform in your Iask,",
+            "Conlext windows are limited;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 794.73,
+        "detected_text": [
+            "Tha LL M9y underperform in your Iask,",
+            "Conlexl windows are limited;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 796.73,
+        "detected_text": [
+            "Tha LL M9y underperform in your Iask,",
+            "Conlexl windows are limited;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 798.73,
+        "detected_text": [
+            "Tha LLM may undarparform in your Iask,",
+            "Conlext windows are limited;,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 800.72,
+        "detected_text": [
+            "Tha LLM may undarparform in your Iask,",
+            "Conlext windows are limited,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 802.72,
+        "detected_text": [
+            "Tha LLM may undarparform in your Iask,",
+            "Conlext windows are limited,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 804.72,
+        "detected_text": [
+            "Tha LLM may undarparform in your Iask,",
+            "Conlext windows are limited,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 806.71,
+        "detected_text": [
+            "Tha LL may undarperform in your Iask,",
+            "Conlext windows are limited;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 808.71,
+        "detected_text": [
+            "Tha LL may undarperform in your Iask,",
+            "Conlext windows are limited;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 810.71,
+        "detected_text": [
+            "Tha LL may undarperform in your Iask,",
+            "Conlext windows are limited;"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 812.7,
+        "detected_text": [
+            "Tha LL may undarperform in your Iask,",
+            "Context windows are limited,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 814.7,
+        "detected_text": [
+            "Tha LL may undarperform in your Iask,",
+            "Context windows are limited,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 816.7,
+        "detected_text": [
+            "Tha LLM may undarparform in your Iask,",
+            "Conlext windows are limited;,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 818.69,
+        "detected_text": [
+            "Tha LLM may undarparform in your Iask,",
+            "Conlexl windows are limited,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 820.69,
+        "detected_text": [
+            "Tha LLM may undarparform in your Iask,",
+            "Conlexl windows are limited,"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 822.69,
+        "detected_text": [
+            "Tha LLM may undarparform in your Iask,",
+            "Conlexl windows are limited,",
+            "AizrianMrcharisMs"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 824.68,
+        "detected_text": [
+            "Tha LLM may undarperform in your Iask,",
+            "Conlexl windows are limited;,",
+            "Amertanmpctarisms-"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 826.68,
+        "detected_text": [
+            "Tha LLM may undarperform in your Iask,",
+            "Conlexl windows are limited;,",
+            "Amertanmpctarisms-"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 828.68,
+        "detected_text": [
+            "Tha LLM may undarperform in your Iask,",
+            "Conlexl windows are limited;,",
+            "Amertanmpctarisms-"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 830.67,
+        "detected_text": [
+            "Tha LLM may undarperform in your Iask,",
+            "Conlexl windows are limited;,",
+            "Amertanmpctarisms-"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 832.67,
+        "detected_text": [
+            "Tha LLM may underperform in your Iask,",
+            "Conlexl windows are limited;",
+            "Aherikn Mmacnanismns",
+            "Mcacls slrugple Tamymbe \"It-niatn ardo Conietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 834.67,
+        "detected_text": [
+            "Tha LLM may underperform in your Iask,",
+            "Conlexl windows are limited;",
+            "Aherlian Mmecnanismns",
+            "Madels sltuggle Temicmbe \"tMaiein arag Conlerls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 836.66,
+        "detected_text": [
+            "Tha LLM may underperform in your Iask,",
+            "Conlexl windows are limited;,",
+            "AheriianMecnanismns",
+            "Madels sltuggle Temicmbet \"tMaiein arag Conlerls",
+            "ELydt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 838.66,
+        "detected_text": [
+            "Tha LLM may underperform in YoUr Iaxk.",
+            "Conlexl windows are limited;,",
+            "AheriianMecnanismns",
+            "Madels sltuggle Temicmbet \"tMaiein arag Conlerls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 840.66,
+        "detected_text": [
+            "Tha LL May undarparform in your taxk.",
+            "Conlext windows are limited,",
+            "Amerian Mmechanisms",
+            "Madels strugple Taniemuet \"a maiint Jarag conetis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 842.66,
+        "detected_text": [
+            "Tha LL May undarparform in your taxk.",
+            "Conlext windows are limited,",
+            "Amerian Mmechanisms",
+            "Nudels struggle Tamiemuet \"a maiint Jarag conetis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 844.65,
+        "detected_text": [
+            "Tha LL May undarparform in your taxk.",
+            "Conlext windows are limited,",
+            "Amerian Mmechanisms",
+            "Nudels struggle Tamiemuet \"a maiint Jarag conetis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 846.65,
+        "detected_text": [
+            "Tha LL May underparform in your taxk.",
+            "Contexl windows are limited,",
+            "AmerianMmechanisms",
+            "Mnanti",
+            "Nadels struggle Tamiemivet \"a maiint In 1ana0 conetis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 848.65,
+        "detected_text": [
+            "Tha LL May underparform in your taxk.",
+            "Contexl windows are limited,",
+            "AmerianMmechanisms",
+            "Mnanti",
+            "Nadels struggle Tamiemivet \"a maiint In 1ana0 Conetis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 850.64,
+        "detected_text": [
+            "Tha LLM may underparform in yaUr taxk",
+            "Conlext windows are limited,",
+            "Aherion necnarisms",
+            "Models sliu401b Ttamiamitet \"fMnallnt lardg Cconetls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 852.64,
+        "detected_text": [
+            "Tha LLM may undarparform in your task:",
+            "Conlext windows are limited,",
+            "Aherion Necnarisms",
+            "Model: skugple Ttaniemitet FtMnailn In 1andg cometly"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 854.64,
+        "detected_text": [
+            "Tha LLM may undarparform in your task:",
+            "Conlext windows are limited,",
+            "Aherion Necnarisms",
+            "Model: skugple Ttaniemitet FtMnailn In 1andg cometly"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 856.63,
+        "detected_text": [
+            "Tha LLM may undarparform in your task:",
+            "Conlext windows are limited,",
+            "Aherion Necnarisms",
+            "Model: skugple Ttaniemitet FtMnailn In 1andg cometly"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 858.63,
+        "detected_text": [
+            "Tha LLM may underparform in yoUr Iask.",
+            "Conlexl windows are limited;,",
+            "Reri;tn Mecnanisms",
+            "Lngudid",
+            "Models stuaolb Tencnibst cmalesn I Jardg conotis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 860.63,
+        "detected_text": [
+            "Tha LLM may underparform in yoUr Iask.",
+            "Conlexl windows are limited;,",
+            "Reri;tn Mecnanisms",
+            "Lngudid",
+            "Models stuaolb Tencnibst cmalesn I Jardg conotis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 862.62,
+        "detected_text": [
+            "Tha LLM may underparform in yoUr Iask.",
+            "Conlexl windows are limited;,",
+            "Reri;tn Mecnanisms",
+            "Lngudid",
+            "Models stuaolb Tencnibet cmalesn I Jardg conotis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 864.62,
+        "detected_text": [
+            "Tha LLM may underparform in yoUr Iask.",
+            "Conlext windows are limited;",
+            "Reri;an Mecnanisms",
+            "Lngudid",
+            "Mudels skugglu Tamicmibet cmalesn I Jardg conotis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 866.62,
+        "detected_text": [
+            "Tha LLM may undarparform in your task.",
+            "Conlext windows are limited,",
+            "AmeriianMachanisms=",
+            "Jaoudai_",
+            "Models sltugglb Tanenitet \"amalesn large conleris"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 868.61,
+        "detected_text": [
+            "Tha LLM may undarparform in your task.",
+            "Conlext windows are limited,",
+            "AmeriianMachanisms=",
+            "Jaoudai_",
+            "Models sltugglb Tanenitet \"amalesn large conleris"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 870.61,
+        "detected_text": [
+            "Tha LM May undarparform in your taxk.",
+            "Conlext windows are limited,",
+            "XmeriianMachanisms=",
+            "Jagnt_",
+            "Models sltuggle Ttaniemiber \"amaleen arag Conietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 872.61,
+        "detected_text": [
+            "Tha LM May undarparform in your taxk.",
+            "Conlext windows are limited,",
+            "XmeriianMachanisms=",
+            "Jagnt_",
+            "Models sltuggle Ttaniemiber \"amaleen arag Conietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 874.6,
+        "detected_text": [
+            "Tha LLM may underparform in yoUr Iaxk.",
+            "Context windows are limited;,",
+            "Xhenlian Iuachanisms",
+            "Jatatd_",
+            "Madels skugplb Ttemicmuct Tc'Malnt Iardg comietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 876.6,
+        "detected_text": [
+            "Tha LLM may undarparform in yaUr taxk",
+            "Conlext windows are limited,",
+            "Xherian (uechanisms",
+            "Jattd_",
+            "Madels skugple Ttemiemuct Tc'Malnt Iardg cometis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 878.6,
+        "detected_text": [
+            "Tha LLM may undarparform in yaUr taxk",
+            "Conlext windows are limited,",
+            "Xherian (uechanisms",
+            "Jattd_",
+            "Madels skugple Ttemiemuct Tc'Malnt Iardg cometis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 888.58,
+        "detected_text": [
+            "fcr"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 896.57,
+        "detected_text": [
+            "Tha LL may undarparform in your Iaxk.",
+            "Contex1 windows are limited,",
+            "Ahenian Mechanisms",
+            "Lnana",
+            "Madels slruggle teMemuet Vic Maln larde corletis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 898.57,
+        "detected_text": [
+            "Tha LLMmay underparform in your Iaxk",
+            "Conlexl windows are limited;,",
+            "Kheriian Mec-nanisms-",
+            "Itn",
+            "Models slrugglo Tamiemuet Vidnalin arda conletls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 900.56,
+        "detected_text": [
+            "Tha LLMmay underparform in your Iaxk",
+            "Conlexl windows are limited;,",
+            "Kheriign Mec-nanisms-",
+            "Itn",
+            "Modbia Slouaoib Tamiemuet Vidmalin arda conletly"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 902.56,
+        "detected_text": [
+            "Tha LLMmay underparform in your Iaxk",
+            "Conlexl windows are limited;,",
+            "Kheriian Mec-nanisms-",
+            "Lton",
+            "Modbia Slouaoib Tamiemuet Vidmalin arda conietly"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 904.56,
+        "detected_text": [
+            "Tha LLM May underparform in your task",
+            "Contexl windows are limited;,",
+            "Kherian Nechanisms",
+            "Ltton",
+            "Madels slrugple Tamiomubt TaiMalint Jardg conietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 906.55,
+        "detected_text": [
+            "Tha LLM May underparform in your task",
+            "Contexl windows are limited;,",
+            "Kherian Nechanisms",
+            "Ltton",
+            "Madels slrugple Ttamiomubt TaiMalint Jardg conietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 908.55,
+        "detected_text": [
+            "Tha LLM May underparform in your task",
+            "Contexl windows are limited;,",
+            "Kherian Nechanisms",
+            "Ltton",
+            "Madels slrugple Ttamiomubt TaiMalint Jardg conietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 910.55,
+        "detected_text": [
+            "Tha LLM may underparform in yaur task",
+            "Conlex1 windows are limited;,",
+            "Rmieri;an IMibchanisms",
+            "Aan",
+            "Madels slugplb Tamemuet Alamalin Iarda tomexis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 912.54,
+        "detected_text": [
+            "Tha LL may undarparform in your Iask",
+            "Contexl windows are limited;,",
+            "Xieriiannecnanismns",
+            "Jaauti_",
+            "Madels sbuggle Tamemibet MnitmtalIcn Iard0 tonietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 914.54,
+        "detected_text": [
+            "Tha LL may undarparform in your Iask",
+            "Contexl windows are limited;,",
+            "Xieriiannecnanismns",
+            "Jaauti_",
+            "Madels sbuggle Tamemibet MnitmtalIcn Iard0 tonietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 916.54,
+        "detected_text": [
+            "Tha LL mav underparform in your task",
+            "Conlexl windows are limited;",
+            "Aiieniian Mecnanisms",
+            "Jagnnd_",
+            "Madelz suuaDib Tamemibct Initiinalin 4000 Conietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 918.53,
+        "detected_text": [
+            "Tha LL mav underparform in your taxk",
+            "Conlexl windows are limited;",
+            "AiieniianMecnanisms",
+            "Jagnnd_",
+            "Madelz suuaDib Tamemibct Initiinalin 4000 Conietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 920.53,
+        "detected_text": [
+            "Tha LL may undarparform in your task.",
+            "Context windows are limited,",
+            "Amieriian Mecnanisms",
+            "Jagnti_",
+            "Models sltugglb Tamiemibet \"atmalnt Iarag conetis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 922.53,
+        "detected_text": [
+            "Tha LLM may underparform in your taxk",
+            "Context windows are limited,",
+            "Aheriian Mecnanisms",
+            "Jaontd_",
+            "Models sltugglb Tanicmibet \"atmalnt Iarag conetls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 924.52,
+        "detected_text": [
+            "Tha LLM may underparform in your taxk",
+            "Context windows are limited,",
+            "Aheriian Mecnanisms",
+            "Jaontd_",
+            "Models sltugglb Tanicmibet \"atmalnt Iarag conetls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 926.52,
+        "detected_text": [
+            "Tha LLM may underparform in your taxk",
+            "Context windows are limited,",
+            "Aheriian Mecnanisms",
+            "Jaontd_",
+            "Models sltugglb Tanicmibet \"atmalnt Iarag conetls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 928.52,
+        "detected_text": [
+            "Tha LLM may Undarparform in your taxk",
+            "Context windows are limited,",
+            "Aheriian Mecnanisms",
+            "Jaontd_",
+            "Model: slrugglu Tamiemibet \"atmalnt arag conetls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 930.52,
+        "detected_text": [
+            "Tha LLM may underparform in your task",
+            "Conlext windows are limited;",
+            "Kmerian Mechanisms",
+            "Letan Jhantti_",
+            "Madels slruggle Tnamicmivet \"armalnt arda Lomietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 932.51,
+        "detected_text": [
+            "Tha LLM may underparform in your task",
+            "Conlext windows are limited;",
+            "Kmerian Mechanisms",
+            "Letan Jhantti_",
+            "Madels slruggle Tnamicmivet \"armalnt arda Lomietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 934.51,
+        "detected_text": [
+            "Tha LLM may underparform in your task",
+            "Conlext windows are limited;",
+            "Kmerian Mechanisms",
+            "Letan Jhantti_",
+            "Madels slruggle Ttamicmivet \"armalnt arda Lomietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 936.51,
+        "detected_text": [
+            "Tha LLM may underparform in your task",
+            "Conlext windows are limited;",
+            "Kmerian Mechanisms",
+            "Letan Jhantti_",
+            "Madels slruggle Ttamicmivet \"armalnt arda Lomietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 938.5,
+        "detected_text": [
+            "Tha LLM may undarparform in your task",
+            "Context windows are limited;,",
+            "Aheran Mechanisms",
+            "Intn Jhanti_",
+            "Madels Elrugalg Tamibmivet \"tMalizn 4r40 coniexls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 940.5,
+        "detected_text": [
+            "Tha LLM may undarparform in yoUr task",
+            "Context windows are limited;",
+            "Aheran Mechanisms",
+            "Intn Jhanti_",
+            "Madels Elrugalg Tamibmivet \"tMalizn 4r40 coniexls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 942.5,
+        "detected_text": [
+            "Tha LLM may undarparform in yoUr task",
+            "Context windows are limited;",
+            "Aheran Mechanisms",
+            "Intn Jhanti_",
+            "Madels Elrugalg Tamibmivet \"tMalizn 4r40 coniexls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 944.49,
+        "detected_text": [
+            "Tha LLM may undarparform in yoUr task",
+            "Context windows are limited;",
+            "Aheran Mechanisms",
+            "Intn Jhanti_",
+            "Madels Elrugalg Tamibmivet \"tMalizn 4r40 coniexls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 946.49,
+        "detected_text": [
+            "Tha LLM may underparform in your Iask",
+            "Conlexl windows are limited;,",
+            "Amieriin (uechanisms",
+            "Aeuon Jhonti_",
+            "Madel? slrugple Temembet Vc-Malint 4600 cometis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 948.49,
+        "detected_text": [
+            "Tha LLM may underparform in your Iask",
+            "Conlexl windows are limited;,",
+            "Amieriin (uechanisms",
+            "Aeuon Jhonti_",
+            "Madel? slrugple Temembet Vc-Malint 4600 cometis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 950.48,
+        "detected_text": [
+            "Tha LLM may underparform in your Iaxk",
+            "Conlexl windows are limited;",
+            "Amieriin (uechanisms",
+            "Ienton Jhonti_",
+            "Mudels sltuggle Tomembet VIlctmalint 4600 cometis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 952.48,
+        "detected_text": [
+            "Tha LLM may underparform in your Iask.",
+            "Conlexl windows are limited;",
+            "Amieriin (uachanisms",
+            "Ienton Jhonti_",
+            "Mudels sltuggle Tamembet VIlctmalint 4600 cometis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 954.48,
+        "detected_text": [
+            "Tha LLM may underparform in yoUr task:",
+            "Context windows are limited;",
+            "Anerikn (Methanisms",
+            "Jhgnti_",
+            "Mlodels Situ +01b Tanicmuet \"amalesn arag coniexls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 956.47,
+        "detected_text": [
+            "Tha LLM may underparform in yoUr task",
+            "Context windows are limited;",
+            "Aneriltn MMechanisms",
+            "Jhanoti_",
+            "Mlodels Situ +01b Tanicmuet \"amalsnt arag coniexls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 958.47,
+        "detected_text": [
+            "Tha LLM may underparform in yoUr task",
+            "Context windows are limited;",
+            "Aneriltn MMechanisms",
+            "Jhanoti_",
+            "Mlodels Situ +01b Tanicmuet \"amalsnt arag conioxls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 960.47,
+        "detected_text": [
+            "Tha LLM may underparform in yoUr task",
+            "Context windows are limited;",
+            "Aneriltn MMechanisms",
+            "Jhanoti_",
+            "Mlodels Situ +01b Tanicmuet \"amalsnt arag conioxls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 962.46,
+        "detected_text": [
+            "Tha LLM may underparform in yoUr task",
+            "Context windows are limited;,",
+            "Aneriktn (Methanisms",
+            "Mlodels Situ +01b Tanicmuet \"amalsnt arag conioxls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 964.46,
+        "detected_text": [
+            "Tha LLM may underperform in your task",
+            "Conlexl windows are limited, Atlerlian mecharism; Madels slruggle Tememuet rltiMalizn 4r40 conetis",
+            "Ltarn Jaaund"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 966.46,
+        "detected_text": [
+            "Tha LLM may underperform in your task",
+            "Conlexl windows are limited, Atlerlian mecharism; Madels slruggle Tememuet rltiMalizn 4r40 conetis",
+            "Ltarn Jaaund"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 968.45,
+        "detected_text": [
+            "Tha LLM may underperform in your taxk",
+            "Conlexl windows are limited, Atlerlian mecharism; Madels slruggle Tememuet rltiMalizn 4640 conbtis",
+            "Ltarn Jaaund"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 970.45,
+        "detected_text": [
+            "Tha LLM may underperform in your taxk",
+            "Conlexl windows are limited, Atlerlian mecharism; Madels slruggle Tememuet rltiMalizn 4640 conbtis",
+            "Ltarn Jaaund"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 972.45,
+        "detected_text": [
+            "Tha LLMmay underparform in your task.",
+            "Contexl windows are limited;, anerlian mecharism; Madels skuJo18 Tamiemuet \"aimialknt 4040 comiexls",
+            "Aetn Jinnnte_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 974.45,
+        "detected_text": [
+            "Tha LLMmay underparform in your task.",
+            "Contexl windows are limited, amerlian mecharism; Madela skuJo18 Tamiemuet Taimialkn 4040 comiexls",
+            "Minani"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 976.44,
+        "detected_text": [
+            "Tha LLMmay underparform in your task.",
+            "Contexl windows are limited, amerlian mecharism; Madela skuJo18 Tamiemuet Taimialkn 4040 comiexls",
+            "Jhanoti_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 978.44,
+        "detected_text": [
+            "Tha LLMmay underparform in your task.",
+            "Contexl windows are limited, amerlian mecharism; Madela skuJo18 Tamiemuet Taimialkn 4040 comiexls",
+            "Jhanoti_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 980.44,
+        "detected_text": [
+            "Tha LM may undarparform in your Iaxk.",
+            "Context windows are limited,",
+            "KherianMbcnanisms",
+            "Leaon Jaaund_",
+            "Madels sbugple Taniembet VaMalit] Jardg conetis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 982.43,
+        "detected_text": [
+            "Tha LM may undarparform in your Iaxk.",
+            "Context windows are limited,",
+            "KherianMbcnanisms",
+            "Leaon Jaaund_",
+            "Madels sbugple Taniembet VaMalit] Jardg conetis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 984.43,
+        "detected_text": [
+            "Tha LM may undarparform in your Iaxk.",
+            "Context windows are limited,",
+            "KherianMbcnanisms",
+            "Leaon Jaaund_",
+            "Madels sbugple Taniembet VaMalit] Jardg conetis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 986.43,
+        "detected_text": [
+            "Tha LLMmay undarparform in your Iaxk.",
+            "Context windows are limited,",
+            "KherlianMbcnanisms",
+            "Leaon Jaaund_",
+            "Madels sbugple Taniembet VaMalit] Jardg conetis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 988.42,
+        "detected_text": [
+            "Tha LLM may underparform in your Iask.",
+            "Contexl windows are limited;",
+            "Anemian Mecnanisms",
+            "Atrn",
+            "Madels sbuggle Tamiemuet \"atmializn 4040 cometis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 990.42,
+        "detected_text": [
+            "Tha LLM may underparform in your Iask.",
+            "Contexl windows are limited;",
+            "Anemian Mecnanisms",
+            "Atrn",
+            "Madels sbuggle Tamiemuet \"atmializn 4040 cometis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 992.42,
+        "detected_text": [
+            "Tha LLM may underparform in your Iask:",
+            "Contexl windows are limited;",
+            "Anerian Mechanisms",
+            "Atrn Jaanati_",
+            "Madels sbuggle Tamiemuet \"atmalizn Iardg cometis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 994.41,
+        "detected_text": [
+            "Tha LLM may underparform in your Iask:",
+            "Contexl windows are limited;",
+            "Anerian Mechanisms",
+            "Atrn Jaanati_",
+            "Madels sbuggle Tamiemuet \"atmalizn Iardg cometis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 996.41,
+        "detected_text": [
+            "Tha LLM may underparform in your Iask:",
+            "Contexl windows are limited;",
+            "Anerian Mechanisms",
+            "Atrn Jaanati_",
+            "Madels sbuggle Tamiemuet \"atmalizn Iardg cometis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 998.41,
+        "detected_text": [
+            "Tha LU may undarparform in your Iaxk",
+            "Context windows are limited;",
+            "Amierian Mecnanisms",
+            "Lrn Jaautd_",
+            "Madels strugple Tamiembet Tatnzlesn 4r40 comiexis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1000.4,
+        "detected_text": [
+            "Tha LU may undarparform in your Iaxk",
+            "Context windows are limited;",
+            "Amierian Mecnanisms",
+            "Lrn Jaautd_",
+            "Madels strugple Tamiembet Tatnzlesn 4r40 comiexis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1002.4,
+        "detected_text": [
+            "Tha LU may undarparform in your Iaxk",
+            "Conlext windows are limited;",
+            "Amierian Mecnanisms",
+            "Lrn Jaautd_",
+            "Madels strugple Tamiemuet Tatnzlesn 4r40 comiexis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1004.4,
+        "detected_text": [
+            "Tna LLM may undarparform in your Iaxk",
+            "Conlext windows are limited;,",
+            "Amierimn Macnanisms",
+            "Lrn Jaautd_",
+            "Madels slruggle Tamiemuet Tatnzlesn arag comiexls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1006.39,
+        "detected_text": [
+            "Tha LM may underperform in your taxk",
+            "Contexl windows are limited;",
+            "Amierian Mecnanisms",
+            "Letn Jaanot _",
+            "Madels slruggle Tamiemubt Vatmzlin 4r40 coniozls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1008.39,
+        "detected_text": [
+            "Tha LM may underperform in your taxk",
+            "Contexl windows are limited;",
+            "AmeriJn Mecnanisms",
+            "Ietn Jaanot _",
+            "Madels struggle Tamiemubt Watmzlin 4r40 coniozls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1010.39,
+        "detected_text": [
+            "Tha LM may underperform in your taxk",
+            "Contexl windows are limited;",
+            "AmieriJn Mecnanisms",
+            "Letn Jaanot _",
+            "ladjels stuao8` Tamiemubt Wistmzlin 4r40 coniozls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1012.38,
+        "detected_text": [
+            "Tha LM may underperform in your taxk",
+            "Contexl windows are limited;",
+            "AmieriJn Mecnanisms",
+            "Letn Jaanot _",
+            "ladjels stuao8` Tamiemubt Wistmzlin 4r40 coniozls"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1014.38,
+        "detected_text": [
+            "Tha LL May underparform in yaUr taxk",
+            "Context windows are limited,",
+            "Anerlan Mecnarisms",
+            "Intn",
+            "Models slruggle Tamemiuet \"a Malkn ardg comietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1016.38,
+        "detected_text": [
+            "Tha LL May underparform in yaUr taxk",
+            "Context windows are limited,",
+            "Anerlan Mecnarisms",
+            "Intn",
+            "Models slruggle Tamemiuet \"a Malkn ardg comietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1018.37,
+        "detected_text": [
+            "Tha LL May underparform in yaUr taxk",
+            "Context windows are limited,",
+            "Anerlan Mecnarisms",
+            "Intn",
+            "Models slruggle Tamemiuet \"a Malkn ardg comietis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1020.37,
+        "detected_text": [
+            "Tha LM may underparform in yaUr taxk",
+            "Context windows are limited,",
+            "Anerign Mecnarisms",
+            "Ltn Jhona_",
+            "Kadels slruggle Tamemiuet \"a Maixsn ardg conetis"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1022.37,
+        "detected_text": [
+            "Tha LLM may undarparform in yoUr taxk.",
+            "Context windows are limited;, Amerlian mechanism; Madels slrugple Tamemuet \"atmialian 4040 conetls",
+            "Inrn Jaanti_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1024.37,
+        "detected_text": [
+            "Tha LLM may undarparform in yoUr taxk.",
+            "Context windows are limited;, Amerlian mechanism; Madels slrugple Tamemuet \"atmialian 4040 conetls",
+            "Inrn Jaanti_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1026.36,
+        "detected_text": [
+            "Tha LLM may undarparform in yoUr taxk.",
+            "Context windows are limited;, Amerlian mechanism; Madels slrugple Tamemuet \"atmialn) 4040 Coniexls",
+            "Aern Jaauti_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1028.36,
+        "detected_text": [
+            "Tha LLM may undarparform in yoUr taxk.",
+            "Context windows are limited;, Amerlian mechanism; Madels slrugple Tamemuet \"atmialn) 4040 Coniexls",
+            "Aern Jaauti_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1030.36,
+        "detected_text": [
+            "Tha LLM may undarparform in yoUr taxk.",
+            "Context windows are limited;, Amerlian mechanism; Madels slrugple Tamemuet \"atmialn) 4040 Coniexls",
+            "Aern Jaauti_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1042.34,
+        "detected_text": [
+            "37 Kor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1050.32,
+        "detected_text": [
+            "W",
+            "Cea"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1052.32,
+        "detected_text": [
+            "Heean",
+            "Aennnte"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1054.32,
+        "detected_text": [
+            "Ca",
+            "Annneteae"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1056.31,
+        "detected_text": [
+            "1 1",
+            "e",
+            "Aennetoa"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1058.31,
+        "detected_text": [
+            "1 1 GeJstu",
+            "e",
+            "Aennetoa"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1060.31,
+        "detected_text": [
+            "1 L Geastud",
+            "e",
+            "Let#"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1062.3,
+        "detected_text": [
+            "L 1 643sturs",
+            "63in",
+            "A"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1074.29,
+        "detected_text": [
+            "1 1 elslutr",
+            "en",
+            "Cennetng"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1076.28,
+        "detected_text": [
+            "1 1 elslutr",
+            "en",
+            "Cennetng"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1084.27,
+        "detected_text": [
+            "1 1 Olstud",
+            "Fnt",
+            "63lo",
+            "Aa",
+            "Aenecoar Sen="
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1086.27,
+        "detected_text": [
+            "1 1 Olstud",
+            "Fnt",
+            "63lo",
+            "Aa",
+            "Aenecoar Sen="
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1088.26,
+        "detected_text": [
+            "1 1 Olstud",
+            "Fnt",
+            "63lo",
+            "Aa",
+            "Aenecoar Sen="
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1090.26,
+        "detected_text": [
+            "1 1 Oraskto",
+            "Fat",
+            "63lo",
+            "A"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1092.26,
+        "detected_text": [
+            "1 1 Oraskto",
+            "Fat",
+            "63lo",
+            "A"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1094.25,
+        "detected_text": [
+            "1 1 ORJstu",
+            "Gitgontdg Qutai",
+            "Gutaet",
+            "63ln",
+            "Veean",
+            "Cenets aetneene"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1096.25,
+        "detected_text": [
+            "1 1 ORJstu",
+            "#tttm",
+            "ttai",
+            "Gutaea",
+            "63ln",
+            "Veean",
+            "Cenneteetnen"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1098.25,
+        "detected_text": [
+            "1 1 ORJstu",
+            "#tttm",
+            "ttai",
+            "Gutaea",
+            "63ln",
+            "Veean",
+            "Cenneteetnen"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1100.24,
+        "detected_text": [
+            "1 1 ORJstu",
+            "#tttm",
+            "ttai",
+            "Gutaea",
+            "63ln",
+            "Veean",
+            "Cenneteetnen"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1102.24,
+        "detected_text": [
+            "Kon-",
+            "Metninn",
+            "1 1 Oeastub",
+            "Eennd Raaoon (A]",
+            "#tttntnn Outi",
+            "Sotaen",
+            "6a4o",
+            "Aete",
+            "Aeneteaetneenn"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1104.24,
+        "detected_text": [
+            "Kon-",
+            "Metninn",
+            "1 1 Oeastub",
+            "Eennd Raaoon (A]",
+            "#tttntnn Outi",
+            "Sotaen",
+            "6a4o",
+            "Aete",
+            "Aeneteaetneenn"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1108.23,
+        "detected_text": [
+            "NRC",
+            "hire RUH Clue"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1110.23,
+        "detected_text": [
+            "YJ"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1134.19,
+        "detected_text": [
+            "runnInG 'SN'T"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1136.19,
+        "detected_text": [
+            "RUNNING ISN'T",
+            "JuSt RUNNING"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1138.18,
+        "detected_text": [
+            "GIVES You A PuRPOse"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1142.18,
+        "detected_text": [
+            "NRC",
+            "hike |un CLVB"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1144.17,
+        "detected_text": [
+            "Hendk",
+            "Metnin",
+            "1 1 Oeastui",
+            "Rvooros(ua]",
+            "#tttni",
+            "Oai",
+            "n",
+            "04",
+            "A",
+            "Aeneeaetneenn"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1146.17,
+        "detected_text": [
+            "Hendk",
+            "Metnin",
+            "1 1 Oeastui",
+            "Rvooros(ua]",
+            "#tttni",
+            "Oai",
+            "n",
+            "04",
+            "A",
+            "Aeneeaetneenn"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1148.17,
+        "detected_text": [
+            "Hont",
+            "Metnin",
+            "1 1 Oeastui",
+            "Rvooras(ua]",
+            "#tttni",
+            "Oai",
+            "F",
+            "Ga4o",
+            "A",
+            ""
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1158.15,
+        "detected_text": [
+            "nkc",
+            "Metnin",
+            "Entntd Peneetn (a]",
+            "1 Oeastutr",
+            "#tettnn Nai",
+            "Socaen",
+            "6alo",
+            "Aean",
+            "Aenet aetneenn"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1160.15,
+        "detected_text": [
+            "nkc",
+            "Metnin",
+            "Entntd Peneetn (a]",
+            "1 Oeastutr",
+            "#tettnn Nai",
+            "Socaen",
+            "6alo",
+            "Aean",
+            "Aenet aetneenn"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1162.15,
+        "detected_text": [
+            "Kank",
+            "Metnin",
+            "1 1 ORJstub",
+            "Rworonst5ua]",
+            "#tettnn Nai",
+            "Soeen",
+            "Ga4o",
+            "Aete",
+            "Aneceeencen"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1164.14,
+        "detected_text": [
+            "Kank",
+            "Metnin",
+            "1 1 ORJstub",
+            "Rworonst5ua]",
+            "#tettnn Nai",
+            "Soeen",
+            "Ga4o",
+            "Aete",
+            "Aneceeencen"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1341.86,
+        "detected_text": [
+            "yjus",
+            "i'{: #:"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1343.86,
+        "detected_text": [
+            "yjus",
+            "i'{: #:"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1345.85,
+        "detected_text": [
+            "yjus",
+            "i'{: #:"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1347.85,
+        "detected_text": [
+            "FL",
+            "48x9"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1349.85,
+        "detected_text": [
+            "\"r",
+            "DL",
+            "~a"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1351.84,
+        "detected_text": [
+            "\"r",
+            "DL",
+            "~a"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1353.84,
+        "detected_text": [
+            "\"nr",
+            "DL",
+            "~a"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1355.84,
+        "detected_text": [
+            "\"nr",
+            "DL",
+            "~a"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1369.81,
+        "detected_text": [
+            "fcri"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1371.81,
+        "detected_text": [
+            "24"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1377.8,
+        "detected_text": [
+            "7%"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1383.79,
+        "detected_text": [
+            "34/"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1385.79,
+        "detected_text": [
+            "7"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1391.78,
+        "detected_text": [
+            "Example Prompt: KatenedIenert",
+            "ForameaNoty:",
+            "AaddtmlDa MeeDe cbttt noolamonta Iadied LELOAETL Cee Jautetan Uteleedul Tat dut"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1393.78,
+        "detected_text": [
+            "Example Prompt: KatnenedTaer.",
+            "Formedo:",
+            "md dorument [40 MeteRe cbtttnoolamntt Idied LELOAETL Luet  D#puteLe UateeedutN ut dmtt Cacglu"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1395.77,
+        "detected_text": [
+            "Example Prompt; JnIaen",
+            "Wie areladot:",
+            "md doament [ MadeRE Gbutntt monlantt Tdad Anhanttnt Iputec Uiteedt Uot"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1397.77,
+        "detected_text": [
+            "Example Prompt; Hatnenn Cia",
+            "Wie lmeladot:",
+            "md doament [ MadeRE Gbutntt monlantt Tdad Anhanttnt Iputec Uiteedt Uot"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1399.77,
+        "detected_text": [
+            "Example Prompt; Jafantr.",
+            "WaeRLaDDA4c",
+            "dnmlt [a MadGRE monlonat LAIEL diputtam Wen Lendul"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1401.76,
+        "detected_text": [
+            "Example Prompt; Jafantr.",
+            "WaeRLaDDA4c",
+            "dnmlt [a MadGRE monlonat LAIEL diputtam Wen Lendul"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1403.76,
+        "detected_text": [
+            "Example Prompt; Jafantr.",
+            "WaeRLaDDA4c",
+            "dnmlt [a MadGRE monlonat LAIEL diputtam Wen Lendul"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1405.76,
+        "detected_text": [
+            "Example Prompt; Kateedar.",
+            "FaramDA4c",
+            "dnmlt [a MadGRe monlaitt Tadied LAE Diputtod Uit elentu dmtc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1407.75,
+        "detected_text": [
+            "Example Prompt; Fadtnetr.",
+            "Eraramredet",
+            "dnmlt [a MadeRE maDi Tdied LEAEIML Diputtlod WttNel eedul"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1409.75,
+        "detected_text": [
+            "Example Prompt; Fadtnetr.",
+            "Eraramredet",
+            "dnmlt [a MadeRE maDi Tdied LEAEIML Diputtlod WttNel eedul"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1411.75,
+        "detected_text": [
+            "Example Prompt; Fadtnetr.",
+            "S",
+            "Tacoledosn",
+            "Uitt dnmlt [a MadeRE maDi Tdied LELAEIML Diputtlod Waen Leeeudul"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1413.74,
+        "detected_text": [
+            "Example Prompt; Fadtnetr.",
+            "Improvad Ptompt; Eoent Jote Lipr70 Ralleletojeuneu Aattune #nf Jonittit Aatnaat",
+            "Eraramredet",
+            "Uundt Ai @t JADLitE Lpt Meetaatt Ieedmcd tmat DctcGLARNL Autebanattatu",
+            "Uitt dnmlt [a Mdedtt maDi Tdied LAEIM Diputtlad WttNel eedul Hant"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1415.74,
+        "detected_text": [
+            "Example Prompt; Fadanetr.",
+            "Improvad Ptompt; Tatuntooy LiarD MtarattdjeudeA Aataute funpoJiaktnu Raaat",
+            "Waerlameaac:",
+            "Matt {anecntnmttttGane Mmtetatt Tenocden aat DgtcslARtL Hucteb Lei S",
+            "Ieddtmltnn IdteRe dom Ihdited LAEEL 1puttltd Weelendul Uat"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1417.74,
+        "detected_text": [
+            "Example Prompt; Fadanetr.",
+            "Improvad Ptompt; Tatuntooy LiarD MtarattdjeudeA Aataute funpoJiaktnu Raaat",
+            "Waerlameaac:",
+            "Matt {anecntnmttttGane Mmtetatt Tenocdin aadtt DgtcslARtL Hucteb Lei S",
+            "Ieddtmltnn IdteRe dom Ihdited LAEEL 1puttltd Weelendul Uat"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1419.73,
+        "detected_text": [
+            "Example Prompt; Fadanetr.",
+            "Improvad Ptompt; Tatuntooy LiarD MtarattdjeudeA Aataute funpoJiaktnu Raaat",
+            "Waerlameaac:",
+            "Matt {anecntnmttttGane Mmtetatt Tenocdin aadtt DgtcslARtL Hucteb Lei S",
+            "Ieddtmltnn IdteRe dom Ihdited LAEEL 1puttltd Weelendul Uat"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1421.73,
+        "detected_text": [
+            "Example Prompt; Fadanetr.",
+            "Improvad Ptompt; Seens Tototr LiarD JncaretdjeldRALAattute fupoJiaktnu Raaat",
+            "Waerlameaac:",
+            "Matt {aecnonttttAaneRa Omtetat Tenocden a7t DecnadeENCAa Aucebdt Sent",
+            "Ieddtmltnn IdteRe moolnott Tdied LAEEL G4puttltd Wt Wendul uat"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1423.73,
+        "detected_text": [
+            "Example Prompt; Fadanetr.",
+            "Improvad Ptompt; Seens Tototr LiarD Jnctretdjeu det Aattue 4R# JaJtatt Raaat",
+            "Waerlameaac:",
+            "Mida {aecnonttttAaneRa Omtetat Tenocden a7t DecnadeENCAa Aucebdt Sent",
+            "dnmlt(n IdteRe moolnott Tdied LAEEL G4puttltd Wt Weondul"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1425.72,
+        "detected_text": [
+            "Example Prompt; Aiateaptn",
+            "Improvad Ptompt; Arecnt ToYcrgLia50 Muntoh Pitt DJtullaArro ferane #ftaUteodaetnatt",
+            "Faarametdet",
+            "Amtort CDgEItte Tt Ma Teaommtnct;pol uaat Dgtcsl4R Aacebndtttum",
+            "Uit dnmlt [S IteReI caom Tadied LAEEL Dpltlod Uat Seon Eadul Ht"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1427.72,
+        "detected_text": [
+            "Example Prompt; Aiateaptn",
+            "Improvad Ptompt; Arecnt IoYcrgLiar50 Icreetdoaaead Ate #faantodaenant",
+            "FaarameAdet",
+            "Amtort CDgEItte Lnt Ma Trammrct;pol uaat Dgntcsl4Rt Aacebndtttum",
+            "Uit dnmlt [S IteReI caom Tadied LAEEL Dplttlad Wen Seon Eedul"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1429.72,
+        "detected_text": [
+            "Example Prompt; Aiateaptn",
+            "Improvad Ptompt; Arecnt IoYcrgLiar50 Icreetdoaaead Ate #faantodaenant",
+            "FaarameAdet",
+            "Amtort CDgEItte Lnt Ma Trammrct;pol uaat Dgntcsl4Rt Aacebndtttum",
+            "Uit dnmlt [S IteReI caom Tadied LAEEL Dplttlad Wen Seon Eedul"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1431.72,
+        "detected_text": [
+            "Example Prompt; Aiateaptn",
+            "Improvad Ptompt; Arecnt IoYcrgLiar50 Icreetdoaaead Ate #faantodaenant",
+            "FaarameAdet",
+            "Amtort CDgEItte Lnt Ma Trammrct;pol uaat Dgntcsl4Rt Aacebndtttum",
+            "Uit dnmlt [S IteReI caom Tadied LAEEL Dplttlad Wen Seon Eedul"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1433.71,
+        "detected_text": [
+            "Example Prompt; Fadtera",
+            "Improved Ptompt; #dnet otot Ariaao Intcratdjthanan attne tnutndaJlaktrd Aoant",
+            "UerlamrAdeh:",
+            "Mta {a XnttanttAaar On Metetoat Ieenocdeoanirtt DctcslR #uctebottt  K Sea",
+            "Uiot dnmlt(n IitGRI monlantt Tdied HTAEML Daputtlod Uit el eedul= Ht"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1435.71,
+        "detected_text": [
+            "Example Prompt; Fadtera",
+            "Improved Ptompt; #dnet otot Ariaao Intcratdjthanan attne tnutndaJlaktrd Aoant",
+            "UerlamrAdeh:",
+            "Mta {a XnttanttAaar On Metetoat Ieenocdeoanirtt DctcslR #uctebottt  K Sea",
+            "Uiot dnmlt(n IitGRI monlantt Tdied HTAEML Daputtlod Uit el eedul= Ht"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1437.71,
+        "detected_text": [
+            "Example Prompt; Fadtera",
+            "Improved Ptompt; #dnet otot Ariaao Intcratdjthanan attne tnutndaJlaktrd Aoant",
+            "UerlamrAdeh:",
+            "Mta {a XnttanttAaar On Metetoat Ieenocdeoanirtt DctcslR #uctebottt  K Sea",
+            "Uiot dnmlt(n IitGRI monlantt Tdied HTAEML Daputtlod Uit el eedul= Ht"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1439.7,
+        "detected_text": [
+            "Example Prompt; Fadtera",
+            "Improved Ptompt; #dnet otot Ariaao Intcreetaahrnean attne tnntndaJlaktrrr Ronat",
+            "UerlamrAdeh:",
+            "Mtd {a XnttanttiAaaar On Metetoatt Ieenocdeoanirtt DctcslR #ucebatrt K Sea",
+            "Uiot dnmlthn IitGRI maom Tdied LEAEIML Dputtlod Uit el eedul= Ht"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1441.7,
+        "detected_text": [
+            "Example Prompt; Ciateadantr.",
+            "Improvad Ptompt; eint Tooriatia #altreetaoadean Faatne #rdantekld#eorat",
+            "Faaremrede:",
+            "Umna XnttttGear Tn t Trammdtc;pdl ultan DgtcrlARt Ahcbadt Sea",
+            "Uinnddtttnn ItGRe monlanunt Idited LEAERL G4putlad Wet Feandul; Ht"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1443.7,
+        "detected_text": [
+            "Example Prompt; Ciateadantr.",
+            "Improvad Ptompt; eint Tooriatia #altreetaoadean Faatne #rdantekld#eorat",
+            "Faaremrede:",
+            "Umna XnttttGear Tn t Trammdtc;pdl ultan DgtcrlARt Ahcbadt Sea",
+            "Uinnddtttnn ItGRe monlanunt Idited LEAERL G4putlad Wet Feandul; Ht"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1445.69,
+        "detected_text": [
+            "Example Prompt; Ciateadantr.",
+            "Improvad Ptompt; eint TooriatiaD #ltreettoadean Faatte ty funponJtakoatm KyAetkonatttt",
+            "Faaremrede:",
+            "Umoort XnttanttAear Tn t Trammdtc;pdl ultan DgtcrlARt Aucebdtttum",
+            "Uitt dnttt(n ItGRe caol",
+            "LAEE G4putlad Feandul; Ht",
+            "Wet"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1447.69,
+        "detected_text": [
+            "Example Prompt; Ciateadantr.",
+            "Improvad Ptompt; eint TooriatiaD #ltreettoadean Faatte ty funponJtakoatm KyAetkonatttt",
+            "Faaremrede:",
+            "Umoort XnttanttAear Tn t Trammdtc;pdl ultan DgtcrlARt Aucebdtttum",
+            "Uitt dnttt(n ItGRe caol",
+            "LAEE G4putlad Feandul; Ht",
+            "Wet"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1449.69,
+        "detected_text": [
+            "Example Prompt; Fadtera",
+            "Improvad Ptompt; Aeettnts Io4oti Lipt70 Mtreetojehhean Aatupte #rtantekttdeotat",
+            "Waerlareldeh:",
+            "Amoot XnttanttGneaear Tm Utt Ieenocdant n7t DattcslARt Aebdttum",
+            "Uinnddtmt[ ItGRI mcaom",
+            "LAEIML Dnt Uit Neeeendul Tnt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1451.68,
+        "detected_text": [
+            "Example Prompt; al Cia",
+            "Improvad Ptompt; Aeettnts Totori Lipt70 Mtretojthhean Aanthte #ranttt Egeat",
+            "Waerlameli4e",
+            "Amoot XnttanttGneaear Tm Ma Ieenocdant n7t DattcslARt Atebu 4u",
+            "Uinnddtmt[ ItGRI mcaom",
+            "LAEIML Dnt Uit Neeeendul Tnt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1453.68,
+        "detected_text": [
+            "Example Prompt; al Cia",
+            "Improvad Ptompt; Aeettnts Totori Lipt70 Mtretojthhean Aanthte #ranttt Egeat",
+            "Waerlameli4e",
+            "Amoot XnttanttGneaear Tm Ma Ieenocdant n7t DattcslARt Atebu 4u",
+            "Uinnddtmt[ ItGRI mcaom",
+            "LAEIML Dnt Uit Neeeendul Tnt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1459.67,
+        "detected_text": [
+            "fordl"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1461.67,
+        "detected_text": [
+            "fanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1463.66,
+        "detected_text": [
+            "antor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1465.66,
+        "detected_text": [
+            "tantor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1467.66,
+        "detected_text": [
+            "7",
+            "tantor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1469.65,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1471.65,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1473.65,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1475.65,
+        "detected_text": [
+            "anfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1477.64,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1479.64,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1481.64,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1483.63,
+        "detected_text": [
+            "tanforo"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1485.63,
+        "detected_text": [
+            "tanforo"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1487.63,
+        "detected_text": [
+            "anforo"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1489.62,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1491.62,
+        "detected_text": [
+            "an for"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1493.62,
+        "detected_text": [
+            "anfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1495.61,
+        "detected_text": [
+            "anfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1497.61,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1499.61,
+        "detected_text": [
+            "tanfora"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1501.6,
+        "detected_text": [
+            "antor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1503.6,
+        "detected_text": [
+            "anforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1505.6,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1507.59,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1509.59,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1511.59,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1513.58,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1515.58,
+        "detected_text": [
+            "anforo"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1517.58,
+        "detected_text": [
+            "tanforo"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1519.58,
+        "detected_text": [
+            "tan for"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1521.57,
+        "detected_text": [
+            "ZFcI",
+            "tantor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1523.57,
+        "detected_text": [
+            "FFCS",
+            "an fora"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1525.57,
+        "detected_text": [
+            "ZSF",
+            "antord"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1527.56,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1529.56,
+        "detected_text": [
+            "3",
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1531.56,
+        "detected_text": [
+            "tantor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1533.55,
+        "detected_text": [
+            "Example Prompt; Fntner",
+            "Improvad Prompt: Aoinne ToCr KK Ni Pat mettrtvdoeuaed Aatauna ArtdeUaI aldxtetitd",
+            "IcTovpO PrompI %\"en M '",
+            "FarameeNoh:",
+            "Uvnay Rneldnmtnbn Gae Dia On Mnettattt Teeomcd t o7n Deaonkacat4e  Auttebo 4unannd",
+            "Wtnddmtt@a Meed ebrtttnoulanta: Iaddeontntmthnttmt Jautte UOdeeedu At dmttt Canln",
+            "7_~"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1535.55,
+        "detected_text": [
+            "Example Prompt; Fntner",
+            "Improvad Prompt: Rreeerte ToeCPr KrLiAat mettrtd)ale Aatautp #randeUaA atdxrtititd",
+            "IbiCvp Pzor pl ;eert:u;",
+            "FormeeNoh:",
+            "Uvnay RnaeldmtnbGat On Mnettattt Teeomcd to7ln DeIaenrhtse4et Autebattt Hunannd",
+            "Wtnddmtt@a MdeRE ebrtttnoulanta: OeCLOECtEOAEIMAL Jahllem Uatdeeeedu At Jmtt Dnicn",
+            "Wecacan"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1537.55,
+        "detected_text": [
+            "Example Prompt; Fantnert",
+            "Improved Prampt: Prub 4A [0tuYE Reauik p4r mtttlittdoana Aattua #rt daraAat Ettatdt",
+            "IHT ved Pron p ituxwi",
+            "LA",
+            "u_",
+            "Boramedo:",
+            "Lttne",
+            "Iaddnml(d MeeRE Gbtntt odlomti Iadrd CEIAEMA DJanee US entetn Ht Jmitt Dnccn",
+            "{lanncnttnbn On Mhtntt4 ttt_ Teeamad t o7mln Deltearamsel4Rt Auttebtut 4unnnd",
+            "27"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1539.54,
+        "detected_text": [
+            "Example Prompt; Fantnert",
+            "Improved Prampt: Prub 4A [0tuYE Reauik p4r mtttlittdoana Aattua #rt daraAat Ettatdt",
+            "IHT ved Pron p ituxwi",
+            "LA",
+            "u_",
+            "Boramedo:",
+            "Lttne",
+            "Iaddnml(d MeeRE Gbtntt odlomti Iadrd CEIAEMA DJanee US entetn Ht Jmitt Dnccn",
+            "{lanncnttnbn On Mhtntt4 ttt_ Teeamad t o7mln Deltearamsel4Rt Auttebtut 4unnnd",
+            "27"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1541.54,
+        "detected_text": [
+            "Example Prompt; Fantnert",
+            "Improved Prampt: Prub 4A [0tuYE Reauik p4r mtttlittdoana Aattua #rt daraAat Ettatdt",
+            "IHT ved Pron p ituxwi",
+            "LA",
+            "u_",
+            "Boramedo:",
+            "Lttne",
+            "Iaddnml(d MeeRE Gbtntt odlomti Iadrd CEIAEMA DJanee US entetn Ht Jmitt Dnccn",
+            "{lanncnttnbn On Mhtntt4 ttt_ Teeamad t o7mln Deltearamsel4Rt Auttebtut 4unnnd",
+            "27"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1543.54,
+        "detected_text": [
+            "Example Prompt; Katnendtenees>",
+            "Improved Prampt: Freencaets To4yx Khahik Pat mittracto)rmhal Aattulr #nrcteoUtiktatt Eettaittdt",
+            "roved] Prompeer CHi'",
+            "Farmeeoty:",
+            "Litte",
+            "Aeddnmlt (n Maded Gbttttnoolnntt. Iadieed LELIAEML Tne Gputelod U5 eltedu= Trat dmtt Gcgtica",
+            "RledonttnBi: Gat Di On Mtntd4 tEr_ Teeoadt on7nnn Diteatetslet Attbtut 4unetnd",
+            "317+"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1545.53,
+        "detected_text": [
+            "Example Prompt; Katnendtenees>",
+            "Improved Prampt: Freencaets To4yx Khahik Pat mittracto)rmhal Aattulr #nrcteoUtiktatt Eettaittdt",
+            "roved] Prompeer CHi'",
+            "Farmeeoty:",
+            "Litte",
+            "Aeddnmlt (n Maded Gbttttnoolnntt. Iadieed LELIAEML Tne Gputelod U5 eltedu= Trat dmtt Gcgtica",
+            "RledonttnBi: Gat Di On Mtntd4 tEr_ Teeoadt on7nnn Diteatetslet Attbtut 4unetnd",
+            "317+"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1547.53,
+        "detected_text": [
+            "Example Prompt; Katnendtenees>",
+            "Improved Prampt: Freencaets To4yx Khahik Pat mittracto)rmhal Aattulr #nrcteoUtiktatt Eettaittdt",
+            "roved] Prompeer CHi'",
+            "Farmeeoty:",
+            "Litte",
+            "Aeddnmlt (n Maded Gbttttnoolnntt. Iadieed LELIAEML Tne Gputelod U5 eltedu= Trat dmtt Gcgtica",
+            "RledonttnBi: Gat Di On Mtntd4 tEr_ Teeoadt on7nnn Diteatetslet Attbtut 4unetnd",
+            "317+"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1549.53,
+        "detected_text": [
+            "Example Prompt; Katnendtenees>",
+            "Improved Prampt: Freeencants To4yx Khahik Pat mittrctd)rmhal Aattulr #nrcteoUtiktatt Eettaittdt",
+            "r sved] Prorr pI ;ee\" (Hi'",
+            "Farmedo:",
+            "Litte",
+            "Aeddnmlt (n Mdentz Gbttttnoolnntt. Iadieed LELIAEML Tne Gputelod U5 entedu= Trat dmtt Gcgtica",
+            "RledonttnBi: Gat Di On mttd4 tEF_ Teeoadt on7nnn Diteatetsl4et Aatttbtut 4u",
+            "3ile at $"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1551.52,
+        "detected_text": [
+            "Example Prompt; KatnenelIer ",
+            "Improved Ptompt: \"ertent ToOIartikpn5 0 MettrDtd)awaeto Attuna Rtf#JeUaI atUreodid",
+            "roved Prd\" pI ;e 0'",
+            "Erameldoth:",
+            "Waviolt Ranntnnmtnta: ctDi Mn Meelattt Teeoadit onirtn Demeun Rit; Sbuitattt Aatttbadtrt Hunatd",
+            "Uitnddtnt ( MecenE Lbtntt molomci Iadied LAEM teat  G#pultltd USOe etuanett dmtt Legtica",
+            "tdIl7.",
+            "S'L:_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1553.52,
+        "detected_text": [
+            "Example Prompt; KatnenelIer ",
+            "Improved Ptompt: \"ertent ToOIartikpn5 0 MettrDtd)awaeto Attuna Rtf#JeUaI atUreodid",
+            "roved Prd\" pI ;e 0'",
+            "Erameldoth:",
+            "Waviolt Ranntnnmtnta: ctDi Mn Meelattt Teeoadit onirtn Demeun Rit; Sbuitattt Aatttbadtrt Hunatd",
+            "Uitnddtnt ( MecenE Lbtntt molomci Iadied LAEM teat  G#pultltd USOe etuanett dmtt Legtica",
+            "tdIl7.",
+            "S'L:_"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1555.52,
+        "detected_text": [
+            "Example Prompt; KatnenelIer ",
+            "Improved Ptompt: \"ertent ToOIartikpn5 0 MettrDtd)awaeto Attuna Rtf#JeUaI atUreodid",
+            "xroved Po pI ;c 0y'",
+            "Erameldoth:",
+            "Waviolt Ranntnnmtnta: ctDi Mn Meelattt Teeoadit onirtn Demeun Rit; Sbuitattt Aatttbadtrtktunatd",
+            "Uitnddtnt ( MecenE Lbtntt molomci Iadied LAEM G#pultltd USOe etuanett dmtt Legtica",
+            "~Il7"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1557.51,
+        "detected_text": [
+            "Example Prompt; KatnenelIer ",
+            "Improved Ptompt: \"ertent ToOIartikpn5 0 MettrDtd)awaeto Attuna Rtf#JeUaI atUreodid",
+            "xroved Po pI ;c 0y'",
+            "Erameldoth:",
+            "Waviolt Ranntnnmtnta: ctDi Mn Meelattt Teeoadit onirtn Demeun Rit; Sbuitattt Aatttbadtrtktunatd",
+            "Uitnddtnt ( MecenE Lbtntt molomci Iadied LAEM G#pultltd USOe etuanett dmtt Legtica",
+            "~Il7"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1559.51,
+        "detected_text": [
+            "Example Prompt; Fantntr",
+            "Improvad Ptampt: Tencante TootIarlpt mterdorhadeop o Alttund Rtfa JeUiLdmettaid",
+            "'proved Pron",
+            "6\" Ciax!\" C",
+            "{+",
+            "Eoramotedoth:",
+            "Kite",
+            "Iaddtt MedROE Lbutn moolanni. Iadieed LAEITL Luet  GputeLam UOMelteeduatat dmtt Ccgin",
+            "#rtnl Xnttnie: eat Da On Mettatnt Tenmcd t onnnttn Our Rnn;s6umatt Aaebauat Huead",
+            "l"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1561.51,
+        "detected_text": [
+            "Example Prompt; Fantntr",
+            "Improvad Ptampt: Tencante ToOIaruipt mratdoradato Alttund Rtfa JeUiLdmettaid",
+            "prived Pran Di #0 CMS",
+            "Eoramotedoth:",
+            "Kite",
+            "Iaddtt MedROE Lbutn moolanni. Iadieed LAEITL Luet  GputeLam UOMelteeduatt dmtt Ccgin",
+            "#rtnl Xnttnie: eat Da On Mettatnt Tenmcd t onnnttn Diteartst4et Aaebauat Huead"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1563.51,
+        "detected_text": [
+            "\"37 3=",
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1565.5,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1567.5,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1569.5,
+        "detected_text": [
+            "tanfOr"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1571.49,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1573.49,
+        "detected_text": [
+            "ntoro"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1575.49,
+        "detected_text": [
+            "T-2",
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1577.48,
+        "detected_text": [
+            "3",
+            "anfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1579.48,
+        "detected_text": [
+            "nfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1581.48,
+        "detected_text": [
+            "tanfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1583.47,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1585.47,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1587.47,
+        "detected_text": [
+            "[4n fore"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1589.46,
+        "detected_text": [
+            "anfor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1591.46,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1593.46,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1595.45,
+        "detected_text": [
+            "tanfort"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1597.45,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1599.45,
+        "detected_text": [
+            "anfort"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1601.44,
+        "detected_text": [
+            "antor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1603.44,
+        "detected_text": [
+            "tantor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1605.44,
+        "detected_text": [
+            "117 forr"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1607.44,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1609.43,
+        "detected_text": [
+            "[audience] in [Iomat]: [taxt]: Here, [uudierce], [format], and [text] are placahokders",
+            "chtat tt",
+            "Iiz Ullilliii =z3"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1611.43,
+        "detected_text": [
+            "[audience] in [Iomat]: [taxt]: Here, [uudierce], [format], and [text] are placahokders",
+            "chtetta",
+            "Saaen",
+            "727 Eie"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1613.43,
+        "detected_text": [
+            "[audience] in [Iomat]: [taxt]: Here, [uudierce], [format]; and [text] are placeholders",
+            "chtt tttet",
+            "Seentr",
+            "CEiit Ull ia"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1615.42,
+        "detected_text": [
+            "[audience] in [fomat]: [text]: Here , (eudierce], [format]; and [text] are placehokders",
+            "chte trhetata",
+            "L7"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1617.42,
+        "detected_text": [
+            "[audience] in [{amat]: [text}: Here, (audience], [fcrmat], and [text] are placehokders",
+            "Ghctn tti",
+            "Ladnnc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1619.42,
+        "detected_text": [
+            "[audience] in [{omat]: [text} Here, (audience], [fcrmat], and [text] are placehokers",
+            "Ldrnc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1621.41,
+        "detected_text": [
+            "[audience] in [{omat]: [text} Here, (audience], [fcrmat], and [text] are placehokers",
+            "Ldrnc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1623.41,
+        "detected_text": [
+            "[audience] in [{omat]: [text} Here, (audience], [fcrmat], and [text] are placehokers",
+            "Ldrnc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1625.41,
+        "detected_text": [
+            "[audience] in [{omat]: [text]: Here, (audience], [fcrmat], and [text] are placehokers",
+            "Ghctd etetat",
+            "Lhtne"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1627.4,
+        "detected_text": [
+            "[audience] in [fomat]: [text]: Here , (eudierce], [farmat]; and [text] are placehokders",
+            "Lacne"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1629.4,
+        "detected_text": [
+            "[audience] in [fomat]: [text]: Here , (eudierce], [farmat]; and [text] are placehokders",
+            "Lacne"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1631.4,
+        "detected_text": [
+            "[audience] in [fomat]: [text]: Here , (eudierce], [fcrmat]; and [text] are placehokders",
+            "Lacne"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1633.39,
+        "detected_text": [
+            "[audience] in [fomat]: [text]: Here , (eudierce], [fcrmat]; and [text] are placehokders",
+            "Lacne"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1635.39,
+        "detected_text": [
+            "[audience] in [{ammat]: [text]: Here , (eudierce], [format]; and [text] are placeholders",
+            "Katott"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1637.39,
+        "detected_text": [
+            "[audience] in [{ammat]: [text]: Here, (eudierce], [format]; and [text] are placeholders",
+            "Katott"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1639.38,
+        "detected_text": [
+            "[audience] in [{ammat]: [text]: Here, (eudierce], [format]; and [text] are placeholders",
+            "Katott"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1657.36,
+        "detected_text": [
+            "wedle; #P"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1683.31,
+        "detected_text": [
+            "Get outside your comfort phone:"
+        ],
+        "label": "sponsorship/advertisement"
+    },
+    {
+        "timestamp": 1685.31,
+        "detected_text": [
+            "X6i"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1687.31,
+        "detected_text": [
+            "OVC"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1689.3,
+        "detected_text": [
+            "[audience] in [{amat]: [text]: Hare, (eudierce]; [fcrmat], and [text] are placehokders",
+            "Letrteet"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1691.3,
+        "detected_text": [
+            "[audience] in [{amat]: [text]: Here, (eudierce]; [fcrmat], and [text] are placehokders",
+            "YetrEete",
+            "Lnc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1693.3,
+        "detected_text": [
+            "[audience] in [{amat]: [text]: Here, (eudierce]; [fcrmat], and [text] are placehokders",
+            "Lnc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1695.29,
+        "detected_text": [
+            "[audience] in [{amat]: [text]: Here, (eudierce]; [fcrmat], and [text] are placehokders",
+            "Lnc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1697.29,
+        "detected_text": [
+            "[audience] in [{amat]: [text]: Here, (eudierce]; [fcrmat], and [text] are placehokders"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1699.29,
+        "detected_text": [
+            "[audience] in [Iomat]: [text]: Here , (eudierce], [fcrmat], and [text] are placehokders",
+            "cacothrenhet",
+            "Lacne"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1701.29,
+        "detected_text": [
+            "for"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1703.28,
+        "detected_text": [
+            "(o"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1709.27,
+        "detected_text": [
+            "Forc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1711.27,
+        "detected_text": [
+            "Fo"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1717.26,
+        "detected_text": [
+            "Foro"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1725.25,
+        "detected_text": [
+            "Forc "
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1727.24,
+        "detected_text": [
+            "Forc "
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1729.24,
+        "detected_text": [
+            "Forc "
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1731.24,
+        "detected_text": [
+            "forc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1735.23,
+        "detected_text": [
+            "fforc!"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1793.14,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1795.14,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1797.13,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1799.13,
+        "detected_text": [
+            "tanforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1801.13,
+        "detected_text": [
+            "anforc"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1803.12,
+        "detected_text": [
+            "nfor{"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1809.11,
+        "detected_text": [
+            "ZcwScl Fo",
+            "7j"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1811.11,
+        "detected_text": [
+            "ZcwScl Fo",
+            "ul"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1813.11,
+        "detected_text": [
+            "Zea-Snal Por",
+            "1044n"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1815.1,
+        "detected_text": [
+            "Zea-Snal Por",
+            "1044n"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1817.1,
+        "detected_text": [
+            "Zea-Snal Por",
+            "1044n"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1819.1,
+        "detected_text": [
+            "Zera-Snal Foc",
+            "03. 4DS"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1821.09,
+        "detected_text": [
+            "Zera-Snct For",
+            "D'meC"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1823.09,
+        "detected_text": [
+            "Zera-Snct For",
+            "D'meC"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1825.09,
+        "detected_text": [
+            "Zcra-Snct For",
+            "F\"",
+            "JD'Li-r"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1827.08,
+        "detected_text": [
+            "Zcra-Snct For",
+            "F\"",
+            "JD'Li-r"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1829.08,
+        "detected_text": [
+            "Zc-Snc: (~Qr",
+            "Jvci "
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1831.08,
+        "detected_text": [
+            "Zeo-Snc: (~Qr",
+            "Jvci "
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1833.07,
+        "detected_text": [
+            "Zeo-Snc: (~Qr",
+            "Jvci "
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1835.07,
+        "detected_text": [
+            "Zea-Sncl (or",
+            "Jvci "
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1837.07,
+        "detected_text": [
+            "Zea-Sncl (or",
+            "ViA"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1839.07,
+        "detected_text": [
+            "Lcra-Snol (or",
+            "U'ATA"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1841.06,
+        "detected_text": [
+            "Lca-S\"1ct (v0rr",
+            "UA"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1843.06,
+        "detected_text": [
+            "Lca-S\"1ct (v0rr",
+            "UA"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1845.06,
+        "detected_text": [
+            "Lca-S\"1ct (v0rr",
+            "CeT"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1847.05,
+        "detected_text": [
+            "Zera-Sncl (*0r*",
+            "T"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1849.05,
+        "detected_text": [
+            "Zera-Sncl (*0r*",
+            "T"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1851.05,
+        "detected_text": [
+            "Zera-Sncl (*0r*",
+            "T"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1853.04,
+        "detected_text": [
+            "Zeo-Sncl (Qr",
+            "aCIT"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1855.04,
+        "detected_text": [
+            "Zero-Sna: (or",
+            "Vaja"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1857.04,
+        "detected_text": [
+            "Zero-Sna: (or",
+            "Vaja"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1859.03,
+        "detected_text": [
+            "Zora-Snat pror",
+            "CeT"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1861.03,
+        "detected_text": [
+            "Zora-Snat pror",
+            "CeT"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1863.03,
+        "detected_text": [
+            "Zcrc-Sncl Pror\"",
+            "U4Ini I"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1865.02,
+        "detected_text": [
+            "Lorc-Snct Foc'",
+            "U4INi -C"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1867.02,
+        "detected_text": [
+            "Loro-Snct Foc'",
+            "U4INi -C"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1869.02,
+        "detected_text": [
+            "Loro-Snct Foc'",
+            "U4INi -C"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1871.01,
+        "detected_text": [
+            "Lcro-Snct Foc",
+            "U4GiA"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1873.01,
+        "detected_text": [
+            "Zcro-Snct orpt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1875.01,
+        "detected_text": [
+            "Zcro-Snct orpt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1877.0,
+        "detected_text": [
+            "Zcro-Snct"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1879.0,
+        "detected_text": [
+            "Zcro-Snct"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1881.0,
+        "detected_text": [
+            "Zcro-Snct For",
+            "Ftit",
+            "CE Li!",
+            "TIiiI"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1883.0,
+        "detected_text": [
+            "Zcro-Snc: For`",
+            "TAietI"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1884.99,
+        "detected_text": [
+            "Zcro-Snc: For`",
+            "TAietI"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1886.99,
+        "detected_text": [
+            "Zco-Snct For"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1888.99,
+        "detected_text": [
+            "Zcro-Sncl For",
+            "inio"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1890.98,
+        "detected_text": [
+            "Zcro-Sncl For",
+            "inio"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1892.98,
+        "detected_text": [
+            "Zerc-Snci 1Or",
+            "ni"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1894.98,
+        "detected_text": [
+            "Zerc-Snci 1Or",
+            "ni"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1896.97,
+        "detected_text": [
+            "Zero-Sncl ior",
+            "DiFT"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1898.97,
+        "detected_text": [
+            "Zerc Sncl Fvo\"",
+            "DiFT"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1900.97,
+        "detected_text": [
+            "Zerc Sncl Fvo\"",
+            "DiFT"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1902.96,
+        "detected_text": [
+            "Zerc Sncl Fvo\"",
+            "DiFT"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1904.96,
+        "detected_text": [
+            "Zerc Sncl Fvo\"",
+            "rTIF"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1906.96,
+        "detected_text": [
+            "Zero-Sal F'oc",
+            "Dild"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1908.95,
+        "detected_text": [
+            "Zero-Sal F'oc",
+            "Dild"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1910.95,
+        "detected_text": [
+            "Zero-Snot F'oc",
+            "Ji~Ci"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1912.95,
+        "detected_text": [
+            "Zero-Snot F'oc",
+            "Ji~Ci"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1914.94,
+        "detected_text": [
+            "Zca-Snci Coc",
+            "73.C",
+            "Tor"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1916.94,
+        "detected_text": [
+            "Zera-Snct For",
+            "TaiGi"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1918.94,
+        "detected_text": [
+            "Zera-Snct For",
+            "TaiGi"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1920.93,
+        "detected_text": [
+            "Zera-Snct For",
+            "TaiGi"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1922.93,
+        "detected_text": [
+            "Zca-Sncl orpt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1924.93,
+        "detected_text": [
+            "Zca-Sncl orpt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1926.93,
+        "detected_text": [
+            "Zca-Sncl orpt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1928.92,
+        "detected_text": [
+            "Zca-Sncl orpt"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1930.92,
+        "detected_text": [
+            "cc-Sncl ioc",
+            "IcC+",
+            "Jcmia",
+            "4"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1932.92,
+        "detected_text": [
+            "cc-Sncl ioc",
+            "IcC+",
+            "Jcmia",
+            "4"
+        ],
+        "label": "core content"
+    },
+    {
+        "timestamp": 1934.91,
+        "detected_text": [
+            "cc-Snc: Voc",
+            "Jcmia",
+            "4"
+        ],
+        "label": "core content"
+    }
+]

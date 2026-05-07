@@ -6,9 +6,9 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from audio import extract_audio, find_boundary_peaks, generate_candidate_intervals
-from music import compute_music_windows, music_features_for_interval
-from speech import transcribe_audio, summarize_video_theme, detect_non_content_from_full_transcript, get_interval_transcript
+from .audio import extract_audio, find_boundary_peaks, generate_candidate_intervals
+from .music import compute_music_windows, music_features_for_interval
+from .speech import transcribe_audio, summarize_video_theme, detect_non_content_from_full_transcript, get_interval_transcript
 
 
 
@@ -741,23 +741,46 @@ def run_all_videos(input_dir="videos_with_ads", output_dir="audio_outputs", forc
 
 def run_audio_speech_music(video_path, output_json_path, force_recompute=False):
     # Integration entry point for callers that want to process one video directly.
-    output = analyze_single_video(video_path, output_json_path, force_recompute=force_recompute)
+    if torch.cuda.is_available():
+        output = analyze_single_video(video_path,output_json_path,force_recompute)
+    else:
+        with open(output_json_path, 'r') as f:
+            output = json.load(f)
+        
     return output
 
-
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Analyze a single video for non-content segments.")
+    parser.add_argument("video_path", type=str, help="Path to the video file to analyze.")
+    parser.add_argument("--output-dir", default="./audio_output", help="Directory to save the JSON output.")
+    parser.add_argument("--force-recompute", action="store_true", help="Ignore cache and re-run all steps.")
+    args = parser.parse_args()
+
+    video_path = Path(args.video_path)
     
+    # Check if the file exists before proceeding
+    if not video_path.exists():
+        print(f"Error: Video file not found at {video_path}")
+        exit(1)
+
+    # Construct the default output path: ./audio_output/{video_name}_audio.json
+    output_dir = Path(args.output_dir)
+    output_json_path = output_dir / f"{video_path.stem}_audio.json"
+
     if torch.cuda.is_available():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input-dir", default="../../assets/")
-        parser.add_argument("--output-dir", default="audio_outputs")
-        parser.add_argument("--force-recompute", action="store_true")
-        args = parser.parse_args()
-
-        run_all_videos(args.input_dir, args.output_dir, force_recompute=args.force_recompute)
-    
+        print(f"Processing: {video_path.name}")
+        analyze_single_video(
+            video_path=video_path,
+            output_json_path=output_json_path,
+            force_recompute=args.force_recompute
+        )
+        print(f"Analysis complete. Results saved to {output_json_path}")
     else:
-        with open('audio_outputs/test_001_audio.json', 'r') as f:
-            d = json.load(f)
-
-        print(d)
+        # Fallback logic if CUDA is unavailable
+        print("CUDA not available. Checking for existing output...")
+        if output_json_path.exists():
+            with open(output_json_path, 'r') as f:
+                data = json.load(f)
+            print(json.dumps(data, indent=2))
+        else:
+            print(f"Error: CUDA is required for processing, and no cached output found at {output_json_path}")
