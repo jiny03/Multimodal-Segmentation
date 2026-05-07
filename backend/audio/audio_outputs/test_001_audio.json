@@ -1,0 +1,2226 @@
+{
+  "video_filename": "test_001.mp4",
+  "module": "audio_speech_music",
+  "ad_segments": [
+    {
+      "start": 629.2,
+      "end": 659.1,
+      "duration": 29.899999999999977,
+      "non_content_score": 1.0,
+      "source": "llm_full_transcript",
+      "speech_score": 1.0,
+      "audio_boundary_score": 0.7092909812927246,
+      "music_delta": 0.6085889982857874,
+      "low_speech_score": 0.0
+    },
+    {
+      "start": 1080.0,
+      "end": 1118.0,
+      "duration": 38.0,
+      "non_content_score": 0.5614086043976663,
+      "source": "audio_boundary_structural",
+      "speech_score": 0.0,
+      "audio_boundary_score": 0.41448450088500977,
+      "music_delta": 0.49630564810759903,
+      "low_speech_score": 0.7865789473684237
+    }
+  ],
+  "transcript_segments": [
+    {
+      "start": 1.0,
+      "end": 17.51,
+      "duration": 16.51,
+      "text": "When you have 21 minutes to speak,"
+    },
+    {
+      "start": 17.75,
+      "end": 20.17,
+      "duration": 2.4200000000000017,
+      "text": "two million years seems like a really long time."
+    },
+    {
+      "start": 20.37,
+      "end": 23.17,
+      "duration": 2.8000000000000007,
+      "text": "But evolutionarily, two million years is nothing."
+    },
+    {
+      "start": 23.31,
+      "end": 24.61,
+      "duration": 1.3000000000000007,
+      "text": "And yet in two million years,"
+    },
+    {
+      "start": 25.17,
+      "end": 28.65,
+      "duration": 3.479999999999997,
+      "text": "the human brain has nearly tripled in mass,"
+    },
+    {
+      "start": 28.83,
+      "end": 30.97,
+      "duration": 2.1400000000000006,
+      "text": "going from the one and a quarter pound brain"
+    },
+    {
+      "start": 30.97,
+      "end": 32.87,
+      "duration": 1.8999999999999986,
+      "text": "of our ancestor here, Habilus,"
+    },
+    {
+      "start": 33.05,
+      "end": 34.99,
+      "duration": 1.9400000000000048,
+      "text": "to the almost three pound meatloaf"
+    },
+    {
+      "start": 34.99,
+      "end": 37.89,
+      "duration": 2.8999999999999986,
+      "text": "that everybody here has between their ears."
+    },
+    {
+      "start": 38.49,
+      "end": 41.89,
+      "duration": 3.3999999999999986,
+      "text": "What is it about a big brain"
+    },
+    {
+      "start": 41.89,
+      "end": 45.19,
+      "duration": 3.299999999999997,
+      "text": "that nature was so eager for every one of us to have one?"
+    },
+    {
+      "start": 45.77,
+      "end": 47.93,
+      "duration": 2.1599999999999966,
+      "text": "Well, it turns out when brains triple in size,"
+    },
+    {
+      "start": 47.99,
+      "end": 49.55,
+      "duration": 1.5599999999999952,
+      "text": "they don't just get three times bigger."
+    },
+    {
+      "start": 49.73,
+      "end": 51.03,
+      "duration": 1.3000000000000043,
+      "text": "They gain new structures."
+    },
+    {
+      "start": 51.65,
+      "end": 54.33,
+      "duration": 2.6799999999999997,
+      "text": "And one of the main reasons that our brain got so big"
+    },
+    {
+      "start": 54.33,
+      "end": 57.69,
+      "duration": 3.3599999999999994,
+      "text": "is because it got a new part called the frontal lobe,"
+    },
+    {
+      "start": 57.75,
+      "end": 60.21,
+      "duration": 2.460000000000001,
+      "text": "and particularly a part called the prefrontal cortex."
+    },
+    {
+      "start": 61.05,
+      "end": 63.21,
+      "duration": 2.1600000000000037,
+      "text": "Now, what does a prefrontal cortex do for you"
+    },
+    {
+      "start": 63.21,
+      "end": 66.59,
+      "duration": 3.3800000000000026,
+      "text": "that should justify the entire architectural overhaul"
+    },
+    {
+      "start": 66.59,
+      "end": 69.87,
+      "duration": 3.280000000000001,
+      "text": "of the human skull in the blink of evolutionary time?"
+    },
+    {
+      "start": 69.87,
+      "end": 78.29,
+      "duration": 8.420000000000002,
+      "text": "Well, it turns out the prefrontal cortex does lots of things, but one of the most important things it does is it is an experience simulator."
+    },
+    {
+      "start": 78.97,
+      "end": 84.71,
+      "duration": 5.739999999999995,
+      "text": "You know, pilots practice in flight simulators so that they don't make real mistakes in planes."
+    },
+    {
+      "start": 85.57,
+      "end": 94.07,
+      "duration": 8.5,
+      "text": "Human beings have this marvelous adaptation that they can actually have experiences in their heads before they try them out in real life."
+    },
+    {
+      "start": 94.07,
+      "end": 99.63,
+      "duration": 5.560000000000002,
+      "text": "This is a trick that none of our ancestors could do, that no other animal can do quite like we can."
+    },
+    {
+      "start": 99.87,
+      "end": 101.15,
+      "duration": 1.2800000000000011,
+      "text": "It's a marvelous adaptation."
+    },
+    {
+      "start": 101.55,
+      "end": 105.03,
+      "duration": 3.480000000000004,
+      "text": "It's up there with opposable thumbs and standing upright in language"
+    },
+    {
+      "start": 105.03,
+      "end": 228.03,
+      "duration": 123.0,
+      "text": "as one of the things that got our species out of the trees and into the shopping mall."
+    },
+    {
+      "start": 228.91,
+      "end": 232.35,
+      "duration": 3.4399999999999977,
+      "text": "Now, all of you have done this."
+    },
+    {
+      "start": 232.49,
+      "end": 235.93,
+      "duration": 3.4399999999999977,
+      "text": "I mean, you know, Ben & Jerry's doesn't have liver and onion ice cream,"
+    },
+    {
+      "start": 235.93,
+      "end": 239.43,
+      "duration": 3.5,
+      "text": "and it's not because they whipped some up, tried it, and went yuck."
+    },
+    {
+      "start": 239.65,
+      "end": 242.57,
+      "duration": 2.9199999999999875,
+      "text": "It's because from, without leaving your armchair,"
+    },
+    {
+      "start": 242.81,
+      "end": 247.07,
+      "duration": 4.259999999999991,
+      "text": "you can simulate that flavor and say yuck before you make it."
+    },
+    {
+      "start": 249.2,
+      "end": 252.1,
+      "duration": 2.9000000000000057,
+      "text": "Let's see how your experience simulators are working."
+    },
+    {
+      "start": 252.22,
+      "end": 255.66,
+      "duration": 3.4399999999999977,
+      "text": "Let's just run a quick diagnostic before I proceed with the rest of the talk."
+    },
+    {
+      "start": 256.02,
+      "end": 259.54,
+      "duration": 3.5200000000000387,
+      "text": "Here's two different futures that I invite you to contemplate,"
+    },
+    {
+      "start": 259.78,
+      "end": 263.4,
+      "duration": 3.6200000000000045,
+      "text": "and you can try to simulate them and tell me which one you think you might prefer."
+    },
+    {
+      "start": 263.86,
+      "end": 266.28,
+      "duration": 2.419999999999959,
+      "text": "One of them is winning the lottery."
+    },
+    {
+      "start": 266.48,
+      "end": 271.84,
+      "duration": 5.359999999999957,
+      "text": "This is about $314 million, and the other is becoming paraplegic."
+    },
+    {
+      "start": 272.7,
+      "end": 274.66,
+      "duration": 1.9600000000000364,
+      "text": "So just give it a moment of thought."
+    },
+    {
+      "start": 274.66,
+      "end": 277.22,
+      "duration": 2.5600000000000023,
+      "text": "You probably don't feel like you need a moment of thought."
+    },
+    {
+      "start": 277.8,
+      "end": 281.94,
+      "duration": 4.139999999999986,
+      "text": "And interestingly, there are data on these two groups of people,"
+    },
+    {
+      "start": 282.1,
+      "end": 283.66,
+      "duration": 1.5600000000000023,
+      "text": "data on how happy they are."
+    },
+    {
+      "start": 283.94,
+      "end": 286.34,
+      "duration": 2.3999999999999773,
+      "text": "And this is exactly what you expected, isn't it?"
+    },
+    {
+      "start": 286.72,
+      "end": 289.5,
+      "duration": 2.7799999999999727,
+      "text": "But these aren't the data. I made these up."
+    },
+    {
+      "start": 289.84,
+      "end": 290.74,
+      "duration": 0.9000000000000341,
+      "text": "These are the data."
+    },
+    {
+      "start": 291.04,
+      "end": 294.42,
+      "duration": 3.3799999999999955,
+      "text": "You failed the pop quiz, and you're hardly five minutes into the lecture."
+    },
+    {
+      "start": 294.42,
+      "end": 298.52,
+      "duration": 4.099999999999966,
+      "text": "Because the fact is that a year after losing the use of their legs"
+    },
+    {
+      "start": 298.52,
+      "end": 300.78,
+      "duration": 2.259999999999991,
+      "text": "and a year after winning the lotto,"
+    },
+    {
+      "start": 301.26,
+      "end": 305.72,
+      "duration": 4.460000000000036,
+      "text": "lottery winners and paraplegics are equally happy with their lives."
+    },
+    {
+      "start": 305.72,
+      "end": 309.08,
+      "duration": 3.359999999999957,
+      "text": "Now, don't feel too bad about failing the first pop quiz,"
+    },
+    {
+      "start": 309.18,
+      "end": 312.4,
+      "duration": 3.2199999999999704,
+      "text": "because everybody fails all of the pop quizzes all of the time."
+    },
+    {
+      "start": 312.96,
+      "end": 315.32,
+      "duration": 2.3600000000000136,
+      "text": "The research that my laboratory has been doing,"
+    },
+    {
+      "start": 315.46,
+      "end": 318.16,
+      "duration": 2.7000000000000455,
+      "text": "that economists and psychologists around the country have been doing,"
+    },
+    {
+      "start": 318.4,
+      "end": 320.96,
+      "duration": 2.5600000000000023,
+      "text": "have revealed something really quite startling to us,"
+    },
+    {
+      "start": 321.66,
+      "end": 323.36,
+      "duration": 1.6999999999999886,
+      "text": "something we call the impact bias,"
+    },
+    {
+      "start": 323.5,
+      "end": 326.42,
+      "duration": 2.920000000000016,
+      "text": "which is the tendency for the simulator to work badly,"
+    },
+    {
+      "start": 326.84,
+      "end": 329.2,
+      "duration": 2.3600000000000136,
+      "text": "for the simulator to make you believe"
+    },
+    {
+      "start": 329.2,
+      "end": 333.46,
+      "duration": 4.259999999999991,
+      "text": "that different outcomes are more different than in fact they really are,"
+    },
+    {
+      "start": 333.46,
+      "end": 335.68,
+      "duration": 2.2200000000000273,
+      "text": "from field studies to laboratory studies,"
+    },
+    {
+      "start": 335.72,
+      "end": 352.9,
+      "duration": 17.17999999999995,
+      "text": "We see that winning or losing an election, gaining or losing a romantic partner, getting or not getting a promotion, passing or not passing a college test, on and on, have far less impact, less intensity, and much less duration than people expect them to have."
+    },
+    {
+      "start": 352.9,
+      "end": 356.0,
+      "duration": 3.1000000000000227,
+      "text": "In fact, a recent study, this almost floors me,"
+    },
+    {
+      "start": 356.1,
+      "end": 360.6,
+      "duration": 4.5,
+      "text": "a recent study showing how major life traumas affect people"
+    },
+    {
+      "start": 360.6,
+      "end": 363.66,
+      "duration": 3.0600000000000023,
+      "text": "suggests that if it happened over three months ago"
+    },
+    {
+      "start": 363.66,
+      "end": 364.86,
+      "duration": 1.1999999999999886,
+      "text": "with only a few exceptions,"
+    },
+    {
+      "start": 365.18,
+      "end": 367.74,
+      "duration": 2.5600000000000023,
+      "text": "it has no impact whatsoever on your happiness."
+    },
+    {
+      "start": 369.48,
+      "end": 370.12,
+      "duration": 0.6399999999999864,
+      "text": "Why?"
+    },
+    {
+      "start": 371.16,
+      "end": 374.9,
+      "duration": 3.7399999999999523,
+      "text": "Because happiness can be synthesized."
+    },
+    {
+      "start": 374.9,
+      "end": 377.3,
+      "duration": 2.400000000000034,
+      "text": "Sir Thomas Brown wrote in 1642,"
+    },
+    {
+      "start": 377.5,
+      "end": 379.14,
+      "duration": 1.6399999999999864,
+      "text": "I am the happiest man alive."
+    },
+    {
+      "start": 379.5,
+      "end": 382.18,
+      "duration": 2.680000000000007,
+      "text": "I have that in me that can convert poverty to riches,"
+    },
+    {
+      "start": 382.18,
+      "end": 388.96,
+      "duration": 6.779999999999973,
+      "text": "adversity to prosperity. I am more invulnerable than Achilles fortune hath not one place to hit"
+    },
+    {
+      "start": 388.96,
+      "end": 393.9,
+      "duration": 4.939999999999998,
+      "text": "me. What kind of remarkable machinery does this guy have in his head? Well, it turns out it's"
+    },
+    {
+      "start": 393.9,
+      "end": 400.68,
+      "duration": 6.78000000000003,
+      "text": "precisely the same remarkable machinery that all of us have. Human beings have something that we"
+    },
+    {
+      "start": 400.68,
+      "end": 406.88,
+      "duration": 6.199999999999989,
+      "text": "might think of as a psychological immune system, a system of cognitive processes, largely non-conscious"
+    },
+    {
+      "start": 406.88,
+      "end": 413.48,
+      "duration": 6.600000000000023,
+      "text": "cognitive processes that help them change their views of the world so that they can feel better"
+    },
+    {
+      "start": 413.48,
+      "end": 419.96,
+      "duration": 6.479999999999961,
+      "text": "about the worlds in which they find themselves. Like Sir Thomas, you have this machine, unlike Sir"
+    },
+    {
+      "start": 419.96,
+      "end": 427.8,
+      "duration": 7.840000000000032,
+      "text": "Thomas, you seem not to know it. We synthesize happiness, but we think happiness is a thing to"
+    },
+    {
+      "start": 427.8,
+      "end": 433.36,
+      "duration": 5.560000000000002,
+      "text": "be found. Now, you don't need me to tell you, give you too many examples of people synthesizing"
+    },
+    {
+      "start": 433.36,
+      "end": 436.96,
+      "duration": 3.599999999999966,
+      "text": "happiness, I suspect. Though I'm going to show you some experimental evidence. You don't"
+    },
+    {
+      "start": 436.96,
+      "end": 441.8,
+      "duration": 4.840000000000032,
+      "text": "have to look very far for evidence. I, as a challenge to myself, since I say this once"
+    },
+    {
+      "start": 441.8,
+      "end": 445.64,
+      "duration": 3.839999999999975,
+      "text": "in a while in lectures, I took a copy of the New York Times and tried to find some instances"
+    },
+    {
+      "start": 445.64,
+      "end": 449.72,
+      "duration": 4.080000000000041,
+      "text": "of people synthesizing happiness. And here are three guys synthesizing happiness. I'm"
+    },
+    {
+      "start": 449.72,
+      "end": 453.8,
+      "duration": 4.079999999999984,
+      "text": "so much better off physically, financially, emotionally, and almost every other way, mentally"
+    },
+    {
+      "start": 453.8,
+      "end": 458.0,
+      "duration": 4.199999999999989,
+      "text": "almost every other way. I don't have one minute's regret. It was a glorious experience. I believe"
+    },
+    {
+      "start": 458.0,
+      "end": 461.9,
+      "duration": 3.8999999999999773,
+      "text": "it turned out for the best. Who are these characters who are so damn happy? Well, the"
+    },
+    {
+      "start": 461.9,
+      "end": 467.9,
+      "duration": 6.0,
+      "text": "The first one is Jim Wright. Some of you are old enough to remember he was the chairman of the House of Representatives."
+    },
+    {
+      "start": 467.9,
+      "end": 473.9,
+      "duration": 6.0,
+      "text": "And he resigned in disgrace when this young Republican named Newt Gringrich found out about a shady book deal he had done."
+    },
+    {
+      "start": 473.9,
+      "end": 479.9,
+      "duration": 6.0,
+      "text": "He lost everything. Most powerful Democrat in the country. He lost everything. He lost his money. He lost his power."
+    },
+    {
+      "start": 479.9,
+      "end": 481.9,
+      "duration": 2.0,
+      "text": "What does he have to say all these years later about it?"
+    },
+    {
+      "start": 481.9,
+      "end": 485.9,
+      "duration": 4.0,
+      "text": "I am so much better off physically, financially, mentally, in almost every other way."
+    },
+    {
+      "start": 485.9,
+      "end": 490.9,
+      "duration": 5.0,
+      "text": "What other way would there be to be better off? Vegetably, minerally, animally?"
+    },
+    {
+      "start": 490.9,
+      "end": 492.9,
+      "duration": 2.0,
+      "text": "He's pretty much covered in there."
+    },
+    {
+      "start": 492.9,
+      "end": 494.9,
+      "duration": 2.0,
+      "text": "Maurice Bickham is somebody you've never heard of."
+    },
+    {
+      "start": 494.9,
+      "end": 496.9,
+      "duration": 2.0,
+      "text": "Maurice Bickham uttered these words."
+    },
+    {
+      "start": 496.9,
+      "end": 499.9,
+      "duration": 3.0,
+      "text": "Upon being released, he was 78 years old."
+    },
+    {
+      "start": 499.9,
+      "end": 501.9,
+      "duration": 2.0,
+      "text": "He'd spent 37 years in Louisiana State Penitentiary"
+    },
+    {
+      "start": 501.9,
+      "end": 503.9,
+      "duration": 2.0,
+      "text": "for a crime he didn't commit."
+    },
+    {
+      "start": 503.9,
+      "end": 506.9,
+      "duration": 3.0,
+      "text": "He was ultimately exonerated at the age of 78"
+    },
+    {
+      "start": 506.9,
+      "end": 507.9,
+      "duration": 1.0,
+      "text": "through DNA evidence."
+    },
+    {
+      "start": 507.9,
+      "end": 509.9,
+      "duration": 2.0,
+      "text": "And what did he have to say about his experience?"
+    },
+    {
+      "start": 509.9,
+      "end": 510.9,
+      "duration": 1.0,
+      "text": "I don't have one minute's regret."
+    },
+    {
+      "start": 510.9,
+      "end": 512.9,
+      "duration": 2.0,
+      "text": "It was a glorious experience. Glorious!"
+    },
+    {
+      "start": 512.9,
+      "end": 514.9,
+      "duration": 2.0,
+      "text": "This guy is not saying, well, you know,"
+    },
+    {
+      "start": 514.9,
+      "end": 516.9,
+      "duration": 2.0,
+      "text": "there's some nice guys, they had a gym."
+    },
+    {
+      "start": 516.9,
+      "end": 518.9,
+      "duration": 2.0,
+      "text": "It's glorious, a word we usually reserve"
+    },
+    {
+      "start": 518.9,
+      "end": 521.14,
+      "duration": 2.240000000000009,
+      "text": "reserved for something like a religious experience."
+    },
+    {
+      "start": 522.26,
+      "end": 524.52,
+      "duration": 2.259999999999991,
+      "text": "Harry S. Langerman uttered these words,"
+    },
+    {
+      "start": 524.64,
+      "end": 526.7,
+      "duration": 2.060000000000059,
+      "text": "and he's somebody you might have known but didn't,"
+    },
+    {
+      "start": 526.78,
+      "end": 529.44,
+      "duration": 2.660000000000082,
+      "text": "because in 1949 he read a little article in the paper"
+    },
+    {
+      "start": 529.44,
+      "end": 533.12,
+      "duration": 3.67999999999995,
+      "text": "about a hamburger stand owned by these two brothers named McDonald's,"
+    },
+    {
+      "start": 533.14,
+      "end": 535.02,
+      "duration": 1.8799999999999955,
+      "text": "and he thought, that's a really neat idea,"
+    },
+    {
+      "start": 535.12,
+      "end": 536.18,
+      "duration": 1.0599999999999454,
+      "text": "so he went to find them."
+    },
+    {
+      "start": 536.48,
+      "end": 539.02,
+      "duration": 2.5399999999999636,
+      "text": "They said, we'd give you a franchise on this for $3,000."
+    },
+    {
+      "start": 539.32,
+      "end": 541.4,
+      "duration": 2.0799999999999272,
+      "text": "Harry went back to New York, asked his brother,"
+    },
+    {
+      "start": 541.4,
+      "end": 543.78,
+      "duration": 2.3799999999999955,
+      "text": "who was an investment banker, to loan him the $3,000,"
+    },
+    {
+      "start": 544.12,
+      "end": 545.44,
+      "duration": 1.32000000000005,
+      "text": "and his brother's immortal words were,"
+    },
+    {
+      "start": 545.72,
+      "end": 547.14,
+      "duration": 1.419999999999959,
+      "text": "you idiot, nobody eats hamburgers."
+    },
+    {
+      "start": 547.14,
+      "end": 551.76,
+      "duration": 4.6200000000000045,
+      "text": "He wouldn't lend him the money, and of course, six months later, Ray Kroc had exactly the same idea."
+    },
+    {
+      "start": 552.06,
+      "end": 557.52,
+      "duration": 5.460000000000036,
+      "text": "It turns out people do eat hamburgers, and Ray Kroc, for a while, became the richest man in America."
+    },
+    {
+      "start": 558.34,
+      "end": 561.22,
+      "duration": 2.8799999999999955,
+      "text": "Oh, and then finally, you know, the best of all possible worlds."
+    },
+    {
+      "start": 561.34,
+      "end": 566.44,
+      "duration": 5.100000000000023,
+      "text": "Some of you recognize this young photo of Pete Best, who was the original drummer for the Beatles,"
+    },
+    {
+      "start": 567.16,
+      "end": 572.42,
+      "duration": 5.259999999999991,
+      "text": "until they, you know, kind of like sent him out on an errand and snuck away and picked up Ringo on a tour."
+    },
+    {
+      "start": 572.82,
+      "end": 575.1,
+      "duration": 2.2799999999999727,
+      "text": "Well, in 1994, when Pete Best was interviewed,"
+    },
+    {
+      "start": 575.28,
+      "end": 577.72,
+      "duration": 2.4400000000000546,
+      "text": "yes, he's still a drummer, yes, he's a studio musician,"
+    },
+    {
+      "start": 578.2,
+      "end": 579.08,
+      "duration": 0.8799999999999955,
+      "text": "he had this to say,"
+    },
+    {
+      "start": 579.14,
+      "end": 581.3,
+      "duration": 2.159999999999968,
+      "text": "I'm happier than I would have been with the Beatles."
+    },
+    {
+      "start": 581.5,
+      "end": 584.68,
+      "duration": 3.17999999999995,
+      "text": "Okay, there's something important to be learned from these people,"
+    },
+    {
+      "start": 584.8,
+      "end": 586.26,
+      "duration": 1.4600000000000364,
+      "text": "and it is the secret of happiness."
+    },
+    {
+      "start": 586.78,
+      "end": 588.56,
+      "duration": 1.7799999999999727,
+      "text": "Here it is, finally, to be revealed."
+    },
+    {
+      "start": 589.06,
+      "end": 592.46,
+      "duration": 3.400000000000091,
+      "text": "First, accrue wealth, power, and prestige, then lose it."
+    },
+    {
+      "start": 594.38,
+      "end": 598.26,
+      "duration": 3.8799999999999955,
+      "text": "Second, spend as much of your life in prison as you possibly can."
+    },
+    {
+      "start": 599.16,
+      "end": 602.28,
+      "duration": 3.1200000000000045,
+      "text": "Third, make somebody else really, really rich."
+    },
+    {
+      "start": 602.42,
+      "end": 605.18,
+      "duration": 2.759999999999991,
+      "text": "And finally, never, ever join the Beatles."
+    },
+    {
+      "start": 606.8,
+      "end": 612.12,
+      "duration": 5.32000000000005,
+      "text": "Okay, now, I, like Zee Frank, can predict your next thought,"
+    },
+    {
+      "start": 612.24,
+      "end": 613.46,
+      "duration": 1.2200000000000273,
+      "text": "which is, yeah, right."
+    },
+    {
+      "start": 613.7,
+      "end": 616.0,
+      "duration": 2.2999999999999545,
+      "text": "Because when people synthesize happiness,"
+    },
+    {
+      "start": 616.12,
+      "end": 617.92,
+      "duration": 1.7999999999999545,
+      "text": "as these gentlemen seem to have done,"
+    },
+    {
+      "start": 618.3,
+      "end": 621.74,
+      "duration": 3.4400000000000546,
+      "text": "we all smile at them, but we kind of roll our eyes and say,"
+    },
+    {
+      "start": 622.06,
+      "end": 624.36,
+      "duration": 2.300000000000068,
+      "text": "yeah, right, you never really wanted the job."
+    },
+    {
+      "start": 624.6,
+      "end": 625.54,
+      "duration": 0.9399999999999409,
+      "text": "Oh, yeah, right."
+    },
+    {
+      "start": 625.88,
+      "end": 628.2,
+      "duration": 2.32000000000005,
+      "text": "You really didn't have that much in common with her."
+    },
+    {
+      "start": 629.2,
+      "end": 630.5,
+      "duration": 1.2999999999999545,
+      "text": "Out for some lays."
+    },
+    {
+      "start": 630.5,
+      "end": 642.99,
+      "duration": 12.490000000000009,
+      "text": "which tasty chip will be the best sour cream and onion smoky barbecue cheddar sour cream salt and"
+    },
+    {
+      "start": 642.99,
+      "end": 652.63,
+      "duration": 9.639999999999986,
+      "text": "vinegar too you sample them all because the crisp is so good you left your wallet at home"
+    },
+    {
+      "start": 652.63,
+      "end": 659.09,
+      "duration": 6.460000000000036,
+      "text": "but now you have a new best friend the many flavors of Lay's chips one taste and you're in love"
+    },
+    {
+      "start": 659.09,
+      "end": 664.49,
+      "duration": 5.399999999999977,
+      "text": "and you figured that out just about the time she threw the engagement ring in your face"
+    },
+    {
+      "start": 664.49,
+      "end": 672.23,
+      "duration": 7.740000000000009,
+      "text": "We smirk because we believe that synthetic happiness is not of the same quality as what we might call natural happiness."
+    },
+    {
+      "start": 672.41,
+      "end": 673.13,
+      "duration": 0.7200000000000273,
+      "text": "What are these terms?"
+    },
+    {
+      "start": 673.79,
+      "end": 676.99,
+      "duration": 3.2000000000000455,
+      "text": "Natural happiness is what we get when we get what we wanted,"
+    },
+    {
+      "start": 677.21,
+      "end": 681.77,
+      "duration": 4.559999999999945,
+      "text": "and synthetic happiness is what we make when we don't get what we wanted."
+    },
+    {
+      "start": 682.15,
+      "end": 688.15,
+      "duration": 6.0,
+      "text": "And in our society, we have a strong belief that synthetic happiness is of an inferior kind."
+    },
+    {
+      "start": 688.31,
+      "end": 689.39,
+      "duration": 1.080000000000041,
+      "text": "Why do we have that belief?"
+    },
+    {
+      "start": 690.13,
+      "end": 691.23,
+      "duration": 1.1000000000000227,
+      "text": "Well, it's very simple."
+    },
+    {
+      "start": 691.93,
+      "end": 694.95,
+      "duration": 3.0200000000000955,
+      "text": "What kind of economic engine would keep churning"
+    },
+    {
+      "start": 694.95,
+      "end": 698.49,
+      "duration": 3.5399999999999636,
+      "text": "if we believed that not getting what we want"
+    },
+    {
+      "start": 698.49,
+      "end": 701.31,
+      "duration": 2.8199999999999363,
+      "text": "could make us just as happy as getting it?"
+    },
+    {
+      "start": 701.81,
+      "end": 704.87,
+      "duration": 3.060000000000059,
+      "text": "With all apologies to my friend Mathieu Ricard,"
+    },
+    {
+      "start": 704.87,
+      "end": 707.33,
+      "duration": 2.4600000000000364,
+      "text": "a shopping mall full of Zen monks"
+    },
+    {
+      "start": 707.33,
+      "end": 709.53,
+      "duration": 2.199999999999932,
+      "text": "is not going to be particularly profitable"
+    },
+    {
+      "start": 709.53,
+      "end": 711.99,
+      "duration": 2.4600000000000364,
+      "text": "because they don't want stuff enough."
+    },
+    {
+      "start": 712.85,
+      "end": 714.95,
+      "duration": 2.1000000000000227,
+      "text": "I want to suggest to you"
+    },
+    {
+      "start": 714.95,
+      "end": 718.49,
+      "duration": 3.5399999999999636,
+      "text": "that synthetic happiness is every bit as real and enduring"
+    },
+    {
+      "start": 718.49,
+      "end": 723.35,
+      "duration": 4.860000000000014,
+      "text": "as the kind of happiness you stumble upon when you get exactly what you were aiming for."
+    },
+    {
+      "start": 724.11,
+      "end": 726.11,
+      "duration": 2.0,
+      "text": "Now, I'm a scientist, so I'm going to do this not with rhetoric,"
+    },
+    {
+      "start": 726.27,
+      "end": 728.25,
+      "duration": 1.9800000000000182,
+      "text": "but by marinating you in a little bit of data."
+    },
+    {
+      "start": 728.95,
+      "end": 731.11,
+      "duration": 2.159999999999968,
+      "text": "Let me first show you an experimental paradigm"
+    },
+    {
+      "start": 731.11,
+      "end": 736.49,
+      "duration": 5.3799999999999955,
+      "text": "that is used to demonstrate the synthesis of happiness among regular old folks."
+    },
+    {
+      "start": 736.57,
+      "end": 737.29,
+      "duration": 0.7199999999999136,
+      "text": "And this isn't mine."
+    },
+    {
+      "start": 737.37,
+      "end": 740.13,
+      "duration": 2.759999999999991,
+      "text": "This is a 50-year-old paradigm called the free choice paradigm."
+    },
+    {
+      "start": 740.31,
+      "end": 741.05,
+      "duration": 0.7400000000000091,
+      "text": "It's very simple."
+    },
+    {
+      "start": 741.37,
+      "end": 743.43,
+      "duration": 2.0599999999999454,
+      "text": "You bring in, say, six objects,"
+    },
+    {
+      "start": 744.39,
+      "end": 747.33,
+      "duration": 2.9400000000000546,
+      "text": "and you ask a subject to rank them from the most to the least liked."
+    },
+    {
+      "start": 747.33,
+      "end": 751.57,
+      "duration": 4.240000000000009,
+      "text": "In this case, because the experiment I'm going to tell you about uses them, these are Monet prints."
+    },
+    {
+      "start": 752.01,
+      "end": 756.33,
+      "duration": 4.32000000000005,
+      "text": "So everybody can rank these Monet prints from the one they like the most to the one they like the least."
+    },
+    {
+      "start": 756.61,
+      "end": 757.93,
+      "duration": 1.3199999999999363,
+      "text": "Now, we give you a choice."
+    },
+    {
+      "start": 758.43,
+      "end": 763.29,
+      "duration": 4.860000000000014,
+      "text": "We happen to have some extra prints in the closet, and we're going to give you one as your prize to take home."
+    },
+    {
+      "start": 763.53,
+      "end": 767.17,
+      "duration": 3.6399999999999864,
+      "text": "We happen to have number three and number four, we tell the subject."
+    },
+    {
+      "start": 767.75,
+      "end": 771.79,
+      "duration": 4.039999999999964,
+      "text": "This is a bit of a difficult choice, because neither one is preferred strongly to the other,"
+    },
+    {
+      "start": 771.79,
+      "end": 776.79,
+      "duration": 5.0,
+      "text": "but naturally, people tend to pick number three, because they liked it a little better than number four."
+    },
+    {
+      "start": 778.13,
+      "end": 781.17,
+      "duration": 3.0399999999999636,
+      "text": "Sometime later, it could be 15 minutes, it could be 15 days,"
+    },
+    {
+      "start": 781.67,
+      "end": 783.57,
+      "duration": 1.900000000000091,
+      "text": "the same stimuli are put before the subject,"
+    },
+    {
+      "start": 783.69,
+      "end": 785.95,
+      "duration": 2.259999999999991,
+      "text": "and the subject is asked to re-rank the stimuli."
+    },
+    {
+      "start": 786.33,
+      "end": 787.91,
+      "duration": 1.5799999999999272,
+      "text": "Tell us how much you like them now."
+    },
+    {
+      "start": 788.47,
+      "end": 789.13,
+      "duration": 0.6599999999999682,
+      "text": "What happens?"
+    },
+    {
+      "start": 789.69,
+      "end": 791.41,
+      "duration": 1.7199999999999136,
+      "text": "Watch as happiness is synthesized."
+    },
+    {
+      "start": 791.53,
+      "end": 794.33,
+      "duration": 2.800000000000068,
+      "text": "This is the result that has been replicated over and over again."
+    },
+    {
+      "start": 794.87,
+      "end": 796.73,
+      "duration": 1.8600000000000136,
+      "text": "You're watching happiness be synthesized."
+    },
+    {
+      "start": 796.81,
+      "end": 797.69,
+      "duration": 0.8800000000001091,
+      "text": "Would you like to see it again?"
+    },
+    {
+      "start": 799.39,
+      "end": 799.79,
+      "duration": 0.39999999999997726,
+      "text": "Happiness!"
+    },
+    {
+      "start": 800.47,
+      "end": 802.59,
+      "duration": 2.1200000000000045,
+      "text": "The one I got is really better than I thought."
+    },
+    {
+      "start": 802.59,
+      "end": 804.79,
+      "duration": 2.199999999999932,
+      "text": "That other one I didn't get sucks."
+    },
+    {
+      "start": 805.37,
+      "end": 807.09,
+      "duration": 1.7200000000000273,
+      "text": "That's the synthesis of happiness."
+    },
+    {
+      "start": 807.09,
+      "end": 815.59,
+      "duration": 8.5,
+      "text": "now. What's the right response to that? Yeah, right. Now, here's the experiment we did,"
+    },
+    {
+      "start": 815.89,
+      "end": 820.37,
+      "duration": 4.480000000000018,
+      "text": "and I hope this is going to convince you that yeah, right was not the right response. We did"
+    },
+    {
+      "start": 820.37,
+      "end": 824.41,
+      "duration": 4.039999999999964,
+      "text": "this experiment with a group of patients who had enterograde amnesia. These are hospitalized"
+    },
+    {
+      "start": 824.41,
+      "end": 831.59,
+      "duration": 7.180000000000064,
+      "text": "patients. Most of them have Korsakoff syndrome, a polyneurotic psychosis that they drank way too"
+    },
+    {
+      "start": 831.59,
+      "end": 836.53,
+      "duration": 4.939999999999941,
+      "text": "much, and they can't make new memories. They remember their childhood, but if you walk in"
+    },
+    {
+      "start": 836.53,
+      "end": 838.47,
+      "duration": 1.9400000000000546,
+      "text": "and introduce yourself and then leave the room."
+    },
+    {
+      "start": 838.57,
+      "end": 840.89,
+      "duration": 2.3199999999999363,
+      "text": "When you come back, they don't know who you are."
+    },
+    {
+      "start": 841.97,
+      "end": 844.95,
+      "duration": 2.980000000000018,
+      "text": "We took our Monet prints to the hospital"
+    },
+    {
+      "start": 844.95,
+      "end": 849.07,
+      "duration": 4.1200000000000045,
+      "text": "and we asked these patients to rank them"
+    },
+    {
+      "start": 849.07,
+      "end": 850.37,
+      "duration": 1.2999999999999545,
+      "text": "from the one they liked the most"
+    },
+    {
+      "start": 850.37,
+      "end": 851.71,
+      "duration": 1.3400000000000318,
+      "text": "to the one they liked the least."
+    },
+    {
+      "start": 852.19,
+      "end": 853.83,
+      "duration": 1.6399999999999864,
+      "text": "We then gave them the choice"
+    },
+    {
+      "start": 853.83,
+      "end": 855.77,
+      "duration": 1.9399999999999409,
+      "text": "between number three and number four."
+    },
+    {
+      "start": 856.21,
+      "end": 857.69,
+      "duration": 1.4800000000000182,
+      "text": "Like everybody else, they said,"
+    },
+    {
+      "start": 857.77,
+      "end": 859.07,
+      "duration": 1.3000000000000682,
+      "text": "gee, thanks, doc, that's great."
+    },
+    {
+      "start": 859.15,
+      "end": 861.27,
+      "duration": 2.1200000000000045,
+      "text": "I could use a new print, I'll take number three."
+    },
+    {
+      "start": 861.87,
+      "end": 865.43,
+      "duration": 3.5599999999999454,
+      "text": "We explained we would have number three mailed to them."
+    },
+    {
+      "start": 865.43,
+      "end": 868.57,
+      "duration": 3.1400000000001,
+      "text": "We gathered up our materials, and we went out of the room"
+    },
+    {
+      "start": 868.57,
+      "end": 869.87,
+      "duration": 1.2999999999999545,
+      "text": "and counted to a half hour."
+    },
+    {
+      "start": 871.01,
+      "end": 872.19,
+      "duration": 1.1800000000000637,
+      "text": "Back into the room."
+    },
+    {
+      "start": 872.67,
+      "end": 874.05,
+      "duration": 1.3799999999999955,
+      "text": "We say, hi, we're back."
+    },
+    {
+      "start": 874.57,
+      "end": 876.03,
+      "duration": 1.4599999999999227,
+      "text": "The patients, bless them, say,"
+    },
+    {
+      "start": 876.63,
+      "end": 879.23,
+      "duration": 2.6000000000000227,
+      "text": "oh, Doc, I'm sorry, I've got a memory problem."
+    },
+    {
+      "start": 879.29,
+      "end": 879.85,
+      "duration": 0.5600000000000591,
+      "text": "That's why I'm here."
+    },
+    {
+      "start": 880.33,
+      "end": 881.85,
+      "duration": 1.5199999999999818,
+      "text": "If I've met you before, I don't remember."
+    },
+    {
+      "start": 881.99,
+      "end": 884.95,
+      "duration": 2.9600000000000364,
+      "text": "Really, Jim, you don't remember I was just here with the Monet prints?"
+    },
+    {
+      "start": 885.35,
+      "end": 888.27,
+      "duration": 2.919999999999959,
+      "text": "Sorry, Doc, I just don't have a clue."
+    },
+    {
+      "start": 888.33,
+      "end": 889.13,
+      "duration": 0.7999999999999545,
+      "text": "No problem, Jim."
+    },
+    {
+      "start": 889.71,
+      "end": 892.09,
+      "duration": 2.3799999999999955,
+      "text": "All I want you to do is rank these for me"
+    },
+    {
+      "start": 892.09,
+      "end": 895.63,
+      "duration": 3.5399999999999636,
+      "text": "from the one you like the most to the one you like the least."
+    },
+    {
+      "start": 896.01,
+      "end": 896.89,
+      "duration": 0.8799999999999955,
+      "text": "What do they do?"
+    },
+    {
+      "start": 896.97,
+      "end": 899.27,
+      "duration": 2.2999999999999545,
+      "text": "Well, let's first check and make sure they're really amnesic."
+    },
+    {
+      "start": 899.69,
+      "end": 903.91,
+      "duration": 4.219999999999914,
+      "text": "We ask these amnesic patients to tell us which one they own,"
+    },
+    {
+      "start": 904.21,
+      "end": 907.21,
+      "duration": 3.0,
+      "text": "which one they chose last time, which one is theirs."
+    },
+    {
+      "start": 907.49,
+      "end": 910.41,
+      "duration": 2.919999999999959,
+      "text": "And what we find is amnesic patients just guess."
+    },
+    {
+      "start": 910.81,
+      "end": 911.91,
+      "duration": 1.1000000000000227,
+      "text": "These are normal controls."
+    },
+    {
+      "start": 912.19,
+      "end": 915.05,
+      "duration": 2.8599999999999,
+      "text": "If I did this with you, all of you would know which print you chose."
+    },
+    {
+      "start": 915.05,
+      "end": 919.05,
+      "duration": 4.0,
+      "text": "But if I do this with amnesic patients, they don't have a clue."
+    },
+    {
+      "start": 919.37,
+      "end": 921.59,
+      "duration": 2.2200000000000273,
+      "text": "They can't pick their print out of a lineup."
+    },
+    {
+      "start": 922.09,
+      "end": 927.09,
+      "duration": 5.0,
+      "text": "Here's what normal controls do. They synthesize happiness, right?"
+    },
+    {
+      "start": 927.09,
+      "end": 932.09,
+      "duration": 5.0,
+      "text": "This is the change in liking score, the change from the first time they're ranked to the second time they're ranked."
+    },
+    {
+      "start": 932.09,
+      "end": 937.09,
+      "duration": 5.0,
+      "text": "Normal controls show that was the magic I showed you, now I'm showing it to you in graphical form."
+    },
+    {
+      "start": 937.09,
+      "end": 944.09,
+      "duration": 7.0,
+      "text": "The one I own is better than I thought, the one I didn't own, the one I left behind is not as good as I thought."
+    },
+    {
+      "start": 944.09,
+      "end": 949.09,
+      "duration": 5.0,
+      "text": "Amnesics do exactly the same thing. Think about this result."
+    },
+    {
+      "start": 949.09,
+      "end": 954.35,
+      "duration": 5.259999999999991,
+      "text": "These people like better the one they own, but they don't know they own it."
+    },
+    {
+      "start": 955.45,
+      "end": 959.11,
+      "duration": 3.659999999999968,
+      "text": "Yeah, right is not the right response."
+    },
+    {
+      "start": 960.13,
+      "end": 970.43,
+      "duration": 10.299999999999955,
+      "text": "What these people did when they synthesized happiness is they really, truly changed their affective, hedonic, aesthetic reactions to that poster."
+    },
+    {
+      "start": 971.09,
+      "end": 976.13,
+      "duration": 5.039999999999964,
+      "text": "They're not just saying it because they own it, because they don't know they own it."
+    },
+    {
+      "start": 976.13,
+      "end": 983.17,
+      "duration": 7.039999999999964,
+      "text": "Now, when psychologists show you bars, you know that they are showing you averages of"
+    },
+    {
+      "start": 983.17,
+      "end": 988.85,
+      "duration": 5.680000000000064,
+      "text": "lots of people, and yet all of us have this psychological immune system, this capacity"
+    },
+    {
+      "start": 988.85,
+      "end": 994.93,
+      "duration": 6.079999999999927,
+      "text": "to synthesize happiness, but some of us do this trick better than others, and some situations"
+    },
+    {
+      "start": 994.93,
+      "end": 1001.17,
+      "duration": 6.240000000000009,
+      "text": "allow anybody to do it more effectively than other situations do."
+    },
+    {
+      "start": 1001.17,
+      "end": 1008.01,
+      "duration": 6.840000000000032,
+      "text": "It turns out that freedom, the ability to make up your mind and change your mind, is"
+    },
+    {
+      "start": 1008.01,
+      "end": 1012.45,
+      "duration": 4.440000000000055,
+      "text": "the friend of natural happiness, because it allows you to choose among all those delicious"
+    },
+    {
+      "start": 1012.45,
+      "end": 1016.21,
+      "duration": 3.759999999999991,
+      "text": "futures and find the one that you would most enjoy."
+    },
+    {
+      "start": 1016.21,
+      "end": 1022.17,
+      "duration": 5.959999999999923,
+      "text": "But freedom to choose, to change and make up your mind, is the enemy of synthetic happiness."
+    },
+    {
+      "start": 1022.17,
+      "end": 1023.77,
+      "duration": 1.6000000000000227,
+      "text": "And I'm going to show you why."
+    },
+    {
+      "start": 1023.77,
+      "end": 1025.61,
+      "duration": 1.8399999999999181,
+      "text": "Dilbert already knows, of course."
+    },
+    {
+      "start": 1025.61,
+      "end": 1027.17,
+      "duration": 1.5600000000001728,
+      "text": "You're reading the cartoon as I'm talking."
+    },
+    {
+      "start": 1027.17,
+      "end": 1028.17,
+      "duration": 1.0,
+      "text": "Dogbert's tech support."
+    },
+    {
+      "start": 1028.17,
+      "end": 1029.45,
+      "duration": 1.2799999999999727,
+      "text": "How may I abuse you?"
+    },
+    {
+      "start": 1029.45,
+      "end": 1031.75,
+      "duration": 2.2999999999999545,
+      "text": "My printer prints a blank page after every document."
+    },
+    {
+      "start": 1031.85,
+      "end": 1033.53,
+      "duration": 1.6800000000000637,
+      "text": "Why would you complain about getting free paper?"
+    },
+    {
+      "start": 1033.87,
+      "end": 1035.61,
+      "duration": 1.740000000000009,
+      "text": "Freeze, aren't you just giving my own paper?"
+    },
+    {
+      "start": 1035.85,
+      "end": 1039.05,
+      "duration": 3.2000000000000455,
+      "text": "Egad, man, look at the quality of the free paper compared to your lousy regular paper."
+    },
+    {
+      "start": 1039.11,
+      "end": 1041.27,
+      "duration": 2.160000000000082,
+      "text": "Only a fool or a liar would say that they look the same."
+    },
+    {
+      "start": 1041.85,
+      "end": 1044.63,
+      "duration": 2.7800000000002,
+      "text": "Huh, now that you mention it, it does seem a little silkier."
+    },
+    {
+      "start": 1045.41,
+      "end": 1046.07,
+      "duration": 0.6599999999998545,
+      "text": "What are you doing?"
+    },
+    {
+      "start": 1046.57,
+      "end": 1049.33,
+      "duration": 2.759999999999991,
+      "text": "I'm helping people accept the things they cannot change."
+    },
+    {
+      "start": 1049.59,
+      "end": 1050.03,
+      "duration": 0.44000000000005457,
+      "text": "Indeed."
+    },
+    {
+      "start": 1050.95,
+      "end": 1056.33,
+      "duration": 5.379999999999882,
+      "text": "The psychological immune system works best when we are totally stuck, when we are trapped."
+    },
+    {
+      "start": 1056.33,
+      "end": 1059.13,
+      "duration": 2.800000000000182,
+      "text": "This is the difference between dating and marriage, right?"
+    },
+    {
+      "start": 1059.13,
+      "end": 1061.41,
+      "duration": 2.2799999999999727,
+      "text": "I mean, you go out on a date with a guy and he picks his nose."
+    },
+    {
+      "start": 1061.49,
+      "end": 1062.71,
+      "duration": 1.2200000000000273,
+      "text": "You don't go out on another date."
+    },
+    {
+      "start": 1063.17,
+      "end": 1064.99,
+      "duration": 1.8199999999999363,
+      "text": "You're married to a guy and he picks his nose."
+    },
+    {
+      "start": 1065.63,
+      "end": 1066.67,
+      "duration": 1.0399999999999636,
+      "text": "Yeah, he has a heart of gold."
+    },
+    {
+      "start": 1066.73,
+      "end": 1067.83,
+      "duration": 1.099999999999909,
+      "text": "Don't touch the fruitcake, right?"
+    },
+    {
+      "start": 1068.13,
+      "end": 1071.53,
+      "duration": 3.3999999999998636,
+      "text": "You find a way to be happy with what's happened."
+    },
+    {
+      "start": 1072.63,
+      "end": 1076.65,
+      "duration": 4.019999999999982,
+      "text": "Now, what I want to show you is that people don't know this about themselves,"
+    },
+    {
+      "start": 1076.79,
+      "end": 1080.75,
+      "duration": 3.9600000000000364,
+      "text": "and not knowing this can work to our supreme disadvantage."
+    },
+    {
+      "start": 1081.19,
+      "end": 1082.75,
+      "duration": 1.5599999999999454,
+      "text": "Here's an experiment we did at Harvard."
+    },
+    {
+      "start": 1082.85,
+      "end": 1085.81,
+      "duration": 2.9600000000000364,
+      "text": "We created a photography course, a black and white photography course,"
+    },
+    {
+      "start": 1085.97,
+      "end": 1088.77,
+      "duration": 2.7999999999999545,
+      "text": "and we allowed students to come in and learn how to use a darkroom."
+    },
+    {
+      "start": 1117.96,
+      "end": 1120.06,
+      "duration": 2.099999999999909,
+      "text": "So we gave them cameras, they went around campus,"
+    },
+    {
+      "start": 1120.18,
+      "end": 1123.44,
+      "duration": 3.259999999999991,
+      "text": "they took 12 pictures of their favorite professors in their dorm room"
+    },
+    {
+      "start": 1123.44,
+      "end": 1127.46,
+      "duration": 4.019999999999982,
+      "text": "and their dog and all the other things they wanted to have Harvard memories of."
+    },
+    {
+      "start": 1127.9,
+      "end": 1130.2,
+      "duration": 2.2999999999999545,
+      "text": "They bring us the camera, we make up a contact sheet,"
+    },
+    {
+      "start": 1130.5,
+      "end": 1132.1,
+      "duration": 1.599999999999909,
+      "text": "they figure out which are the two best pictures,"
+    },
+    {
+      "start": 1132.36,
+      "end": 1134.7,
+      "duration": 2.3400000000001455,
+      "text": "and we now spend six hours teaching them about dark rooms,"
+    },
+    {
+      "start": 1134.9,
+      "end": 1136.28,
+      "duration": 1.3799999999998818,
+      "text": "and they blow two of them up,"
+    },
+    {
+      "start": 1136.32,
+      "end": 1139.7,
+      "duration": 3.380000000000109,
+      "text": "and they have two gorgeous 8x10 glossies of meaningful things to them,"
+    },
+    {
+      "start": 1139.74,
+      "end": 1142.1,
+      "duration": 2.3599999999999,
+      "text": "and we say, which one would you like to give up?"
+    },
+    {
+      "start": 1142.62,
+      "end": 1143.86,
+      "duration": 1.240000000000009,
+      "text": "They say, I have to give one up?"
+    },
+    {
+      "start": 1143.86,
+      "end": 1147.36,
+      "duration": 3.5,
+      "text": "Oh, yes, we need one as evidence of the class project."
+    },
+    {
+      "start": 1147.36,
+      "end": 1152.36,
+      "duration": 5.0,
+      "text": "So you have to give me one, you have to make a choice, you get to keep one, and I get to"
+    },
+    {
+      "start": 1152.36,
+      "end": 1153.36,
+      "duration": 1.0,
+      "text": "keep one."
+    },
+    {
+      "start": 1153.36,
+      "end": 1156.16,
+      "duration": 2.800000000000182,
+      "text": "Now, there are two conditions in this experiment."
+    },
+    {
+      "start": 1156.16,
+      "end": 1160.76,
+      "duration": 4.599999999999909,
+      "text": "In one case, the students are told, but you know, if you want to change your mind, I'll"
+    },
+    {
+      "start": 1160.76,
+      "end": 1165.48,
+      "duration": 4.720000000000027,
+      "text": "always have the other one here, and in the next four days before I actually mail it to"
+    },
+    {
+      "start": 1165.48,
+      "end": 1171.68,
+      "duration": 6.2000000000000455,
+      "text": "headquarters, I'll be glad to, yeah, headquarters, I'll be glad to swap it out with you."
+    },
+    {
+      "start": 1171.68,
+      "end": 1176.08,
+      "duration": 4.399999999999864,
+      "text": "In fact, I'll come to your dorm room and give, just give me an email, better yet, I'll check"
+    },
+    {
+      "start": 1176.08,
+      "end": 1177.08,
+      "duration": 1.0,
+      "text": "with you."
+    },
+    {
+      "start": 1177.08,
+      "end": 1179.38,
+      "duration": 2.300000000000182,
+      "text": "You ever want to change your mind? It's totally returnable."
+    },
+    {
+      "start": 1179.78,
+      "end": 1182.18,
+      "duration": 2.400000000000091,
+      "text": "The other half of the students are told exactly the opposite."
+    },
+    {
+      "start": 1182.78,
+      "end": 1186.0,
+      "duration": 3.2200000000000273,
+      "text": "Make your choice, and by the way, the mail is going out, gosh,"
+    },
+    {
+      "start": 1186.12,
+      "end": 1189.54,
+      "duration": 3.4200000000000728,
+      "text": "in two minutes to England, your picture will be winging its way over the Atlantic."
+    },
+    {
+      "start": 1189.66,
+      "end": 1191.24,
+      "duration": 1.5799999999999272,
+      "text": "You will never see it again."
+    },
+    {
+      "start": 1191.24,
+      "end": 1196.08,
+      "duration": 4.839999999999918,
+      "text": "Now, half of the students in each of these conditions are asked to make predictions"
+    },
+    {
+      "start": 1196.08,
+      "end": 1199.84,
+      "duration": 3.759999999999991,
+      "text": "about how much they're going to come to like the picture that they keep"
+    },
+    {
+      "start": 1199.84,
+      "end": 1201.14,
+      "duration": 1.300000000000182,
+      "text": "and the picture they leave behind."
+    },
+    {
+      "start": 1201.64,
+      "end": 1204.3,
+      "duration": 2.6599999999998545,
+      "text": "Other students are just sent back to their little dorm rooms,"
+    },
+    {
+      "start": 1204.3,
+      "end": 1208.92,
+      "duration": 4.620000000000118,
+      "text": "and they are measured over the next three to six days"
+    },
+    {
+      "start": 1208.92,
+      "end": 1211.04,
+      "duration": 2.119999999999891,
+      "text": "on their liking and satisfaction with the pictures."
+    },
+    {
+      "start": 1211.14,
+      "end": 1211.98,
+      "duration": 0.8399999999999181,
+      "text": "And look at what we find."
+    },
+    {
+      "start": 1212.08,
+      "end": 1215.36,
+      "duration": 3.2799999999999727,
+      "text": "First of all, here's what students think is going to happen."
+    },
+    {
+      "start": 1215.82,
+      "end": 1219.16,
+      "duration": 3.3400000000001455,
+      "text": "They think they're going to maybe come to like the picture they chose"
+    },
+    {
+      "start": 1219.16,
+      "end": 1221.8,
+      "duration": 2.6399999999998727,
+      "text": "a little more than the one they left behind,"
+    },
+    {
+      "start": 1222.18,
+      "end": 1225.22,
+      "duration": 3.0399999999999636,
+      "text": "but these are not statistically significant differences."
+    },
+    {
+      "start": 1225.48,
+      "end": 1227.24,
+      "duration": 1.759999999999991,
+      "text": "It really, it's a very small increase,"
+    },
+    {
+      "start": 1227.34,
+      "end": 1228.72,
+      "duration": 1.3800000000001091,
+      "text": "and it doesn't much matter"
+    },
+    {
+      "start": 1228.72,
+      "end": 1231.62,
+      "duration": 2.8999999999998636,
+      "text": "whether they were in the reversible or irreversible condition."
+    },
+    {
+      "start": 1231.62,
+      "end": 1234.06,
+      "duration": 2.4400000000000546,
+      "text": "Wrong. Oh, bad simulators."
+    },
+    {
+      "start": 1234.3,
+      "end": 1239.42,
+      "duration": 5.120000000000118,
+      "text": "Because here's what's really happening, both right before the swap and five days later."
+    },
+    {
+      "start": 1239.6,
+      "end": 1246.32,
+      "duration": 6.720000000000027,
+      "text": "People who are stuck with that picture, who have no choice, who can never change their mind, like it a lot."
+    },
+    {
+      "start": 1247.12,
+      "end": 1251.26,
+      "duration": 4.1400000000001,
+      "text": "And people who are deliberating, should I return it? Have I gotten the right one?"
+    },
+    {
+      "start": 1251.34,
+      "end": 1254.78,
+      "duration": 3.4400000000000546,
+      "text": "Maybe this isn't the good one, baby. I left the good one, have killed themselves."
+    },
+    {
+      "start": 1255.1,
+      "end": 1258.88,
+      "duration": 3.7800000000002,
+      "text": "They don't like their picture, and in fact, even after the opportunity to swap has expired,"
+    },
+    {
+      "start": 1259.02,
+      "end": 1261.66,
+      "duration": 2.6400000000001,
+      "text": "they still don't like their picture."
+    },
+    {
+      "start": 1261.66,
+      "end": 1268.66,
+      "duration": 7.0,
+      "text": "Why? Because the irreversible condition is not conducive to the synthesis of happiness."
+    },
+    {
+      "start": 1268.66,
+      "end": 1271.66,
+      "duration": 3.0,
+      "text": "So here's the final piece of this experiment."
+    },
+    {
+      "start": 1271.66,
+      "end": 1276.66,
+      "duration": 5.0,
+      "text": "We bring in a whole new group of naive Harvard students and we say,"
+    },
+    {
+      "start": 1276.66,
+      "end": 1280.66,
+      "duration": 4.0,
+      "text": "you know, we're doing a photography course and we can do it one of two ways."
+    },
+    {
+      "start": 1280.66,
+      "end": 1283.66,
+      "duration": 3.0,
+      "text": "We could do it so that when you take the two pictures,"
+    },
+    {
+      "start": 1283.66,
+      "end": 1285.66,
+      "duration": 2.0,
+      "text": "you'd have four days to change your mind."
+    },
+    {
+      "start": 1285.66,
+      "end": 1288.66,
+      "duration": 3.0,
+      "text": "Or we're doing another course where you take the two pictures"
+    },
+    {
+      "start": 1288.66,
+      "end": 1290.66,
+      "duration": 2.0,
+      "text": "and you make up your mind right away and you can never change it."
+    },
+    {
+      "start": 1290.66,
+      "end": 1292.48,
+      "duration": 1.8199999999999363,
+      "text": "Change it, which course would you like to be in?"
+    },
+    {
+      "start": 1292.58,
+      "end": 1293.38,
+      "duration": 0.8000000000001819,
+      "text": "Duh-huh-huh-huh."
+    },
+    {
+      "start": 1294.3,
+      "end": 1296.92,
+      "duration": 2.6200000000001182,
+      "text": "66% of the students, two-thirds,"
+    },
+    {
+      "start": 1297.1,
+      "end": 1298.48,
+      "duration": 1.3800000000001091,
+      "text": "prefer to be in the course"
+    },
+    {
+      "start": 1298.48,
+      "end": 1301.04,
+      "duration": 2.5599999999999454,
+      "text": "where they have the opportunity to change their mind."
+    },
+    {
+      "start": 1301.14,
+      "end": 1301.4,
+      "duration": 0.2599999999999909,
+      "text": "Hello?"
+    },
+    {
+      "start": 1301.92,
+      "end": 1304.64,
+      "duration": 2.7200000000000273,
+      "text": "66% of the students choose to be in the course"
+    },
+    {
+      "start": 1304.64,
+      "end": 1308.14,
+      "duration": 3.5,
+      "text": "in which they will ultimately be deeply dissatisfied with the picture"
+    },
+    {
+      "start": 1308.14,
+      "end": 1311.86,
+      "duration": 3.7199999999998,
+      "text": "because they do not know the conditions"
+    },
+    {
+      "start": 1311.86,
+      "end": 1315.1,
+      "duration": 3.240000000000009,
+      "text": "under which synthetic happiness grows."
+    },
+    {
+      "start": 1315.88,
+      "end": 1318.9,
+      "duration": 3.019999999999982,
+      "text": "The bard said everything best, of course,"
+    },
+    {
+      "start": 1318.9,
+      "end": 1323.0,
+      "duration": 4.099999999999909,
+      "text": "And he's making my point here, but he's making it hyperbolically."
+    },
+    {
+      "start": 1323.12,
+      "end": 1325.82,
+      "duration": 2.7000000000000455,
+      "text": "Tis nothing good or bad, but thinking makes it so."
+    },
+    {
+      "start": 1326.48,
+      "end": 1329.42,
+      "duration": 2.9400000000000546,
+      "text": "It's nice poetry, but that can't exactly be right."
+    },
+    {
+      "start": 1329.7,
+      "end": 1331.6,
+      "duration": 1.8999999999998636,
+      "text": "Is there really nothing good or bad?"
+    },
+    {
+      "start": 1331.82,
+      "end": 1337.08,
+      "duration": 5.259999999999991,
+      "text": "Is it really the case that gallbladder surgery and a trip to Paris are just the same thing?"
+    },
+    {
+      "start": 1337.44,
+      "end": 1341.74,
+      "duration": 4.2999999999999545,
+      "text": "Nah, that seems like a one-question IQ test."
+    },
+    {
+      "start": 1342.34,
+      "end": 1344.08,
+      "duration": 1.740000000000009,
+      "text": "They can't be exactly the same."
+    },
+    {
+      "start": 1344.08,
+      "end": 1350.68,
+      "duration": 6.600000000000136,
+      "text": "In more turgid prose, but closer to the truth, was the father of modern capitalism, Adam Smith, and he said this."
+    },
+    {
+      "start": 1350.74,
+      "end": 1352.28,
+      "duration": 1.5399999999999636,
+      "text": "This is worth contemplating."
+    },
+    {
+      "start": 1352.72,
+      "end": 1361.96,
+      "duration": 9.240000000000009,
+      "text": "The great source of both the misery and disorders of human life seems to arise from overrating the difference between one permanent situation and another."
+    },
+    {
+      "start": 1362.34,
+      "end": 1366.98,
+      "duration": 4.6400000000001,
+      "text": "Some of these situations may no doubt deserve to be preferred to others."
+    },
+    {
+      "start": 1366.98,
+      "end": 1390.34,
+      "duration": 23.3599999999999,
+      "text": "But none of them can deserve to be pursued with that passionate ardor which drives us to violate the rules either of prudence or of justice or to corrupt the future tranquility of our minds either by shame from the remembrance of our own folly or by remorse for the horror of our own injustice."
+    },
+    {
+      "start": 1390.34,
+      "end": 1394.8,
+      "duration": 4.460000000000036,
+      "text": "In other words, yes, some things are better than others."
+    },
+    {
+      "start": 1395.34,
+      "end": 1400.16,
+      "duration": 4.820000000000164,
+      "text": "We should have preferences that lead us into one future over another."
+    },
+    {
+      "start": 1400.7,
+      "end": 1404.36,
+      "duration": 3.6599999999998545,
+      "text": "But when those preferences drive us too hard and too fast"
+    },
+    {
+      "start": 1404.36,
+      "end": 1407.82,
+      "duration": 3.4600000000000364,
+      "text": "because we have overrated the difference between these futures,"
+    },
+    {
+      "start": 1408.42,
+      "end": 1410.82,
+      "duration": 2.3999999999998636,
+      "text": "we are at risk."
+    },
+    {
+      "start": 1410.96,
+      "end": 1414.58,
+      "duration": 3.619999999999891,
+      "text": "When our ambition is bounded, it leads us to work joyfully."
+    },
+    {
+      "start": 1414.72,
+      "end": 1417.66,
+      "duration": 2.9400000000000546,
+      "text": "When our ambition is unbounded, it leads us to lie,"
+    },
+    {
+      "start": 1417.66,
+      "end": 1422.94,
+      "duration": 5.279999999999973,
+      "text": "to cheat, to steal, to hurt others, to sacrifice things of real value."
+    },
+    {
+      "start": 1423.06,
+      "end": 1427.74,
+      "duration": 4.680000000000064,
+      "text": "When our fears are bounded, we're prudent, we're cautious, we're thoughtful."
+    },
+    {
+      "start": 1427.9,
+      "end": 1433.7,
+      "duration": 5.7999999999999545,
+      "text": "When our fears are unbounded and overblown, we're reckless and we're cowardly."
+    },
+    {
+      "start": 1434.18,
+      "end": 1437.12,
+      "duration": 2.939999999999827,
+      "text": "The lesson I want to leave you with from these data"
+    },
+    {
+      "start": 1437.12,
+      "end": 1441.86,
+      "duration": 4.740000000000009,
+      "text": "is that our longings and our worries are both to some degree overblown"
+    },
+    {
+      "start": 1441.86,
+      "end": 1446.04,
+      "duration": 4.180000000000064,
+      "text": "because we have within us the capacity to manufacture"
+    },
+    {
+      "start": 1446.04,
+      "end": 1452.14,
+      "duration": 6.100000000000136,
+      "text": "the very commodity we are constantly chasing when we choose experience."
+    },
+    {
+      "start": 1452.58,
+      "end": 1453.0,
+      "duration": 0.42000000000007276,
+      "text": "Thank you."
+    }
+  ]
+}

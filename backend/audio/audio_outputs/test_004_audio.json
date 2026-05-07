@@ -1,0 +1,2197 @@
+{
+  "video_filename": "test_004.mp4",
+  "module": "audio_speech_music",
+  "ad_segments": [],
+  "transcript_segments": [
+    {
+      "start": 5.2,
+      "end": 10.42,
+      "duration": 5.22,
+      "text": "Hi, everyone. Welcome to another lecture for CS230 Deep Learning."
+    },
+    {
+      "start": 11.1,
+      "end": 18.12,
+      "duration": 7.020000000000001,
+      "text": "Today, we're going to talk about enhancing large language model applications."
+    },
+    {
+      "start": 19.08,
+      "end": 21.94,
+      "duration": 2.860000000000003,
+      "text": "And I call this lecture Beyond LLM."
+    },
+    {
+      "start": 23.26,
+      "end": 25.88,
+      "duration": 2.6199999999999974,
+      "text": "It has a lot of newer content."
+    },
+    {
+      "start": 26.98,
+      "end": 33.64,
+      "duration": 6.66,
+      "text": "And the idea behind this lecture is we started to learn about neurons"
+    },
+    {
+      "start": 33.64,
+      "end": 38.92,
+      "duration": 5.280000000000001,
+      "text": "and then we learned about layers and then we learned about deep neural networks and then we"
+    },
+    {
+      "start": 38.92,
+      "end": 46.18,
+      "duration": 7.259999999999998,
+      "text": "learned a little bit about how to structure projects in C3 and now we're going one level"
+    },
+    {
+      "start": 46.18,
+      "end": 55.36,
+      "duration": 9.18,
+      "text": "beyond into what would it look like if you were building agentic AI systems at work in a startup"
+    },
+    {
+      "start": 55.36,
+      "end": 64.52,
+      "duration": 9.159999999999997,
+      "text": "in a company and it's probably one of the more practical lectures again the goal is not to build"
+    },
+    {
+      "start": 64.52,
+      "end": 70.28,
+      "duration": 5.760000000000005,
+      "text": "a product end-to-end in the next hour or so but rather to tell you all the techniques that"
+    },
+    {
+      "start": 70.28,
+      "end": 77.56,
+      "duration": 7.280000000000001,
+      "text": "ai engineers have cracked figured out or exploring so that after the class you have sort of the"
+    },
+    {
+      "start": 77.56,
+      "end": 83.98,
+      "duration": 6.420000000000002,
+      "text": "breadth of view of different prompting techniques different agentic workflows multi-agency systems"
+    },
+    {
+      "start": 83.98,
+      "end": 89.36,
+      "duration": 5.3799999999999955,
+      "text": "evals. And then when you want to dive deeper, you have the baggage to dive deeper and learn"
+    },
+    {
+      "start": 89.36,
+      "end": 96.48,
+      "duration": 7.1200000000000045,
+      "text": "faster about it. Okay. Let's try to make it as interactive as possible, as usual."
+    },
+    {
+      "start": 97.34,
+      "end": 104.9,
+      "duration": 7.560000000000002,
+      "text": "When we look at the agenda, the agenda is going to start with the core idea behind challenges"
+    },
+    {
+      "start": 104.9,
+      "end": 111.7,
+      "duration": 6.799999999999997,
+      "text": "and opportunities for augmenting LLMs. So we start from a base model. How do we maximize"
+    },
+    {
+      "start": 111.7,
+      "end": 114.56,
+      "duration": 2.8599999999999994,
+      "text": "the performance of that base model."
+    },
+    {
+      "start": 115.32,
+      "end": 118.58,
+      "duration": 3.260000000000005,
+      "text": "Then we dive deep into the first line of optimization,"
+    },
+    {
+      "start": 119.06,
+      "end": 120.4,
+      "duration": 1.3400000000000034,
+      "text": "which is prompting methods,"
+    },
+    {
+      "start": 120.52,
+      "end": 122.08,
+      "duration": 1.5600000000000023,
+      "text": "and we see a variety of them."
+    },
+    {
+      "start": 122.8,
+      "end": 124.32,
+      "duration": 1.519999999999996,
+      "text": "Then we go slightly deeper."
+    },
+    {
+      "start": 124.32,
+      "end": 126.72,
+      "duration": 2.4000000000000057,
+      "text": "If we were to get our hands under the hood"
+    },
+    {
+      "start": 126.72,
+      "end": 127.76,
+      "duration": 1.0400000000000063,
+      "text": "and do some fine tuning,"
+    },
+    {
+      "start": 127.94,
+      "end": 128.98,
+      "duration": 1.039999999999992,
+      "text": "what would it look like?"
+    },
+    {
+      "start": 129.34,
+      "end": 130.74,
+      "duration": 1.4000000000000057,
+      "text": "I'm not a fan of fine tuning,"
+    },
+    {
+      "start": 131.18,
+      "end": 132.46,
+      "duration": 1.2800000000000011,
+      "text": "and I talk a lot about that,"
+    },
+    {
+      "start": 132.7,
+      "end": 136.36,
+      "duration": 3.660000000000025,
+      "text": "but I'll explain why I try to avoid fine tuning"
+    },
+    {
+      "start": 136.36,
+      "end": 137.42,
+      "duration": 1.0599999999999739,
+      "text": "as much as possible."
+    },
+    {
+      "start": 138.26,
+      "end": 140.26,
+      "duration": 2.0,
+      "text": "And then we do a section four"
+    },
+    {
+      "start": 140.26,
+      "end": 147.02,
+      "duration": 6.760000000000019,
+      "text": "on retrieval augmented generation or RAG, which you've probably heard of in the news. Maybe some"
+    },
+    {
+      "start": 147.02,
+      "end": 152.88,
+      "duration": 5.859999999999985,
+      "text": "of you have played with RAGs. We're going to sort of unpack what a RAG is and how it works and then"
+    },
+    {
+      "start": 152.88,
+      "end": 161.58,
+      "duration": 8.700000000000017,
+      "text": "the different methods within RAGs. And then we'll talk about agentic AI workflows. I'll define it."
+    },
+    {
+      "start": 162.54,
+      "end": 169.86,
+      "duration": 7.320000000000022,
+      "text": "Andrew Eng is one of the first ones who have called this trend agentic AI workflows. And so"
+    },
+    {
+      "start": 169.86,
+      "end": 175.2,
+      "duration": 5.339999999999975,
+      "text": "we look at the definition that Andrew gives to agentic workflows, and then we start seeing"
+    },
+    {
+      "start": 175.2,
+      "end": 184.32,
+      "duration": 9.120000000000005,
+      "text": "examples. The section six is very practical. It's a case study where we will think about an agentic"
+    },
+    {
+      "start": 184.32,
+      "end": 192.34,
+      "duration": 8.02000000000001,
+      "text": "workflow and we'll ask you to measure if the agent actually works and we brainstorm how we can"
+    },
+    {
+      "start": 192.34,
+      "end": 197.76,
+      "duration": 5.4199999999999875,
+      "text": "measure if an agentic workflow is working the way you want it to work. There's plenty of methods"
+    },
+    {
+      "start": 197.76,
+      "end": 205.04,
+      "duration": 7.280000000000001,
+      "text": "called Evals that solve that problem. And then we'll look briefly at multi-agent workflow and"
+    },
+    {
+      "start": 205.04,
+      "end": 210.16,
+      "duration": 5.1200000000000045,
+      "text": "then we can have a sort of open-ended discussion where I'll share some thoughts on what's next in"
+    },
+    {
+      "start": 210.16,
+      "end": 217.98,
+      "duration": 7.819999999999993,
+      "text": "AI. And I'm looking forward to hearing from you all as well on that one. Okay. So let's get started"
+    },
+    {
+      "start": 217.98,
+      "end": 226.04,
+      "duration": 8.060000000000002,
+      "text": "with the problem of augmenting LLM. So open-ended question for you. You are all familiar with"
+    },
+    {
+      "start": 226.04,
+      "end": 231.04,
+      "duration": 5.0,
+      "text": "pre-trained models like GPT 3.5 Turbo or GPT 4.0."
+    },
+    {
+      "start": 232.2,
+      "end": 236.32,
+      "duration": 4.1200000000000045,
+      "text": "What's the limitation of using just a base model?"
+    },
+    {
+      "start": 236.32,
+      "end": 239.66,
+      "duration": 3.3400000000000034,
+      "text": "What are the typical issues that might arise"
+    },
+    {
+      "start": 239.66,
+      "end": 247.96,
+      "duration": 8.300000000000011,
+      "text": "as you're using a vanilla pre-trained model?"
+    },
+    {
+      "start": 247.96,
+      "end": 248.8,
+      "duration": 0.8400000000000034,
+      "text": "Yes."
+    },
+    {
+      "start": 248.8,
+      "end": 250.54,
+      "duration": 1.7399999999999807,
+      "text": "It lacks some domain knowledge."
+    },
+    {
+      "start": 250.54,
+      "end": 251.82,
+      "duration": 1.2800000000000011,
+      "text": "Lacks some domain knowledge."
+    },
+    {
+      "start": 251.82,
+      "end": 252.84,
+      "duration": 1.0200000000000102,
+      "text": "You're perfectly right."
+    },
+    {
+      "start": 252.84,
+      "end": 256.18,
+      "duration": 3.3400000000000034,
+      "text": "You know, we had a group of students a few years ago,"
+    },
+    {
+      "start": 256.18,
+      "end": 257.66,
+      "duration": 1.4800000000000182,
+      "text": "was not LLM related,"
+    },
+    {
+      "start": 257.66,
+      "end": 260.9,
+      "duration": 3.2399999999999523,
+      "text": "But, you know, they were building a..."
+    },
+    {
+      "start": 260.9,
+      "end": 262.48,
+      "duration": 1.580000000000041,
+      "text": "Welcome to McDonald's. May I take your order?"
+    },
+    {
+      "start": 262.62,
+      "end": 264.66,
+      "duration": 2.0400000000000205,
+      "text": "Hi, can I get a..."
+    },
+    {
+      "start": 266.03,
+      "end": 267.05,
+      "duration": 1.0200000000000387,
+      "text": "Can I get a..."
+    },
+    {
+      "start": 267.05,
+      "end": 267.95,
+      "duration": 0.8999999999999773,
+      "text": "Get in the McDonald's."
+    },
+    {
+      "start": 267.95,
+      "end": 268.87,
+      "duration": 0.9200000000000159,
+      "text": "Can I get a..."
+    },
+    {
+      "start": 268.87,
+      "end": 269.77,
+      "duration": 0.8999999999999773,
+      "text": "Can I get a..."
+    },
+    {
+      "start": 269.77,
+      "end": 271.45,
+      "duration": 1.6800000000000068,
+      "text": "Can I get a..."
+    },
+    {
+      "start": 271.45,
+      "end": 283.86,
+      "duration": 12.410000000000025,
+      "text": "Can I get a..."
+    },
+    {
+      "start": 283.86,
+      "end": 286.54,
+      "duration": 2.680000000000007,
+      "text": "Peas chicken McNuggets."
+    },
+    {
+      "start": 286.64,
+      "end": 287.9,
+      "duration": 1.259999999999991,
+      "text": "And what sauce would you like with that?"
+    },
+    {
+      "start": 290.32,
+      "end": 294.66,
+      "duration": 4.340000000000032,
+      "text": "An autonomous farming device or vehicle"
+    },
+    {
+      "start": 294.66,
+      "end": 298.16,
+      "duration": 3.5,
+      "text": "that had a camera underneath taking pictures of crops"
+    },
+    {
+      "start": 298.16,
+      "end": 301.52,
+      "duration": 3.359999999999957,
+      "text": "to determine if the crop is sick or not,"
+    },
+    {
+      "start": 301.52,
+      "end": 309.76,
+      "duration": 8.240000000000009,
+      "text": "if it should be thrown away, if it should be used or not, and that data set is not a data set you"
+    },
+    {
+      "start": 309.76,
+      "end": 316.56,
+      "duration": 6.800000000000011,
+      "text": "find out there. And the base model or a pre-trained computer vision model would lack that knowledge,"
+    },
+    {
+      "start": 316.56,
+      "end": 332.43,
+      "duration": 15.870000000000005,
+      "text": "of course. What else? Yes. Okay, maybe you're saying, so just to repeat for people online,"
+    },
+    {
+      "start": 332.43,
+      "end": 336.83,
+      "duration": 4.399999999999977,
+      "text": "you're saying the model might have been trained on high quality data, but the data in the wild"
+    },
+    {
+      "start": 336.83,
+      "end": 338.21,
+      "duration": 1.3799999999999955,
+      "text": "is actually not that high quality."
+    },
+    {
+      "start": 338.83,
+      "end": 341.35,
+      "duration": 2.5200000000000387,
+      "text": "And in fact, yes, the distribution of the real world"
+    },
+    {
+      "start": 341.35,
+      "end": 344.39,
+      "duration": 3.0399999999999636,
+      "text": "might differ, as we've seen with GANs,"
+    },
+    {
+      "start": 344.65,
+      "end": 346.03,
+      "duration": 1.3799999999999955,
+      "text": "from the training sets."
+    },
+    {
+      "start": 346.03,
+      "end": 348.59,
+      "duration": 2.5600000000000023,
+      "text": "And that might create an issue with pre-trained models."
+    },
+    {
+      "start": 348.91,
+      "end": 351.03,
+      "duration": 2.1199999999999477,
+      "text": "Although pre-trained LLMs are getting better"
+    },
+    {
+      "start": 351.03,
+      "end": 354.55,
+      "duration": 3.5200000000000387,
+      "text": "at handling all sorts of data inputs."
+    },
+    {
+      "start": 355.61,
+      "end": 355.99,
+      "duration": 0.37999999999999545,
+      "text": "Yes."
+    },
+    {
+      "start": 358.51,
+      "end": 359.01,
+      "duration": 0.5,
+      "text": "Like what?"
+    },
+    {
+      "start": 360.23,
+      "end": 361.69,
+      "duration": 1.4599999999999795,
+      "text": "Lacks current information."
+    },
+    {
+      "start": 362.81,
+      "end": 364.05,
+      "duration": 1.240000000000009,
+      "text": "The LLM is not up to date."
+    },
+    {
+      "start": 364.51,
+      "end": 365.49,
+      "duration": 0.9800000000000182,
+      "text": "And in fact, you're right."
+    },
+    {
+      "start": 365.61,
+      "end": 367.75,
+      "duration": 2.1399999999999864,
+      "text": "Imagine you have to retrain from scratch"
+    },
+    {
+      "start": 367.75,
+      "end": 374.77,
+      "duration": 7.019999999999982,
+      "text": "your LLM every couple of months. One story that I found funny, it's from probably three years ago"
+    },
+    {
+      "start": 374.77,
+      "end": 381.19,
+      "duration": 6.420000000000016,
+      "text": "or maybe more five years ago, where during his first presidency, President Trump one day"
+    },
+    {
+      "start": 381.19,
+      "end": 388.75,
+      "duration": 7.560000000000002,
+      "text": "tweeted, Cove Fefe. You remember that tweet or no? Just Cove Fefe. And it was probably a typo"
+    },
+    {
+      "start": 388.75,
+      "end": 395.41,
+      "duration": 6.660000000000025,
+      "text": "or it was in his pocket. I don't know. But that word did not exist. The LLMs, in fact, that Twitter"
+    },
+    {
+      "start": 395.41,
+      "end": 401.33,
+      "duration": 5.919999999999959,
+      "text": "was running at the time could not recognize that word and so the recommender system sort of went"
+    },
+    {
+      "start": 401.33,
+      "end": 407.33,
+      "duration": 6.0,
+      "text": "wild because suddenly everybody was making fun of that tweet using the word code fefe and the llm"
+    },
+    {
+      "start": 407.33,
+      "end": 412.61,
+      "duration": 5.28000000000003,
+      "text": "was so confused on you know what does that mean where should we show it to whom should we show it"
+    },
+    {
+      "start": 412.61,
+      "end": 418.45,
+      "duration": 5.839999999999975,
+      "text": "and he's an example of nowadays especially on social media there's so many new trends"
+    },
+    {
+      "start": 419.01,
+      "end": 424.61,
+      "duration": 5.600000000000023,
+      "text": "and um it's very hard to retrain an llm to match the new trend and understand the new words out"
+    },
+    {
+      "start": 424.61,
+      "end": 430.93,
+      "duration": 6.319999999999993,
+      "text": "there. I mean, you know, you oftentimes hear Gen Z words like res or mid or whatever. I don't know"
+    },
+    {
+      "start": 430.93,
+      "end": 438.29,
+      "duration": 7.360000000000014,
+      "text": "all of them. But you probably want to find a way that can allow the LLM to understand those trends"
+    },
+    {
+      "start": 438.29,
+      "end": 446.21,
+      "duration": 7.919999999999959,
+      "text": "without retraining the LLM from scratch. What else? It's trained to have a breadth of knowledge."
+    },
+    {
+      "start": 450.0,
+      "end": 455.12,
+      "duration": 5.1200000000000045,
+      "text": "Yeah, it might be trained on a breadth of knowledge, but it might fail or not perform"
+    },
+    {
+      "start": 455.12,
+      "end": 458.42,
+      "duration": 3.3000000000000114,
+      "text": "adequately on a narrow task that is very well defined."
+    },
+    {
+      "start": 459.14,
+      "end": 463.46,
+      "duration": 4.319999999999993,
+      "text": "Think about enterprise applications that, yeah, enterprise application,"
+    },
+    {
+      "start": 463.62,
+      "end": 467.32,
+      "duration": 3.6999999999999886,
+      "text": "you need high precision, high fidelity, low latency,"
+    },
+    {
+      "start": 467.7,
+      "end": 470.48,
+      "duration": 2.7800000000000296,
+      "text": "and maybe the model is not great at that specific thing."
+    },
+    {
+      "start": 470.54,
+      "end": 472.4,
+      "duration": 1.8599999999999568,
+      "text": "It might do fine, but just not good enough."
+    },
+    {
+      "start": 472.56,
+      "end": 474.9,
+      "duration": 2.339999999999975,
+      "text": "And you might want to augment it in a certain way."
+    },
+    {
+      "start": 474.9,
+      "end": 475.02,
+      "duration": 0.12000000000000455,
+      "text": "Yeah."
+    },
+    {
+      "start": 483.44,
+      "end": 488.22,
+      "duration": 4.78000000000003,
+      "text": "So maybe it has a lot of broad domain knowledge that might not be needed for"
+    },
+    {
+      "start": 488.22,
+      "end": 493.54,
+      "duration": 5.319999999999993,
+      "text": "your application. And so you're using a massive heavy model when you actually are only using 2%"
+    },
+    {
+      "start": 493.54,
+      "end": 497.92,
+      "duration": 4.3799999999999955,
+      "text": "of the model capability. You're perfectly right. You might not need all of it. So you might find"
+    },
+    {
+      "start": 497.92,
+      "end": 504.58,
+      "duration": 6.659999999999968,
+      "text": "ways to prune, quantize the model, modify it. All of these are good points. I'm going to add a few"
+    },
+    {
+      "start": 504.58,
+      "end": 511.02,
+      "duration": 6.439999999999998,
+      "text": "more as well. LLMs are very difficult to control. Your last point is actually an example of that."
+    },
+    {
+      "start": 511.08,
+      "end": 515.68,
+      "duration": 4.599999999999966,
+      "text": "You want to control the LLM to use a part of its knowledge, but it's not. It's in fact getting"
+    },
+    {
+      "start": 515.68,
+      "end": 524.46,
+      "duration": 8.780000000000086,
+      "text": "confused. We've seen that in history. In 2016, Microsoft created a notorious Twitter bot that"
+    },
+    {
+      "start": 524.46,
+      "end": 531.82,
+      "duration": 7.360000000000014,
+      "text": "learned from users and it quickly became a racist jerk. Microsoft ended up removing the bot 16 hours"
+    },
+    {
+      "start": 531.82,
+      "end": 537.32,
+      "duration": 5.5,
+      "text": "after launching it. The community was really fast at determining that this was a racist bot."
+    },
+    {
+      "start": 538.58,
+      "end": 543.94,
+      "duration": 5.360000000000014,
+      "text": "And you can empathize with Microsoft in the sense that it is actually hard to control an LLM."
+    },
+    {
+      "start": 543.94,
+      "end": 550.04,
+      "duration": 6.099999999999909,
+      "text": "They might have done a better job to qualify before launching, but it is really hard to control an LLM."
+    },
+    {
+      "start": 550.46,
+      "end": 555.3,
+      "duration": 4.839999999999918,
+      "text": "Even more recently, this is a tweet from Sam Altman last November,"
+    },
+    {
+      "start": 555.98,
+      "end": 565.06,
+      "duration": 9.079999999999927,
+      "text": "where there was this debate between Elon Musk and Sam Altman on whose LLM is the left-wing propaganda machine"
+    },
+    {
+      "start": 565.06,
+      "end": 569.32,
+      "duration": 4.260000000000105,
+      "text": "or the right-wing propaganda machine, and they were hating on each other's LLMs."
+    },
+    {
+      "start": 569.32,
+      "end": 581.66,
+      "duration": 12.339999999999918,
+      "text": "But that tells you at the end of the day that even those two teams, Grok and OpenAI, which are probably the best funded team with a lot of talent, are not doing a great job at controlling their LLMs."
+    },
+    {
+      "start": 581.66,
+      "end": 603.46,
+      "duration": 21.800000000000068,
+      "text": "And from time to time, if you hang out on X, you might see screenshots of users interacting with LLMs and the LLM saying something really controversial or racist or something that would not be considered great by social standards, I guess."
+    },
+    {
+      "start": 603.72,
+      "end": 607.3,
+      "duration": 3.5799999999999272,
+      "text": "And that tells you that the model is really hard to control."
+    },
+    {
+      "start": 607.3,
+      "end": 615.94,
+      "duration": 8.6400000000001,
+      "text": "the second aspect of it is something that you've mentioned earlier llms may underperform in your"
+    },
+    {
+      "start": 615.94,
+      "end": 622.24,
+      "duration": 6.2999999999999545,
+      "text": "task and that might include specific knowledge gaps such as medical diagnosis if you're doing"
+    },
+    {
+      "start": 622.24,
+      "end": 626.62,
+      "duration": 4.3799999999999955,
+      "text": "medical diagnosis you would rather have a llm that is specialized for that and is great at it"
+    },
+    {
+      "start": 626.62,
+      "end": 632.08,
+      "duration": 5.460000000000036,
+      "text": "and in fact something that we haven't mentioned as a group has sources so the answer is sourced"
+    },
+    {
+      "start": 632.08,
+      "end": 637.06,
+      "duration": 4.9799999999999045,
+      "text": "specifically. You have a hard time believing something unless you have the actual source"
+    },
+    {
+      "start": 637.06,
+      "end": 643.72,
+      "duration": 6.660000000000082,
+      "text": "of the research that backs it up. Inconsistencies in style and format. So imagine you're building a"
+    },
+    {
+      "start": 643.72,
+      "end": 652.5,
+      "duration": 8.779999999999973,
+      "text": "legal AI agentic workflow. Legal has a very specific way to write and read where every word"
+    },
+    {
+      "start": 652.5,
+      "end": 658.26,
+      "duration": 5.759999999999991,
+      "text": "counts. If you're negotiating a large contract, every word on that contract might mean something"
+    },
+    {
+      "start": 658.26,
+      "end": 663.46,
+      "duration": 5.2000000000000455,
+      "text": "else when it comes to the court. And so it's very important that you use an LLM that is very good at"
+    },
+    {
+      "start": 663.46,
+      "end": 668.98,
+      "duration": 5.519999999999982,
+      "text": "it. The precision matters. And then, you know, task-specific understanding, such as doing a"
+    },
+    {
+      "start": 668.98,
+      "end": 674.4,
+      "duration": 5.419999999999959,
+      "text": "classification on a niche field. Here, I pulled an example where, you know, let's say a biotech"
+    },
+    {
+      "start": 674.4,
+      "end": 682.42,
+      "duration": 8.019999999999982,
+      "text": "product is trying to use an LLM to categorize user reviews into positive, neutral, or negative."
+    },
+    {
+      "start": 682.42,
+      "end": 691.44,
+      "duration": 9.020000000000095,
+      "text": "um you know maybe for that company something that's uh would be considered a negative review"
+    },
+    {
+      "start": 691.44,
+      "end": 697.24,
+      "duration": 5.7999999999999545,
+      "text": "typically is actually considered a neutral review because the nps of that industry tends to be way"
+    },
+    {
+      "start": 697.24,
+      "end": 703.8,
+      "duration": 6.559999999999945,
+      "text": "lower than other industries let's say um that's a task specific understanding and the llm needs to"
+    },
+    {
+      "start": 703.8,
+      "end": 709.2,
+      "duration": 5.400000000000091,
+      "text": "be aligned to what the company believes is the categorization that it was we will see an example"
+    },
+    {
+      "start": 709.2,
+      "end": 715.84,
+      "duration": 6.639999999999986,
+      "text": "of how to solve that problem in a second. And then limited context handling. A lot of AI"
+    },
+    {
+      "start": 715.84,
+      "end": 722.4,
+      "duration": 6.559999999999945,
+      "text": "applications, especially in the enterprise, have required data that has a lot of context."
+    },
+    {
+      "start": 723.52,
+      "end": 728.56,
+      "duration": 5.039999999999964,
+      "text": "Just to give you a simple example, knowledge management is an important space that enterprises"
+    },
+    {
+      "start": 728.56,
+      "end": 733.84,
+      "duration": 5.280000000000086,
+      "text": "buy a lot of knowledge management tools. When you go on your drive and you have all your documents,"
+    },
+    {
+      "start": 733.84,
+      "end": 739.04,
+      "duration": 5.199999999999932,
+      "text": "ideally you could have an LLM running on top of that drive. You can ask any question and it"
+    },
+    {
+      "start": 739.04,
+      "end": 745.76,
+      "duration": 6.720000000000027,
+      "text": "It will read immediately thousands of documents and answer, what was our Q4 performance in sales?"
+    },
+    {
+      "start": 746.16,
+      "end": 747.72,
+      "duration": 1.5600000000000591,
+      "text": "It was X dollars."
+    },
+    {
+      "start": 748.3,
+      "end": 749.72,
+      "duration": 1.4200000000000728,
+      "text": "It finds it super quickly."
+    },
+    {
+      "start": 749.72,
+      "end": 758.54,
+      "duration": 8.819999999999936,
+      "text": "In practice, because LLMs do not have a large enough context, you cannot use a standalone vanilla pre-trained LLM to solve that problem."
+    },
+    {
+      "start": 758.8,
+      "end": 760.04,
+      "duration": 1.240000000000009,
+      "text": "You will have to augment it."
+    },
+    {
+      "start": 761.68,
+      "end": 762.42,
+      "duration": 0.7400000000000091,
+      "text": "Does that make sense?"
+    },
+    {
+      "start": 763.28,
+      "end": 767.26,
+      "duration": 3.980000000000018,
+      "text": "The other aspect around context windows is they are, in fact, limited."
+    },
+    {
+      "start": 767.26,
+      "end": 786.5,
+      "duration": 19.24000000000001,
+      "text": "If you look at the context windows of the models from the last five years, even the best models today will range in context window or number of tokens it can take as input somewhere in the hundreds of thousands of tokens max."
+    },
+    {
+      "start": 786.5,
+      "end": 791.46,
+      "duration": 4.960000000000036,
+      "text": "Just to give you a sense, 200,000 tokens is roughly two books."
+    },
+    {
+      "start": 792.4,
+      "end": 797.06,
+      "duration": 4.659999999999968,
+      "text": "So that's how much you can upload and you can read pretty much."
+    },
+    {
+      "start": 797.06,
+      "end": 803.54,
+      "duration": 6.480000000000018,
+      "text": "And you can imagine that when you're dealing with video understanding or heavier data files,"
+    },
+    {
+      "start": 803.54,
+      "end": 809.22,
+      "duration": 5.680000000000064,
+      "text": "that is of course an issue. So you might have to chunk it, you might have to embed it,"
+    },
+    {
+      "start": 809.22,
+      "end": 813.78,
+      "duration": 4.559999999999945,
+      "text": "you might have to find other ways to get the LLM to handle larger contexts."
+    },
+    {
+      "start": 816.58,
+      "end": 822.82,
+      "duration": 6.240000000000009,
+      "text": "The attention mechanism is also powerful but problematic because it does not do a great job"
+    },
+    {
+      "start": 822.82,
+      "end": 830.42,
+      "duration": 7.599999999999909,
+      "text": "at attending in very large contexts. There is actually an interesting problem called needle"
+    },
+    {
+      "start": 830.42,
+      "end": 838.98,
+      "duration": 8.56000000000006,
+      "text": "in a haystack. It's an AI problem, or call it a benchmark, where in order to test if your LLM is"
+    },
+    {
+      "start": 838.98,
+      "end": 847.38,
+      "duration": 8.399999999999977,
+      "text": "good at putting attention on a very specific fact within a large corpus, researchers might"
+    },
+    {
+      "start": 847.38,
+      "end": 856.1,
+      "duration": 8.720000000000027,
+      "text": "randomly insert in a book one sentence that outlines a certain fact, such as"
+    },
+    {
+      "start": 856.66,
+      "end": 861.94,
+      "duration": 5.280000000000086,
+      "text": "Arun and Max are having coffee at Blue Bottle, in the middle of the Bible, let's say, or some"
+    },
+    {
+      "start": 861.94,
+      "end": 872.9,
+      "duration": 10.959999999999923,
+      "text": "very long text. And then you ask the LLM what were Arun and Max having, you know, at Blue Bottle,"
+    },
+    {
+      "start": 872.9,
+      "end": 876.98,
+      "duration": 4.080000000000041,
+      "text": "and you see if it remembers that it was coffee. It's actually a complex problem, not because the"
+    },
+    {
+      "start": 876.98,
+      "end": 882.18,
+      "duration": 5.199999999999932,
+      "text": "question is complex, but because you're asking the model to find a fact within a very large corpus,"
+    },
+    {
+      "start": 882.48,
+      "end": 891.38,
+      "duration": 8.899999999999977,
+      "text": "and that's complicated. So again, this is a limiting factor for LLMs. We'll talk about RAG"
+    },
+    {
+      "start": 891.38,
+      "end": 897.34,
+      "duration": 5.960000000000036,
+      "text": "in a second, but I want to preview, you know, there is debates around whether RAG is the right"
+    },
+    {
+      "start": 897.34,
+      "end": 904.56,
+      "duration": 7.219999999999914,
+      "text": "long-term approach for AI systems. So as a high-level idea, RAG is a mechanism, if you will,"
+    },
+    {
+      "start": 904.56,
+      "end": 909.04,
+      "duration": 4.480000000000018,
+      "text": "that embeds documents that an LLM can retrieve"
+    },
+    {
+      "start": 909.04,
+      "end": 913.14,
+      "duration": 4.100000000000023,
+      "text": "and then add as context to its initial prompt"
+    },
+    {
+      "start": 913.14,
+      "end": 914.8,
+      "duration": 1.6599999999999682,
+      "text": "and answer a question."
+    },
+    {
+      "start": 914.8,
+      "end": 916.64,
+      "duration": 1.8400000000000318,
+      "text": "It has lots of application knowledge management"
+    },
+    {
+      "start": 916.64,
+      "end": 917.48,
+      "duration": 0.8400000000000318,
+      "text": "is an example."
+    },
+    {
+      "start": 917.48,
+      "end": 919.38,
+      "duration": 1.8999999999999773,
+      "text": "So imagine you have your drive again,"
+    },
+    {
+      "start": 919.38,
+      "end": 922.44,
+      "duration": 3.060000000000059,
+      "text": "but every document is sort of compressed"
+    },
+    {
+      "start": 922.44,
+      "end": 925.22,
+      "duration": 2.7799999999999727,
+      "text": "in representation and the LLM has access"
+    },
+    {
+      "start": 925.22,
+      "end": 928.08,
+      "duration": 2.8600000000000136,
+      "text": "to that lower dimensional representation."
+    },
+    {
+      "start": 929.22,
+      "end": 933.72,
+      "duration": 4.5,
+      "text": "The debates that this tweet from Yaufoo outlines"
+    },
+    {
+      "start": 933.72,
+      "end": 941.72,
+      "duration": 8.0,
+      "text": "is, in theory, if we have infinite compute, then RAG is useless, because you can just read"
+    },
+    {
+      "start": 941.72,
+      "end": 948.66,
+      "duration": 6.939999999999941,
+      "text": "a massive corpus immediately and answer your question. But even in that case, latency might"
+    },
+    {
+      "start": 948.66,
+      "end": 953.8,
+      "duration": 5.139999999999986,
+      "text": "be an issue. Imagine the time it takes for an AI to read all your drive every single time you ask"
+    },
+    {
+      "start": 953.8,
+      "end": 961.8,
+      "duration": 8.0,
+      "text": "a question. It doesn't make sense. So RAG has other advantages beyond even the accuracy. On top of"
+    },
+    {
+      "start": 961.8,
+      "end": 967.64,
+      "duration": 5.840000000000032,
+      "text": "that. The sourcing matters as well. So it might RAG allows you to source. We'll talk about all"
+    },
+    {
+      "start": 967.64,
+      "end": 975.38,
+      "duration": 7.740000000000009,
+      "text": "that later. But there's always this debate in the community whether a certain method is actually"
+    },
+    {
+      "start": 975.38,
+      "end": 981.14,
+      "duration": 5.759999999999991,
+      "text": "future-proof. Because in practice, as compute power doubles every year, let's say, some of the"
+    },
+    {
+      "start": 981.14,
+      "end": 985.34,
+      "duration": 4.2000000000000455,
+      "text": "methods we're learning right now might not be relevant three years from now. We don't know,"
+    },
+    {
+      "start": 985.34,
+      "end": 994.28,
+      "duration": 8.93999999999994,
+      "text": "So essentially, you know, and the analogy that he makes on, you know, context windows"
+    },
+    {
+      "start": 994.28,
+      "end": 999.92,
+      "duration": 5.639999999999986,
+      "text": "and why RAG approaches might be relevant even a long time from now is search."
+    },
+    {
+      "start": 1000.08,
+      "end": 1005.14,
+      "duration": 5.059999999999945,
+      "text": "You know, when you search on a search engine, you still find sources of information."
+    },
+    {
+      "start": 1005.14,
+      "end": 1011.14,
+      "duration": 6.0,
+      "text": "And in fact, in the background, there is very, you know, detailed traversal algorithms that"
+    },
+    {
+      "start": 1011.14,
+      "end": 1018.68,
+      "duration": 7.539999999999964,
+      "text": "rank and find the specific links that might be the best to present you, versus if you had to"
+    },
+    {
+      "start": 1018.68,
+      "end": 1022.78,
+      "duration": 4.100000000000023,
+      "text": "read, imagine you had to read the entire web every single time you're doing a search query,"
+    },
+    {
+      "start": 1023.28,
+      "end": 1030.34,
+      "duration": 7.059999999999945,
+      "text": "without being able to narrow to a certain portion of the space, that might, again, not be reasonable."
+    },
+    {
+      "start": 1031.74,
+      "end": 1040.14,
+      "duration": 8.400000000000091,
+      "text": "Okay, when we're thinking of improving LLMs, the easiest way we think of it is two dimensions."
+    },
+    {
+      "start": 1040.14,
+      "end": 1044.18,
+      "duration": 4.039999999999964,
+      "text": "One dimension is we are going to improve the foundation model itself."
+    },
+    {
+      "start": 1044.42,
+      "end": 1054.0,
+      "duration": 9.579999999999927,
+      "text": "So, for example, we move from GPT 3.5 turbo to GPT 4, to GPT 4.0, to GPT 5."
+    },
+    {
+      "start": 1054.46,
+      "end": 1057.0,
+      "duration": 2.5399999999999636,
+      "text": "Each of that is supposed to improve the base model."
+    },
+    {
+      "start": 1057.62,
+      "end": 1062.66,
+      "duration": 5.040000000000191,
+      "text": "GPT 5 is another debate because it's sort of packaging other models within itself."
+    },
+    {
+      "start": 1062.8,
+      "end": 1067.14,
+      "duration": 4.3400000000001455,
+      "text": "But, you know, if you're thinking about 3.5, 4.0 and 4.0, that's really what it is."
+    },
+    {
+      "start": 1067.18,
+      "end": 1068.48,
+      "duration": 1.2999999999999545,
+      "text": "The pre-trained model improves."
+    },
+    {
+      "start": 1068.48,
+      "end": 1072.12,
+      "duration": 3.6399999999998727,
+      "text": "And so you should see your performance improve on your tasks."
+    },
+    {
+      "start": 1072.68,
+      "end": 1080.44,
+      "duration": 7.759999999999991,
+      "text": "But the other dimension is we can actually engineer, leverage the LLM in a way that makes it better."
+    },
+    {
+      "start": 1080.56,
+      "end": 1083.74,
+      "duration": 3.1800000000000637,
+      "text": "So you can prompt simply GPT-4.0."
+    },
+    {
+      "start": 1084.16,
+      "end": 1088.48,
+      "duration": 4.319999999999936,
+      "text": "You can change some prompts and improve the prompt."
+    },
+    {
+      "start": 1088.54,
+      "end": 1090.74,
+      "duration": 2.2000000000000455,
+      "text": "And it will improve the performance, it's shown."
+    },
+    {
+      "start": 1091.28,
+      "end": 1093.06,
+      "duration": 1.7799999999999727,
+      "text": "You can even put a rag around it."
+    },
+    {
+      "start": 1093.12,
+      "end": 1095.56,
+      "duration": 2.4400000000000546,
+      "text": "You can put an agentic workflow around it."
+    },
+    {
+      "start": 1095.56,
+      "end": 1144.73,
+      "duration": 49.17000000000007,
+      "text": "You can even put a multi-agent system around it."
+    },
+    {
+      "start": 1145.13,
+      "end": 1148.11,
+      "duration": 2.979999999999791,
+      "text": "And that is another dimension for you to improve performance."
+    },
+    {
+      "start": 1148.61,
+      "end": 1150.25,
+      "duration": 1.6400000000001,
+      "text": "So that's how I want you to think about it."
+    },
+    {
+      "start": 1150.45,
+      "end": 1153.95,
+      "duration": 3.5,
+      "text": "Which LLM I'm using, and then how can I maximize the performance of that LLM?"
+    },
+    {
+      "start": 1155.11,
+      "end": 1158.27,
+      "duration": 3.160000000000082,
+      "text": "This lecture is about the vertical axis."
+    },
+    {
+      "start": 1158.53,
+      "end": 1160.63,
+      "duration": 2.1000000000001364,
+      "text": "Those are the methods that we will see together."
+    },
+    {
+      "start": 1164.72,
+      "end": 1166.72,
+      "duration": 2.0,
+      "text": "Sounds good for the introduction."
+    },
+    {
+      "start": 1167.3,
+      "end": 1168.86,
+      "duration": 1.5599999999999454,
+      "text": "So let's move to prompt engineering."
+    },
+    {
+      "start": 1170.24,
+      "end": 1172.68,
+      "duration": 2.4400000000000546,
+      "text": "I'm going to start with an interesting study,"
+    },
+    {
+      "start": 1172.68,
+      "end": 1175.26,
+      "duration": 2.5799999999999272,
+      "text": "just to motivate why prompt engineering matters."
+    },
+    {
+      "start": 1176.3,
+      "end": 1180.42,
+      "duration": 4.120000000000118,
+      "text": "There is a study from HPS, UPenn,"
+    },
+    {
+      "start": 1180.88,
+      "end": 1184.26,
+      "duration": 3.3799999999998818,
+      "text": "as well as Harvard Business School"
+    },
+    {
+      "start": 1184.26,
+      "end": 1186.78,
+      "duration": 2.519999999999982,
+      "text": "and others also involved, Wharton,"
+    },
+    {
+      "start": 1187.2,
+      "end": 1189.82,
+      "duration": 2.619999999999891,
+      "text": "that took a subset of BCG consultants,"
+    },
+    {
+      "start": 1190.2,
+      "end": 1191.18,
+      "duration": 0.9800000000000182,
+      "text": "individual contributors,"
+    },
+    {
+      "start": 1191.86,
+      "end": 1193.2,
+      "duration": 1.3400000000001455,
+      "text": "split them into three groups."
+    },
+    {
+      "start": 1193.64,
+      "end": 1195.46,
+      "duration": 1.8199999999999363,
+      "text": "One group had no access to AI."
+    },
+    {
+      "start": 1195.6,
+      "end": 1196.72,
+      "duration": 1.1200000000001182,
+      "text": "One group had access to,"
+    },
+    {
+      "start": 1197.12,
+      "end": 1199.54,
+      "duration": 2.4200000000000728,
+      "text": "I think it was GPT-4."
+    },
+    {
+      "start": 1200.26,
+      "end": 1205.68,
+      "duration": 5.420000000000073,
+      "text": "And then one group had access to the LLM, but also a training on how to prompt better."
+    },
+    {
+      "start": 1206.4,
+      "end": 1211.58,
+      "duration": 5.179999999999836,
+      "text": "And then they observed the performance of these consultants across a wide variety of tasks."
+    },
+    {
+      "start": 1212.02,
+      "end": 1214.78,
+      "duration": 2.759999999999991,
+      "text": "There's a few things that they noticed that I thought was interesting."
+    },
+    {
+      "start": 1214.78,
+      "end": 1225.52,
+      "duration": 10.740000000000009,
+      "text": "One is something they called the JAG frontier, meaning that certain tasks that consultants are doing fall beyond the JAG frontier,"
+    },
+    {
+      "start": 1225.52,
+      "end": 1230.46,
+      "duration": 4.940000000000055,
+      "text": "meaning AI is not good enough."
+    },
+    {
+      "start": 1230.6,
+      "end": 1233.88,
+      "duration": 3.2800000000002,
+      "text": "It's not improving human performance."
+    },
+    {
+      "start": 1234.0,
+      "end": 1235.86,
+      "duration": 1.8599999999999,
+      "text": "In fact, it's actually making it worse."
+    },
+    {
+      "start": 1236.7,
+      "end": 1238.6,
+      "duration": 1.8999999999998636,
+      "text": "And some tasks are within the frontier,"
+    },
+    {
+      "start": 1239.1,
+      "end": 1242.52,
+      "duration": 3.4200000000000728,
+      "text": "meaning that AI is actually significantly improving"
+    },
+    {
+      "start": 1243.26,
+      "end": 1246.48,
+      "duration": 3.2200000000000273,
+      "text": "the performance, the speed, the quality of the consultant."
+    },
+    {
+      "start": 1247.56,
+      "end": 1251.04,
+      "duration": 3.480000000000018,
+      "text": "Many tasks fell within and many tasks fell without"
+    },
+    {
+      "start": 1251.04,
+      "end": 1253.28,
+      "duration": 2.240000000000009,
+      "text": "and they shared their insights."
+    },
+    {
+      "start": 1253.28,
+      "end": 1268.26,
+      "duration": 14.980000000000018,
+      "text": "But the TLDR is, there is a frontier within which AI is absolutely helping and one where they call out this behavior of falling asleep at the wheel, where people relied on AI on a task that was beyond the frontier."
+    },
+    {
+      "start": 1268.92,
+      "end": 1274.6,
+      "duration": 5.679999999999836,
+      "text": "And in fact, it ended up going worse because the human was not reviewing the outputs carefully enough."
+    },
+    {
+      "start": 1274.6,
+      "end": 1283.32,
+      "duration": 8.720000000000027,
+      "text": "um they did note that the the group that was trained was the best better than the group that"
+    },
+    {
+      "start": 1283.32,
+      "end": 1288.94,
+      "duration": 5.620000000000118,
+      "text": "was not trained on prompt engineering which also motivates why this lecture matters um so that"
+    },
+    {
+      "start": 1288.94,
+      "end": 1294.96,
+      "duration": 6.019999999999982,
+      "text": "you're you're you're within that group afterwards one other insights were the centaurs and the"
+    },
+    {
+      "start": 1294.96,
+      "end": 1300.52,
+      "duration": 5.559999999999945,
+      "text": "cyborgs they noticed that consultants had the tendency to work with ai in one of two ways"
+    },
+    {
+      "start": 1300.52,
+      "end": 1304.5,
+      "duration": 3.980000000000018,
+      "text": "And you might yourself be part of one of these groups."
+    },
+    {
+      "start": 1305.16,
+      "end": 1316.84,
+      "duration": 11.679999999999836,
+      "text": "The centaurs are mythical creatures that are half human, half, I think, half horses, half something."
+    },
+    {
+      "start": 1318.08,
+      "end": 1321.42,
+      "duration": 3.3400000000001455,
+      "text": "And those were individuals that would divide and delegate."
+    },
+    {
+      "start": 1321.7,
+      "end": 1324.14,
+      "duration": 2.4400000000000546,
+      "text": "They might give a pretty big task to the AI."
+    },
+    {
+      "start": 1324.28,
+      "end": 1327.92,
+      "duration": 3.6400000000001,
+      "text": "So imagine you're working on a PowerPoint, which consultants are known to do."
+    },
+    {
+      "start": 1328.5,
+      "end": 1335.52,
+      "duration": 7.019999999999982,
+      "text": "You might actually write a very long prompt on how you wanted to do your PowerPoint and then let it work for some time and then come back and it's done."
+    },
+    {
+      "start": 1335.52,
+      "end": 1345.72,
+      "duration": 10.200000000000045,
+      "text": "When others would act as cyborgs, cyborgs are fully blended bionic human robots, a human robot and robots augmented with robotic parts."
+    },
+    {
+      "start": 1346.34,
+      "end": 1349.34,
+      "duration": 3.0,
+      "text": "And those individuals would not delegate fully a task."
+    },
+    {
+      "start": 1349.4,
+      "end": 1352.92,
+      "duration": 3.519999999999982,
+      "text": "They would actually work super quickly with the model and like back and forth."
+    },
+    {
+      "start": 1352.92,
+      "end": 1358.1,
+      "duration": 5.179999999999836,
+      "text": "I find that a lot of students are actually more working like cyborgs than centaurs."
+    },
+    {
+      "start": 1358.3,
+      "end": 1361.76,
+      "duration": 3.4600000000000364,
+      "text": "But while maybe in the enterprise, when you're trying to automate the workflow,"
+    },
+    {
+      "start": 1361.92,
+      "end": 1363.8,
+      "duration": 1.8799999999998818,
+      "text": "you're thinking more like a centaur."
+    },
+    {
+      "start": 1365.16,
+      "end": 1366.72,
+      "duration": 1.5599999999999454,
+      "text": "That's just something good to keep in mind."
+    },
+    {
+      "start": 1367.16,
+      "end": 1370.52,
+      "duration": 3.3599999999999,
+      "text": "Also, a lot of companies will tell you, oh, we're hiring prompt engineers, etc."
+    },
+    {
+      "start": 1370.7,
+      "end": 1371.28,
+      "duration": 0.5799999999999272,
+      "text": "It's a curer."
+    },
+    {
+      "start": 1371.64,
+      "end": 1372.8,
+      "duration": 1.1599999999998545,
+      "text": "I don't buy that."
+    },
+    {
+      "start": 1372.88,
+      "end": 1375.08,
+      "duration": 2.199999999999818,
+      "text": "I think it's just a skill that everybody should have."
+    },
+    {
+      "start": 1375.28,
+      "end": 1377.52,
+      "duration": 2.240000000000009,
+      "text": "You're not going to make a curer out of prompt engineering,"
+    },
+    {
+      "start": 1377.52,
+      "end": 1382.42,
+      "duration": 4.900000000000091,
+      "text": "but you're probably going to use it as a very powerful skill in your curer."
+    },
+    {
+      "start": 1384.9,
+      "end": 1405.18,
+      "duration": 20.279999999999973,
+      "text": "So let's talk about basic prompt design principles. I'm giving you a very simple prompt here. Summarize this document and then the document is uploaded alongside it. And the model has not much context around, you know, what should be the summary? Well, how long should be the summary? What should we talk about? Et cetera."
+    },
+    {
+      "start": 1405.18,
+      "end": 1411.62,
+      "duration": 6.439999999999827,
+      "text": "You can actually improve these prompts by doing something like summarize this 10-page"
+    },
+    {
+      "start": 1411.62,
+      "end": 1418.52,
+      "duration": 6.900000000000091,
+      "text": "scientific paper on renewable energy in five bullet points focusing on key findings and"
+    },
+    {
+      "start": 1418.52,
+      "end": 1419.92,
+      "duration": 1.400000000000091,
+      "text": "implications for policymakers."
+    },
+    {
+      "start": 1420.52,
+      "end": 1422.02,
+      "duration": 1.5,
+      "text": "That's already better, right?"
+    },
+    {
+      "start": 1422.08,
+      "end": 1425.84,
+      "duration": 3.759999999999991,
+      "text": "You're sharing the audience and it's going to tailor it to the audience."
+    },
+    {
+      "start": 1426.08,
+      "end": 1430.86,
+      "duration": 4.779999999999973,
+      "text": "You're saying that you want five bullet points and you want to focus only on key findings."
+    },
+    {
+      "start": 1431.62,
+      "end": 1433.56,
+      "duration": 1.9400000000000546,
+      "text": "That's a better prompt, you would argue."
+    },
+    {
+      "start": 1433.56,
+      "end": 1439.68,
+      "duration": 6.120000000000118,
+      "text": "how could you even make these prompts better what are other techniques that you've heard of"
+    },
+    {
+      "start": 1439.68,
+      "end": 1455.08,
+      "duration": 15.399999999999864,
+      "text": "tried yourself that could make this one-shot prompt better yeah okay right right example so"
+    },
+    {
+      "start": 1455.08,
+      "end": 1460.24,
+      "duration": 5.160000000000082,
+      "text": "say uh you mean uh here is an example of a great summary yeah you're right that's a good idea"
+    },
+    {
+      "start": 1460.24,
+      "end": 1472.37,
+      "duration": 12.129999999999882,
+      "text": "very popular technique acts like a renewable energy expert giving a conference at davos let's"
+    },
+    {
+      "start": 1472.37,
+      "end": 1474.37,
+      "duration": 2.0,
+      "text": "Yeah, that's great."
+    },
+    {
+      "start": 1474.37,
+      "end": 1475.37,
+      "duration": 1.0,
+      "text": "Someone where..."
+    },
+    {
+      "start": 1479.37,
+      "end": 1481.37,
+      "duration": 2.0,
+      "text": "You are the best in the world at this."
+    },
+    {
+      "start": 1481.37,
+      "end": 1482.37,
+      "duration": 1.0,
+      "text": "Explain."
+    },
+    {
+      "start": 1482.37,
+      "end": 1484.37,
+      "duration": 2.0,
+      "text": "Yeah, actually, I mean, these things work."
+    },
+    {
+      "start": 1484.37,
+      "end": 1488.37,
+      "duration": 4.0,
+      "text": "It's funny, but it does work to say act like XYZ."
+    },
+    {
+      "start": 1488.37,
+      "end": 1490.37,
+      "duration": 2.0,
+      "text": "It's a very popular prompt template."
+    },
+    {
+      "start": 1490.37,
+      "end": 1491.37,
+      "duration": 1.0,
+      "text": "We see a few examples."
+    },
+    {
+      "start": 1491.37,
+      "end": 1496.7,
+      "duration": 5.330000000000155,
+      "text": "What else could you do?"
+    },
+    {
+      "start": 1496.7,
+      "end": 1497.7,
+      "duration": 1.0,
+      "text": "Yes."
+    },
+    {
+      "start": 1497.7,
+      "end": 1503.35,
+      "duration": 5.649999999999864,
+      "text": "Critique your own project."
+    },
+    {
+      "start": 1503.35,
+      "end": 1504.35,
+      "duration": 1.0,
+      "text": "So you're using reflection."
+    },
+    {
+      "start": 1504.35,
+      "end": 1507.35,
+      "duration": 3.0,
+      "text": "So you might actually do one output and then ask it to critique it"
+    },
+    {
+      "start": 1507.35,
+      "end": 1511.59,
+      "duration": 4.240000000000009,
+      "text": "it and then give it back yeah we'll see that that's a great one that's that's the one that"
+    },
+    {
+      "start": 1511.59,
+      "end": 1519.35,
+      "duration": 7.759999999999991,
+      "text": "probably works best within those typically but we we see some examples what else uh yeah okay"
+    },
+    {
+      "start": 1519.35,
+      "end": 1526.07,
+      "duration": 6.720000000000027,
+      "text": "break the task down into steps you know how that is called okay chain of thoughts so um"
+    },
+    {
+      "start": 1526.87,
+      "end": 1531.43,
+      "duration": 4.560000000000173,
+      "text": "this is actually a popular method that's been shown in in research that it improves you could"
+    },
+    {
+      "start": 1531.43,
+      "end": 1536.07,
+      "duration": 4.639999999999873,
+      "text": "actually give a clear instruction and also encourage the model to think step by step"
+    },
+    {
+      "start": 1536.07,
+      "end": 1540.01,
+      "duration": 3.9400000000000546,
+      "text": "approach the task step by step and do not steep any step."
+    },
+    {
+      "start": 1540.23,
+      "end": 1542.69,
+      "duration": 2.4600000000000364,
+      "text": "And then you give it some steps such as step one,"
+    },
+    {
+      "start": 1542.79,
+      "end": 1545.09,
+      "duration": 2.2999999999999545,
+      "text": "identify the three most important findings."
+    },
+    {
+      "start": 1545.31,
+      "end": 1549.13,
+      "duration": 3.8200000000001637,
+      "text": "Step two, explain how key each finding impact renewable energy policy."
+    },
+    {
+      "start": 1549.47,
+      "end": 1551.83,
+      "duration": 2.3599999999999,
+      "text": "Step three, write the five bullet summary"
+    },
+    {
+      "start": 1551.83,
+      "end": 1555.19,
+      "duration": 3.3600000000001273,
+      "text": "with each point addressing a finding, et cetera."
+    },
+    {
+      "start": 1555.19,
+      "end": 1559.55,
+      "duration": 4.3599999999999,
+      "text": "So chain of thoughts, I linked the paper from 2023"
+    },
+    {
+      "start": 1559.55,
+      "end": 1562.39,
+      "duration": 2.8400000000001455,
+      "text": "that popularized chain of thoughts."
+    },
+    {
+      "start": 1562.55,
+      "end": 1564.71,
+      "duration": 2.160000000000082,
+      "text": "Chain of thoughts is very, very popular right now,"
+    },
+    {
+      "start": 1564.71,
+      "end": 1567.67,
+      "duration": 2.9600000000000364,
+      "text": "especially in AI startups that are trying to control their LLs."
+    },
+    {
+      "start": 1570.55,
+      "end": 1575.75,
+      "duration": 5.2000000000000455,
+      "text": "Okay, to go back to your examples about act like XYZ,"
+    },
+    {
+      "start": 1576.83,
+      "end": 1579.23,
+      "duration": 2.400000000000091,
+      "text": "what I like to do, Andrew Eng also talks about that,"
+    },
+    {
+      "start": 1579.59,
+      "end": 1581.77,
+      "duration": 2.1800000000000637,
+      "text": "is to look at other people's prompts."
+    },
+    {
+      "start": 1582.07,
+      "end": 1587.27,
+      "duration": 5.2000000000000455,
+      "text": "And in fact, online you have a lot of prompt repositories for free on GitHub."
+    },
+    {
+      "start": 1587.87,
+      "end": 1591.67,
+      "duration": 3.800000000000182,
+      "text": "In fact, I linked the awesome prompt template repo on GitHub,"
+    },
+    {
+      "start": 1591.67,
+      "end": 1596.03,
+      "duration": 4.3599999999999,
+      "text": "where you have so many examples of great prompt that engineers have built."
+    },
+    {
+      "start": 1596.39,
+      "end": 1599.15,
+      "duration": 2.759999999999991,
+      "text": "They said it works great for us and they published it online."
+    },
+    {
+      "start": 1599.71,
+      "end": 1604.63,
+      "duration": 4.920000000000073,
+      "text": "And a lot of them starts with act as, you know, act as a Linux terminal,"
+    },
+    {
+      "start": 1605.19,
+      "end": 1609.97,
+      "duration": 4.779999999999973,
+      "text": "act as an English translator, act like a position interviewer, etc."
+    },
+    {
+      "start": 1610.55,
+      "end": 1617.58,
+      "duration": 7.029999999999973,
+      "text": "The advantage of a prompt template is that you can actually put it in your code"
+    },
+    {
+      "start": 1617.58,
+      "end": 1620.5,
+      "duration": 2.9200000000000728,
+      "text": "and scale it for many user requests."
+    },
+    {
+      "start": 1620.5,
+      "end": 1623.24,
+      "duration": 2.740000000000009,
+      "text": "So let me give you an example from Workera."
+    },
+    {
+      "start": 1623.72,
+      "end": 1628.84,
+      "duration": 5.119999999999891,
+      "text": "you know where Kera evaluates skills some of you have taken the assessments already"
+    },
+    {
+      "start": 1628.84,
+      "end": 1638.81,
+      "duration": 9.970000000000027,
+      "text": "and tries to personalize it to the user bye kids"
+    },
+    {
+      "start": 1641.59,
+      "end": 1650.07,
+      "duration": 8.480000000000018,
+      "text": "i got some troubles but they won't last and pretty soon all my troubles will pass because i'm in"
+    },
+    {
+      "start": 1650.07,
+      "end": 1657.89,
+      "duration": 7.820000000000164,
+      "text": "Shoo, shoo, shoo, shoo, shoo, shoo, shoo, shoo, shoo, shoo, shoo, shoo, shoo, sugar town."
+    },
+    {
+      "start": 1658.25,
+      "end": 1664.79,
+      "duration": 6.539999999999964,
+      "text": "A million dollars or ten."
+    },
+    {
+      "start": 1674.03,
+      "end": 1675.97,
+      "duration": 1.9400000000000546,
+      "text": "Which of these would be a little less expected?"
+    },
+    {
+      "start": 1676.33,
+      "end": 1679.11,
+      "duration": 2.7799999999999727,
+      "text": "Check out the Alliums. They'd go great with the hydrangeas below."
+    },
+    {
+      "start": 1679.43,
+      "end": 1680.39,
+      "duration": 0.9600000000000364,
+      "text": "Will those last till Saturday?"
+    },
+    {
+      "start": 1680.77,
+      "end": 1683.51,
+      "duration": 2.740000000000009,
+      "text": "Yeah, they should last until Saturday if they're kept in water."
+    },
+    {
+      "start": 1692.41,
+      "end": 1697.51,
+      "duration": 5.099999999999909,
+      "text": "And in fact, if you actually read in an HR system, in an enterprise, in the HR system,"
+    },
+    {
+      "start": 1697.51,
+      "end": 1706.11,
+      "duration": 8.599999999999909,
+      "text": "You might have Jane is a product manager, level three, and she is in the US and her preferred language is English."
+    },
+    {
+      "start": 1706.75,
+      "end": 1712.45,
+      "duration": 5.7000000000000455,
+      "text": "And actually, that metadata can be inserted in a prompt template that we personalize for Jane."
+    },
+    {
+      "start": 1712.85,
+      "end": 1717.41,
+      "duration": 4.560000000000173,
+      "text": "And similarly for Joe, whose favorite language is a preferred language is Spanish."
+    },
+    {
+      "start": 1717.79,
+      "end": 1720.17,
+      "duration": 2.380000000000109,
+      "text": "It will it will tailor it to Joe."
+    },
+    {
+      "start": 1720.49,
+      "end": 1721.73,
+      "duration": 1.240000000000009,
+      "text": "And that's called a prompt template."
+    },
+    {
+      "start": 1721.73,
+      "end": 1738.02,
+      "duration": 16.289999999999964,
+      "text": "so the question is do the foundation models use a prompt templates or you have to integrate it"
+    },
+    {
+      "start": 1738.02,
+      "end": 1743.74,
+      "duration": 5.720000000000027,
+      "text": "yourself so the foundation models probably use a system prompt that you don't see like when"
+    },
+    {
+      "start": 1743.74,
+      "end": 1752.04,
+      "duration": 8.299999999999955,
+      "text": "actually you type on chat gpt it is possible it's not public that open ai behind the scene has like"
+    },
+    {
+      "start": 1752.04,
+      "end": 1758.28,
+      "duration": 6.240000000000009,
+      "text": "act like a very helpful assistance for this user and by the way here is your memories about your"
+    },
+    {
+      "start": 1758.28,
+      "end": 1763.74,
+      "duration": 5.460000000000036,
+      "text": "the user that we kept in a database you can actually check your memories and then your"
+    },
+    {
+      "start": 1763.74,
+      "end": 1767.86,
+      "duration": 4.119999999999891,
+      "text": "prompt goes under and then the generation starts so probably they're using something like that"
+    },
+    {
+      "start": 1767.86,
+      "end": 1774.16,
+      "duration": 6.300000000000182,
+      "text": "but it doesn't mean you can't add one yourself so in fact if you if you think about a prompt"
+    },
+    {
+      "start": 1774.16,
+      "end": 1780.4,
+      "duration": 6.240000000000009,
+      "text": "template for for the worker example i was showing maybe it starts when you call open ai by act like"
+    },
+    {
+      "start": 1780.4,
+      "end": 1786.16,
+      "duration": 5.759999999999991,
+      "text": "a helpful assistant and then underneath it's like act like a great ai mentor that helps people in"
+    },
+    {
+      "start": 1786.16,
+      "end": 1792.24,
+      "duration": 6.079999999999927,
+      "text": "their career. And OpenAI's prompt template also has follow the instruction from the creator or"
+    },
+    {
+      "start": 1792.24,
+      "end": 1799.87,
+      "duration": 7.629999999999882,
+      "text": "something like that. It's possible. Questions about prompt templates? Again, I would encourage"
+    },
+    {
+      "start": 1799.87,
+      "end": 1805.81,
+      "duration": 5.940000000000055,
+      "text": "you to go and read examples of prompts. Some of them are quite thoughtful. Let's talk about zero"
+    },
+    {
+      "start": 1805.81,
+      "end": 1811.73,
+      "duration": 5.920000000000073,
+      "text": "shot versus few shot prompting. It came up earlier. Here's an example, again, going back to the"
+    },
+    {
+      "start": 1811.73,
+      "end": 1818.41,
+      "duration": 6.680000000000064,
+      "text": "categorization of product reviews. Let's say that we're working on a task where the prompt is"
+    },
+    {
+      "start": 1818.41,
+      "end": 1825.39,
+      "duration": 6.980000000000018,
+      "text": "classify the tone of the sentence as positive, negative, or neutral. And then you paste the"
+    },
+    {
+      "start": 1825.39,
+      "end": 1833.85,
+      "duration": 8.459999999999809,
+      "text": "review, which is the product is fine, but I was expecting more. If I were to survey the room,"
+    },
+    {
+      "start": 1834.17,
+      "end": 1838.75,
+      "duration": 4.579999999999927,
+      "text": "I would bet that some of you would say it's negative. Some of you would say it's neutral"
+    },
+    {
+      "start": 1838.75,
+      "end": 1843.43,
+      "duration": 4.680000000000064,
+      "text": "because you actually have a first part that is relatively positive, it's fine."
+    },
+    {
+      "start": 1844.25,
+      "end": 1847.71,
+      "duration": 3.4600000000000364,
+      "text": "And then the second part, I was expecting more, which is relatively negative."
+    },
+    {
+      "start": 1847.85,
+      "end": 1848.71,
+      "duration": 0.8600000000001273,
+      "text": "So where do you land?"
+    },
+    {
+      "start": 1849.19,
+      "end": 1850.87,
+      "duration": 1.6799999999998363,
+      "text": "This can be a subjective question."
+    },
+    {
+      "start": 1851.33,
+      "end": 1853.81,
+      "duration": 2.480000000000018,
+      "text": "And maybe in one industry, this would be considered amazing."
+    },
+    {
+      "start": 1853.81,
+      "end": 1856.11,
+      "duration": 2.2999999999999545,
+      "text": "And another one, it would be considered really bad"
+    },
+    {
+      "start": 1856.11,
+      "end": 1858.85,
+      "duration": 2.740000000000009,
+      "text": "because people are used to really flourishing reviews."
+    },
+    {
+      "start": 1860.13,
+      "end": 1863.33,
+      "duration": 3.199999999999818,
+      "text": "And so the way you can actually align the model to your task"
+    },
+    {
+      "start": 1863.33,
+      "end": 1865.33,
+      "duration": 2.0,
+      "text": "is by converting that zero-shot prompt."
+    },
+    {
+      "start": 1865.45,
+      "end": 1868.57,
+      "duration": 3.119999999999891,
+      "text": "Zero-shot refers to the fact that it's not beginning to give any example"
+    },
+    {
+      "start": 1868.57,
+      "end": 1876.41,
+      "duration": 7.8400000000001455,
+      "text": "into a few short prompts where the model is given in the prompt a set of examples to align it to"
+    },
+    {
+      "start": 1876.41,
+      "end": 1881.57,
+      "duration": 5.1599999999998545,
+      "text": "what you want it to do. So the example here is you again you paste the same prompt as before with the"
+    },
+    {
+      "start": 1881.57,
+      "end": 1887.97,
+      "duration": 6.400000000000091,
+      "text": "user review and then you add here are examples of tone classifications. This exceeded my expectation"
+    },
+    {
+      "start": 1887.97,
+      "end": 1896.29,
+      "duration": 8.319999999999936,
+      "text": "completely. Positive. It's okay but I wish it had more features. Negative. The service was adequate"
+    },
+    {
+      "start": 1896.29,
+      "end": 1904.05,
+      "duration": 7.759999999999991,
+      "text": "neither good nor bad, neutral. Now classify the tone of this sentence, you know, after you've"
+    },
+    {
+      "start": 1904.05,
+      "end": 1909.25,
+      "duration": 5.2000000000000455,
+      "text": "heard about these things, and the model then says negative. And the reason it says negative,"
+    },
+    {
+      "start": 1909.25,
+      "end": 1916.37,
+      "duration": 7.119999999999891,
+      "text": "of course, is likely because of the second example, which was, it's okay, but I wish it had more"
+    },
+    {
+      "start": 1916.37,
+      "end": 1921.33,
+      "duration": 4.960000000000036,
+      "text": "features, which we told the model that was negative, because the model saw that it's aligned"
+    },
+    {
+      "start": 1921.33,
+      "end": 1923.73,
+      "duration": 2.400000000000091,
+      "text": "now with your expectations."
+    },
+    {
+      "start": 1923.73,
+      "end": 1929.31,
+      "duration": 5.579999999999927,
+      "text": "Few-shot prompts are very popular, and in fact, for AI startups that are slightly more"
+    },
+    {
+      "start": 1929.31,
+      "end": 1935.85,
+      "duration": 6.539999999999964,
+      "text": "sophisticated, you might see them keep a prompt up to date whenever a user says something"
+    }
+  ]
+}
