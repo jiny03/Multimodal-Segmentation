@@ -19,18 +19,16 @@ const ChapterBar: React.FC<ChapterBarProps> = ({ chapters, duration, currentTime
 
   // Helper to map type to color
   const getColor = (type: any) => {
-    // Debug: Check if 'type' is actually reaching this function
-    // console.log("Segment Type:", type);
-
-    if (!type) return '#888'; // Grey fallback
+    if (!type) return '#888';
 
     const normalized = String(type).trim().toLowerCase();
-    
-    // Logic: content is green, everything else is red
+
     if (normalized === 'content') return '#4CAF50';
-    if (['ad', 'intro', 'outro'].includes(normalized)) return '#f44336';
-    
-    return '#888'; // Default for unrecognized types
+    if (['ad', 'intro', 'outro', 'intro/outro'].includes(normalized)) return '#f44336';
+    if (normalized === 'recap') return '#9C27B0';
+    if (normalized.startsWith('transition')) return '#FF9800';
+
+    return '#888';
   };
 
   return (

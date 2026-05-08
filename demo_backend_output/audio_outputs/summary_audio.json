@@ -1,5 +1,5 @@
 {
-  "input_dir": "demo_video",
+  "input_dir": "/home/desktop/projects/576/Multimodal-Segmentation/demo_video",
   "output_dir": "demo_backend_output/audio_outputs",
   "num_videos": 1,
   "videos": [

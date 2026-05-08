@@ -308,7 +308,7 @@ def analyze(video_path, out_path=None, verbose=True):
     resize_h = int(RESIZE_W * h / w) if w > 0 else 90
 
     if verbose:
-        print(f"Video: {os.path.basename(video_path)}  {w}x{h}  {fps:.1f}fps  {duration:.1f}s")
+        pass  # print(f"Video: {os.path.basename(video_path)}  {w}x{h}  {fps:.1f}fps  {duration:.1f}s")
 
     times = []
     hists = []
@@ -336,8 +336,8 @@ def analyze(video_path, out_path=None, verbose=True):
             if adj > ADJACENT_CUT_THRESH:
                 adjacent_cut_times.append(round(t, 2))
 
-        if verbose and fi > 0 and fi % 200 == 0:
-            print(f"  {100*fi/len(frame_indices):.0f}%  t={t:.0f}s")
+        # if verbose and fi > 0 and fi % 200 == 0:
+        #     print(f"  {100*fi/len(frame_indices):.0f}%  t={t:.0f}s")
 
     cap.release()
 
@@ -349,8 +349,8 @@ def analyze(video_path, out_path=None, verbose=True):
     win_hists = build_per_window_hists(times, hists, n_windows)
 
     if verbose:
-        print(f"Analyzed {len(times)} frames, {len(adjacent_cut_times)} shot cuts detected")
-        print("Computing scores...")
+        pass  # print(f"Analyzed {len(times)} frames, {len(adjacent_cut_times)} shot cuts detected")
+        # print("Computing scores...")
 
     # score 1: local contrast - how different does each second look from what's around it
     local_raw = build_local_contrast(win_hists, n_windows)
@@ -429,14 +429,14 @@ def analyze(video_path, out_path=None, verbose=True):
     with open(out_path, "w") as f:
         json.dump(output, f, indent=2)
 
-    if verbose:
-        print(f"\nSegments ({len(segments)}):")
-        for s in segments:
-            sm, ss = divmod(s["start"], 60); em, es = divmod(s["end"], 60)
-            print(f"  {int(sm):02d}:{ss:05.2f} -> {int(em):02d}:{es:05.2f}  {s['type']}  ({s['duration']:.1f}s)")
-        print(f"\nConfidence: spread={score_spread:.3f}  boundary_peakiness={boundary_peakiness:.3f}")
-        print(f"  => {interp}")
-        print(f"Output: {out_path}")
+    # if verbose:
+    #     print(f"\nSegments ({len(segments)}):")
+    #     for s in segments:
+    #         sm, ss = divmod(s["start"], 60); em, es = divmod(s["end"], 60)
+    #         print(f"  {int(sm):02d}:{ss:05.2f} -> {int(em):02d}:{es:05.2f}  {s['type']}  ({s['duration']:.1f}s)")
+    #     print(f"\nConfidence: spread={score_spread:.3f}  boundary_peakiness={boundary_peakiness:.3f}")
+    #     print(f"  => {interp}")
+    #     print(f"Output: {out_path}")
 
     return output
 

@@ -441,13 +441,13 @@ if (typeof process !== "undefined" && process.type === "renderer") {
 }
 var srcExports = src.exports;
 var path = require$$0$1;
-var spawn = require$$1$1.spawn;
+var spawn$1 = require$$1$1.spawn;
 var debug = srcExports("electron-squirrel-startup");
 var app = require$$3$1.app;
 var run = function(args, done) {
   var updateExe = path.resolve(path.dirname(process.execPath), "..", "Update.exe");
   debug("Spawning `%s` with args `%s`", updateExe, args);
-  spawn(updateExe, args, {
+  spawn$1(updateExe, args, {
     detached: true
   }).on("close", done);
 };
@@ -499,4 +499,29 @@ require$$3$1.app.on("activate", () => {
   if (require$$3$1.BrowserWindow.getAllWindows().length === 0) {
     createWindow();
   }
+});
+const { spawn } = require("child_process");
+require$$3$1.ipcMain.handle("run-analysis", async (event, videoPath) => {
+  return new Promise((resolve, reject) => {
+    const pythonProcess = spawn("./backend/venv/bin/python", ["./backend/main.py", videoPath]);
+    let result = "";
+    let error = "";
+    pythonProcess.stdout.on("data", (data) => {
+      result += data.toString();
+    });
+    pythonProcess.stderr.on("data", (data) => {
+      error += data.toString();
+    });
+    pythonProcess.on("close", (code) => {
+      if (code === 0) {
+        try {
+          resolve(JSON.parse(result));
+        } catch (e) {
+          resolve({ error: "Failed to parse Python output", raw: result });
+        }
+      } else {
+        reject(error || `Process exited with code ${code}`);
+      }
+    });
+  });
 });

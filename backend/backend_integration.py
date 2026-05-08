@@ -29,6 +29,16 @@ SHORT_AUDIO_VISUAL_LOOKAHEAD = 45.0
 SHORT_AUDIO_EXTENSION_MAX_DURATION = 45.0
 AUDIO_VISUAL_TRIM_MIN_LEAD = 20.0
 AUDIO_VISUAL_TRIM_MIN_REMAINING = 15.0
+INTRO_MIN_DURATION = 5.0
+INTRO_MAX_DURATION = 75.0
+INTRO_BOUNDARY_WINDOW = 20.0
+INTRO_VISUAL_BOUNDARY_THRESHOLD = 0.60
+INTRO_AUDIO_BOUNDARY_THRESHOLD = 0.35
+OUTRO_MIN_DURATION = 5.0
+OUTRO_MAX_DURATION = 20.0
+OUTRO_DURATION_FRACTION = 0.022
+OUTRO_BOUNDARY_SEARCH = 60.0
+OUTRO_VISUAL_BOUNDARY_THRESHOLD = 0.60
 SOURCE_WEIGHTS = {
     "audio_original": 0.70,
     "visual": 0.55,
@@ -137,6 +147,29 @@ def music_profile_from_cache(stem):
     return mean_music, high_music_fraction, high_music_ranges[:5]
 
 
+def audio_boundary_peaks_from_cache(stem):
+    path = Path("cache") / stem / "boundary_peaks.json"
+
+    if not path.exists():
+        return []
+
+    data = read_json(path)
+    peak_times = data.get("peak_times", [])
+    peak_scores = data.get("peak_scores", [])
+    peaks = []
+
+    for index, peak_time in enumerate(peak_times):
+        if index >= len(peak_scores):
+            continue
+
+        peaks.append({
+            "time": float(peak_time),
+            "score": float(peak_scores[index]),
+        })
+
+    return peaks
+
+
 def visual_reliability_from_data(visual_data):
     confidence = visual_data.get("confidence", {})
     score_spread = float(confidence.get("score_spread", 0.0))
@@ -149,6 +182,18 @@ def visual_reliability_from_data(visual_data):
         return "medium"
 
     return "low"
+
+
+def video_duration_from_outputs(audio_data, visual_data):
+    if visual_data.get("duration"):
+        return float(visual_data["duration"])
+
+    transcript_segments = audio_data.get("transcript_segments", [])
+
+    if len(transcript_segments) > 0:
+        return max(float(segment.get("end", 0.0)) for segment in transcript_segments)
+
+    return 0.0
 
 
 def classify_video_type(speech_coverage, mean_music, high_music_fraction, visual_reliability):
@@ -210,6 +255,18 @@ def source_weights_for_profile(profile):
         weights["visual"] -= 0.12
 
     return weights
+
+
+def make_intro_outro_segment(label, start, end, sources, score=0.55):
+    return {
+        "start": round(start, 2),
+        "end": round(end, 2),
+        "duration": round(end - start, 2),
+        "label": label,
+        "score": score,
+        "sources": sources,
+        "source_scores": {source: score for source in sources},
+    }
 
 
 def load_audio_segments(path):
@@ -518,11 +575,126 @@ def keep_cluster(cluster, raw_candidates, profile):
     return False
 
 
+def strongest_audio_boundary(audio_boundary_peaks, start, end, threshold):
+    best_peak = None
+
+    for peak in audio_boundary_peaks:
+        time = float(peak["time"])
+
+        if time < start or time > end:
+            continue
+
+        score = float(peak["score"])
+
+        if score < threshold:
+            continue
+
+        if best_peak is None or score > float(best_peak["score"]):
+            best_peak = peak
+
+    if best_peak is None:
+        return None
+
+    return float(best_peak["time"])
+
+
+def estimate_intro_end(visual_data, visual_segments, audio_boundary_peaks, video_duration):
+    candidate_times = [INTRO_MIN_DURATION]
+
+    if len(visual_segments) > 0:
+        first_visual_start = min(segment["start"] for segment in visual_segments)
+        candidate_times.append(first_visual_start)
+        search_start = max(INTRO_MIN_DURATION, first_visual_start - INTRO_BOUNDARY_WINDOW)
+        search_end = min(video_duration, first_visual_start + INTRO_BOUNDARY_WINDOW)
+
+        visual_boundary = snap_time_to_visual_boundary(first_visual_start, visual_data, INTRO_BOUNDARY_WINDOW, INTRO_VISUAL_BOUNDARY_THRESHOLD)
+
+        if visual_boundary is not None:
+            candidate_times.append(visual_boundary)
+
+        audio_boundary = strongest_audio_boundary(audio_boundary_peaks, first_visual_start, search_end, INTRO_AUDIO_BOUNDARY_THRESHOLD)
+
+        if audio_boundary is not None:
+            candidate_times.append(audio_boundary)
+    else:
+        visual_boundary = snap_time_to_visual_boundary(INTRO_MIN_DURATION, visual_data, INTRO_MAX_DURATION - INTRO_MIN_DURATION, INTRO_VISUAL_BOUNDARY_THRESHOLD)
+
+        if visual_boundary is not None:
+            candidate_times.append(visual_boundary)
+
+    return min(INTRO_MAX_DURATION, max(candidate_times))
+
+
+def estimate_outro_start(visual_data, video_duration):
+    if video_duration <= 0.0:
+        return 0.0
+
+    shot_cuts = []
+
+    for shot_cut_time in visual_data.get("shot_cut_times", []):
+        time = float(shot_cut_time)
+
+        if video_duration - OUTRO_BOUNDARY_SEARCH <= time <= video_duration - OUTRO_MIN_DURATION:
+            shot_cuts.append(time)
+
+    if len(shot_cuts) > 0:
+        return max(shot_cuts)
+
+    fallback_time = max(0.0, video_duration - OUTRO_DURATION_FRACTION * video_duration)
+    visual_boundary = snap_time_to_visual_boundary(fallback_time, visual_data, OUTRO_BOUNDARY_SEARCH, OUTRO_VISUAL_BOUNDARY_THRESHOLD)
+
+    if visual_boundary is not None:
+        return visual_boundary
+
+    outro_duration = min(OUTRO_MAX_DURATION, max(OUTRO_MIN_DURATION, video_duration * OUTRO_DURATION_FRACTION))
+    return max(0.0, video_duration - outro_duration)
+
+
+def add_intro_outro_segments(final_segments, video_duration, visual_data, visual_segments, audio_boundary_peaks):
+    if video_duration <= 0.0:
+        return final_segments
+
+    intro_end = estimate_intro_end(visual_data, visual_segments, audio_boundary_peaks, video_duration)
+    outro_start = estimate_outro_start(visual_data, video_duration)
+    intro_segment = make_intro_outro_segment("intro", 0.0, intro_end, ["position", "visual", "audio_boundary"])
+    outro_segment = make_intro_outro_segment("outro", outro_start, video_duration, ["position", "visual"])
+    trimmed_segments = trim_segments_around_intro_outro(final_segments, intro_segment, outro_segment)
+    trimmed_segments.append(intro_segment)
+    trimmed_segments.append(outro_segment)
+
+    return sorted(trimmed_segments, key=lambda segment: segment["start"])
+
+
+def trim_segments_around_intro_outro(final_segments, intro_segment, outro_segment):
+    trimmed_segments = []
+
+    for segment in final_segments:
+        candidate = dict(segment)
+
+        if candidate["label"] != "intro" and overlap_seconds(candidate, intro_segment) > 0.0:
+            candidate["start"] = max(candidate["start"], intro_segment["end"])
+
+        if candidate["label"] != "outro" and overlap_seconds(candidate, outro_segment) > 0.0:
+            candidate["end"] = min(candidate["end"], outro_segment["start"])
+
+        candidate["duration"] = round(candidate["end"] - candidate["start"], 2)
+
+        if candidate["duration"] > 0.5:
+            candidate["start"] = round(candidate["start"], 2)
+            candidate["end"] = round(candidate["end"], 2)
+            trimmed_segments.append(candidate)
+
+    return trimmed_segments
+
+
 def integrate_video(stem, audio_dir, visual_dir, text_dir):
+    audio_data = load_optional_json(audio_dir / f"{stem}_audio.json")
+    visual_data = load_optional_json(visual_dir / f"{stem}_visual.json")
     video_profile = build_video_profile(stem, audio_dir, visual_dir)
     audio_segments = load_audio_segments(audio_dir / f"{stem}_audio.json")
     visual_segments = load_visual_segments(visual_dir / f"{stem}_visual.json")
     text_segments = load_text_segments(text_dir / f"{stem}_text.json")
+    audio_boundary_peaks = audio_boundary_peaks_from_cache(stem)
     audio_segments = extend_short_audio_segments(audio_segments, visual_segments, video_profile)
     raw_candidates = audio_segments + visual_segments + text_segments
     merged_candidates = merge_candidates(raw_candidates, video_profile)
@@ -532,12 +704,16 @@ def integrate_video(stem, audio_dir, visual_dir, text_dir):
         if keep_cluster(candidate, raw_candidates, video_profile):
             final_segments.append(candidate)
 
+    final_segments = snap_boundaries_to_visual(final_segments, visual_data)
+    video_duration = video_duration_from_outputs(audio_data, visual_data)
+    final_segments = add_intro_outro_segments(final_segments, video_duration, visual_data, visual_segments, audio_boundary_peaks)
     ad_segments = [segment for segment in final_segments if segment.get("label") == "ad"]
 
     return {
         "video_id": stem,
         "module": "backend_integration",
         "audio_pipeline": str(AUDIO_PIPELINE_PATH),
+        "duration": round(video_duration, 2),
         "video_profile": video_profile,
         "non_content_segments": final_segments,
         "ad_segments": ad_segments,
@@ -548,6 +724,85 @@ def integrate_video(stem, audio_dir, visual_dir, text_dir):
         },
     }
 
+
+def snap_time_to_visual_boundary(time, visual_data, snap_window=15, min_peak=0.40):
+    snap_window = int(round(snap_window))
+    probe_segment = {
+        "start": float(time),
+        "end": float(time) + 1.0,
+        "duration": 1.0,
+        "label": "boundary_probe",
+    }
+    snapped_segments = snap_boundaries_to_visual([probe_segment], visual_data, snap_window=snap_window, min_peak=min_peak)
+
+    if len(snapped_segments) == 0:
+        return None
+
+    snapped_time = float(snapped_segments[0]["start"])
+
+    if snapped_time == float(time):
+        return None
+
+    return snapped_time
+
+
+def snap_boundaries_to_visual(segments, visual_data, snap_window=15, min_peak=0.40):
+    # the visual module outputs a boundary_change score for each second
+    # it peaks right at ad transitions, so we can use it to correct the start/end times
+
+    window_scores = visual_data.get("window_scores", [])
+
+    if len(window_scores) == 0:
+        return segments
+
+    # build a simple list of boundary_change values indexed by second
+    max_time = int(float(window_scores[-1]["time"])) + 1
+    boundary_scores = [0.0] * max_time
+
+    for window in window_scores:
+        t = int(float(window["time"]))
+
+        if t < max_time:
+            boundary_scores[t] = float(window.get("boundary_change", 0.0))
+
+    snapped_segments = []
+
+    for segment in segments:
+        segment_start = int(float(segment["start"]))
+        segment_end = int(float(segment["end"]))
+
+        # look for the strongest visual peak near the segment start
+        start_lo = max(0, segment_start - snap_window)
+        start_hi = min(max_time, segment_start + snap_window + 1)
+        start_region = boundary_scores[start_lo:start_hi]
+
+        if len(start_region) > 0 and max(start_region) >= min_peak:
+            new_start = start_lo + start_region.index(max(start_region))
+        else:
+            new_start = segment_start
+
+        # look for the strongest visual peak near the segment end
+        end_lo = max(0, segment_end - snap_window)
+        end_hi = min(max_time, segment_end + snap_window + 1)
+        end_region = boundary_scores[end_lo:end_hi]
+
+        if len(end_region) > 0 and max(end_region) >= min_peak:
+            new_end = end_lo + end_region.index(max(end_region))
+        else:
+            new_end = segment_end
+
+        # only apply if the result still makes sense
+        if new_end <= new_start:
+            snapped_segments.append(segment)
+            continue
+
+        snapped_segment = dict(segment)
+        snapped_segment["start"] = round(float(new_start), 2)
+        snapped_segment["end"] = round(float(new_end), 2)
+        snapped_segment["duration"] = round(float(new_end - new_start), 2)
+        snapped_segments.append(snapped_segment)
+
+    return snapped_segments
 
 def find_video_ids(audio_dir, visual_dir, text_dir):
     video_ids = set()
@@ -583,7 +838,7 @@ def run_text_analyzer(video_path, output_path):
     spec = importlib.util.spec_from_file_location("text_analyzer", TEXT_ANALYZER_PATH)
     text_module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(text_module)
-    result = text_module.pipeline(str(video_path),require_gpu=True)
+    result = text_module.pipeline(str(video_path))
 
     with open(output_path, "w") as file:
         json.dump(result, file, indent=2)
@@ -638,3 +893,21 @@ def run_integration(video_dir="demo_video", output_dir="demo_backend_output", sk
         json.dump(summary, file, indent=2)
 
     return outputs
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--video-dir", default="demo_video")
+    parser.add_argument("--output-dir", default="demo_backend_output")
+    parser.add_argument("--skip-analysis", action="store_true", help="Skip running component analyzers, only integrate existing outputs")
+    args = parser.parse_args()
+
+    run_integration(
+        video_dir=args.video_dir,
+        output_dir=args.output_dir,
+        skip_analysis=args.skip_analysis,
+    )
+
+
+if __name__ == "__main__":
+    main()

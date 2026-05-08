@@ -22,6 +22,7 @@ export const useFileHandlers = () => {
     try {
       const result = await (window as any).electronAPI.runAnalysis(absolutePath);
       // Assuming result is the JSON object: { video: [...], text: [...] }
+      console.log(result.audio);
       if (result.video) setVideoPredicted(result.video);
       if (result.text) setTextPredicted(result.text);
       if (result.audio) setAudioPredicted(result.audio);

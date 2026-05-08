@@ -1,7 +1,8 @@
 {
   "video_id": "test_009",
   "module": "backend_integration",
-  "audio_pipeline": "/home/desktop/projects/main/Multimodal-Segmentation/backend/audio/audio_speech_music_pipeline.py",
+  "audio_pipeline": "/home/desktop/projects/576/Multimodal-Segmentation/backend/audio/audio_speech_music_pipeline.py",
+  "duration": 742.59,
   "video_profile": {
     "video_type": "speech_music_mixed",
     "rich_speech": true,
@@ -31,39 +32,60 @@
   },
   "non_content_segments": [
     {
-      "start": 40.0,
-      "end": 89.3,
-      "duration": 49.3,
+      "start": 0.0,
+      "end": 50.0,
+      "duration": 50.0,
+      "label": "intro",
+      "score": 0.55,
+      "sources": [
+        "position",
+        "visual",
+        "audio_boundary"
+      ],
+      "source_scores": {
+        "position": 0.55,
+        "visual": 0.55,
+        "audio_boundary": 0.55
+      }
+    },
+    {
+      "start": 50.0,
+      "end": 90.0,
+      "duration": 40.0,
       "label": "ad",
       "score": 1.0,
       "sources": [
         "audio_original",
-        "visual"
+        "visual",
+        "text"
       ],
       "source_scores": {
         "audio_original": 1.0,
-        "visual": 0.9053
+        "visual": 0.9053,
+        "text": 0.8
       }
     },
     {
-      "start": 342.0,
-      "end": 358.3,
-      "duration": 16.3,
+      "start": 330.0,
+      "end": 357.0,
+      "duration": 27.0,
       "label": "ad",
       "score": 1.0,
       "sources": [
         "visual",
-        "audio_original"
+        "audio_original",
+        "text"
       ],
       "source_scores": {
         "visual": 0.7138,
-        "audio_original": 1.0
+        "audio_original": 1.0,
+        "text": 0.8
       }
     },
     {
-      "start": 545.3,
-      "end": 593.8,
-      "duration": 48.5,
+      "start": 543.0,
+      "end": 608.0,
+      "duration": 65.0,
       "label": "ad",
       "score": 1.0,
       "sources": [
@@ -74,43 +96,62 @@
         "audio_original": 1.0,
         "visual": 0.7978
       }
+    },
+    {
+      "start": 729.12,
+      "end": 742.59,
+      "duration": 13.47,
+      "label": "outro",
+      "score": 0.55,
+      "sources": [
+        "position",
+        "visual"
+      ],
+      "source_scores": {
+        "position": 0.55,
+        "visual": 0.55
+      }
     }
   ],
   "ad_segments": [
     {
-      "start": 40.0,
-      "end": 89.3,
-      "duration": 49.3,
+      "start": 50.0,
+      "end": 90.0,
+      "duration": 40.0,
       "label": "ad",
       "score": 1.0,
       "sources": [
         "audio_original",
-        "visual"
+        "visual",
+        "text"
       ],
       "source_scores": {
         "audio_original": 1.0,
-        "visual": 0.9053
+        "visual": 0.9053,
+        "text": 0.8
       }
     },
     {
-      "start": 342.0,
-      "end": 358.3,
-      "duration": 16.3,
+      "start": 330.0,
+      "end": 357.0,
+      "duration": 27.0,
       "label": "ad",
       "score": 1.0,
       "sources": [
         "visual",
-        "audio_original"
+        "audio_original",
+        "text"
       ],
       "source_scores": {
         "visual": 0.7138,
-        "audio_original": 1.0
+        "audio_original": 1.0,
+        "text": 0.8
       }
     },
     {
-      "start": 545.3,
-      "end": 593.8,
-      "duration": 48.5,
+      "start": 543.0,
+      "end": 608.0,
+      "duration": 65.0,
       "label": "ad",
       "score": 1.0,
       "sources": [
@@ -126,6 +167,6 @@
   "debug_counts": {
     "audio_candidates": 3,
     "visual_candidates": 3,
-    "text_candidates": 3
+    "text_candidates": 5
   }
 }

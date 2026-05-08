@@ -2,6 +2,11 @@
   "duration": 742.59,
   "segments": [
     {
+      "label": "sponsorship/advertisement",
+      "start": 66.88,
+      "end": 66.88
+    },
+    {
       "label": "transition / intermission",
       "start": 165.23,
       "end": 165.23
@@ -10,6 +15,11 @@
       "label": "sponsorship/advertisement",
       "start": 167.19,
       "end": 167.19
+    },
+    {
+      "label": "sponsorship/advertisement",
+      "start": 346.19,
+      "end": 346.19
     },
     {
       "label": "recap",

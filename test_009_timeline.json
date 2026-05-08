@@ -1,37 +1,42 @@
 [
   {
-    "title": "Segment 1",
-    "type": "content",
+    "title": "Intro 1",
+    "type": "intro",
     "start": 0.0
-  },
-  {
-    "title": "Ad Break 1",
-    "type": "ad",
-    "start": 40.0
-  },
-  {
-    "title": "Segment 2",
-    "type": "content",
-    "start": 89.3
   },
   {
     "title": "Ad Break 2",
     "type": "ad",
-    "start": 342.0
+    "start": 50.0
   },
   {
-    "title": "Segment 3",
+    "title": "Segment 1",
     "type": "content",
-    "start": 358.3
+    "start": 90.0
   },
   {
     "title": "Ad Break 3",
     "type": "ad",
-    "start": 545.3
+    "start": 330.0
   },
   {
-    "title": "Segment 4",
+    "title": "Segment 2",
     "type": "content",
-    "start": 593.8
+    "start": 357.0
+  },
+  {
+    "title": "Ad Break 4",
+    "type": "ad",
+    "start": 543.0
+  },
+  {
+    "title": "Segment 3",
+    "type": "content",
+    "start": 608.0
+  },
+  {
+    "title": "Outro 5",
+    "type": "outro",
+    "start": 729.12
   }
 ]

@@ -59,7 +59,7 @@ const { spawn } = require('child_process');
 ipcMain.handle('run-analysis', async (event, videoPath) => {
   return new Promise((resolve, reject) => {
     // Replace 'python' with 'python3' depending on your environment
-    const pythonProcess = spawn('python', ['./backend/main.py', videoPath]);
+    const pythonProcess = spawn('./backend/venv/bin/python', ['./backend/main.py', videoPath]);
 
     let result = '';
     let error = '';
