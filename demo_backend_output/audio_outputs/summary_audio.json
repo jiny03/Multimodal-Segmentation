@@ -1,0 +1,11 @@
+{
+  "input_dir": "demo_video",
+  "output_dir": "demo_backend_output/audio_outputs",
+  "num_videos": 1,
+  "videos": [
+    {
+      "video_filename": "test_009.mp4",
+      "num_ad_segments": 3
+    }
+  ]
+}

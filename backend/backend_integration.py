@@ -1,5 +1,6 @@
 from pathlib import Path
 import argparse
+import importlib
 import importlib.util
 import json
 import subprocess
@@ -510,10 +511,11 @@ def find_video_ids(audio_dir, visual_dir, text_dir):
 
 
 def run_audio_pipeline(video_dir, audio_output_dir):
-    subprocess.run(
-        [sys.executable, str(AUDIO_PIPELINE_PATH), "--input-dir", str(video_dir), "--output-dir", str(audio_output_dir)],
-        check=True,
-    )
+    if str(PROJECT_ROOT) not in sys.path:
+        sys.path.insert(0, str(PROJECT_ROOT))
+
+    audio_module = importlib.import_module("backend.audio.audio_speech_music_pipeline")
+    audio_module.run_all_videos(video_dir, audio_output_dir)
 
 
 def run_video_analyzer(video_path, output_path):

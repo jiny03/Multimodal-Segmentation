@@ -1,0 +1,84 @@
+{
+  "video_id": "test_009",
+  "module": "backend_integration",
+  "audio_pipeline": "/home/desktop/projects/main/Multimodal-Segmentation/backend/audio/audio_speech_music_pipeline.py",
+  "video_profile": {
+    "video_type": "speech_music_mixed",
+    "rich_speech": true,
+    "music_present": true,
+    "speech_coverage": 0.9025,
+    "mean_music_score": 0.6918,
+    "high_music_fraction": 0.8625,
+    "high_music_ranges": [
+      {
+        "start": 0.0,
+        "end": 188.0
+      },
+      {
+        "start": 204.0,
+        "end": 276.0
+      },
+      {
+        "start": 300.0,
+        "end": 462.0
+      },
+      {
+        "start": 474.0,
+        "end": 742.784
+      }
+    ],
+    "visual_reliability": "high"
+  },
+  "ad_segments": [
+    {
+      "start": 0.8,
+      "end": 89.3,
+      "duration": 88.5,
+      "label": "ad",
+      "score": 1.0,
+      "sources": [
+        "audio_original",
+        "visual"
+      ],
+      "source_scores": {
+        "audio_original": 1.0,
+        "visual": 0.9053
+      }
+    },
+    {
+      "start": 342.0,
+      "end": 358.3,
+      "duration": 16.3,
+      "label": "ad",
+      "score": 1.0,
+      "sources": [
+        "visual",
+        "audio_original"
+      ],
+      "source_scores": {
+        "visual": 0.7138,
+        "audio_original": 1.0
+      }
+    },
+    {
+      "start": 545.3,
+      "end": 593.8,
+      "duration": 48.5,
+      "label": "ad",
+      "score": 1.0,
+      "sources": [
+        "audio_original",
+        "visual"
+      ],
+      "source_scores": {
+        "audio_original": 1.0,
+        "visual": 0.7978
+      }
+    }
+  ],
+  "debug_counts": {
+    "audio_candidates": 3,
+    "visual_candidates": 3,
+    "text_candidates": 1
+  }
+}

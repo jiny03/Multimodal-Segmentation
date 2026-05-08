@@ -505,4 +505,4 @@ if __name__ == "__main__":
     parser.add_argument("--sample-every", type=int, default=None, help="sample every N frames")
     args = parser.parse_args()
 
-    analyze(args.video, args.output, verbose=not args.quiet, sample_n=args.sample_every)
+    analyze(args.video, args.output, verbose=not args.quiet)

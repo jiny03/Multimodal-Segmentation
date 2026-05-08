@@ -1,0 +1,563 @@
+{
+  "video_filename": "test_009.mp4",
+  "module": "audio_speech_music",
+  "ad_segments": [
+    {
+      "start": 0.8,
+      "end": 89.3,
+      "duration": 88.5,
+      "non_content_score": 1.0,
+      "source": "llm_full_transcript",
+      "speech_score": 1.0,
+      "audio_boundary_score": 0.0,
+      "music_delta": 0.1497617786720632,
+      "low_speech_score": 0.0
+    },
+    {
+      "start": 342.0,
+      "end": 358.3,
+      "duration": 16.30000000000001,
+      "non_content_score": 1.0,
+      "source": "llm_full_transcript",
+      "speech_score": 1.0,
+      "audio_boundary_score": 0.5991843342781067,
+      "music_delta": 0.23090413802613807,
+      "low_speech_score": 0.0
+    },
+    {
+      "start": 545.3,
+      "end": 593.8,
+      "duration": 48.5,
+      "non_content_score": 1.0,
+      "source": "llm_full_transcript",
+      "speech_score": 1.0,
+      "audio_boundary_score": 0.45523226261138916,
+      "music_delta": 0.0009695149572759298,
+      "low_speech_score": 0.0
+    }
+  ],
+  "transcript_segments": [
+    {
+      "start": 0.85,
+      "end": 65.37,
+      "duration": 64.52000000000001,
+      "text": "Will Shad here, bringing fiber to the masses with Kellogg's Raisin Bran."
+    },
+    {
+      "start": 65.37,
+      "end": 69.1,
+      "duration": 3.7299999999999898,
+      "text": "Duty calls."
+    },
+    {
+      "start": 69.1,
+      "end": 71.1,
+      "duration": 2.0,
+      "text": "Will Shad?"
+    },
+    {
+      "start": 71.1,
+      "end": 74.1,
+      "duration": 3.0,
+      "text": "Every darn day."
+    },
+    {
+      "start": 74.1,
+      "end": 75.1,
+      "duration": 1.0,
+      "text": "Whoa."
+    },
+    {
+      "start": 75.1,
+      "end": 77.1,
+      "duration": 2.0,
+      "text": "Will Shad in the house."
+    },
+    {
+      "start": 77.1,
+      "end": 78.1,
+      "duration": 1.0,
+      "text": "It's fiber time."
+    },
+    {
+      "start": 78.1,
+      "end": 80.1,
+      "duration": 2.0,
+      "text": "Is that Dr. Shih Tzu?"
+    },
+    {
+      "start": 80.1,
+      "end": 81.1,
+      "duration": 1.0,
+      "text": "Perfect."
+    },
+    {
+      "start": 81.1,
+      "end": 84.34,
+      "duration": 3.240000000000009,
+      "text": "Will Shad on the car!"
+    },
+    {
+      "start": 84.34,
+      "end": 86.34,
+      "duration": 2.0,
+      "text": "You're too old for this Shad."
+    },
+    {
+      "start": 86.34,
+      "end": 89.34,
+      "duration": 3.0,
+      "text": "Kellogg's Raisin Bran, high fiber, happy guy."
+    },
+    {
+      "start": 89.34,
+      "end": 115.09,
+      "duration": 25.75,
+      "text": "Hey everyone, my name is Anthony."
+    },
+    {
+      "start": 115.09,
+      "end": 119.95,
+      "duration": 4.859999999999999,
+      "text": "I'm a senior here at USC studying business and today I'm gonna be showing"
+    },
+    {
+      "start": 119.95,
+      "end": 125.41,
+      "duration": 5.459999999999994,
+      "text": "you around a very typical day in my life here at USC. Let's get ready for class."
+    },
+    {
+      "start": 125.41,
+      "end": 185.92,
+      "duration": 60.50999999999999,
+      "text": "Something that I love about USC's campus is that it's not too big to where it's"
+    },
+    {
+      "start": 185.92,
+      "end": 190.3,
+      "duration": 4.380000000000024,
+      "text": "overwhelming and you have to run from one side of campus to the other to get"
+    },
+    {
+      "start": 190.3,
+      "end": 194.3,
+      "duration": 4.0,
+      "text": "to class on time, but it's not too small to where it doesn't really feel like an"
+    },
+    {
+      "start": 194.3,
+      "end": 199.36,
+      "duration": 5.060000000000002,
+      "text": "actual college. It's just at the very right size and it's also flat which is"
+    },
+    {
+      "start": 199.36,
+      "end": 202.84,
+      "duration": 3.4799999999999898,
+      "text": "really skateboard friendly because I don't have to like go through any hills"
+    },
+    {
+      "start": 202.84,
+      "end": 209.86,
+      "duration": 7.02000000000001,
+      "text": "like I am if I'm at UCLA. I am currently on my way to another class which is in"
+    },
+    {
+      "start": 209.86,
+      "end": 267.12,
+      "duration": 57.25999999999999,
+      "text": "10 minutes. The building's pretty close, in fact I'm already here. One of the reasons"
+    },
+    {
+      "start": 267.12,
+      "end": 272.22,
+      "duration": 5.100000000000023,
+      "text": "why I chose to be a business major is because of how relevant everything you"
+    },
+    {
+      "start": 272.22,
+      "end": 277.26,
+      "duration": 5.039999999999964,
+      "text": "learn is to society as well as the fact that you have so much free time compared"
+    },
+    {
+      "start": 277.26,
+      "end": 281.34,
+      "duration": 4.079999999999984,
+      "text": "to other majors such as the engineering majors out there. I usually have around"
+    },
+    {
+      "start": 281.34,
+      "end": 287.02,
+      "duration": 5.680000000000007,
+      "text": "two two hour long classes every day monday to thursday no class on friday and the great thing"
+    },
+    {
+      "start": 287.02,
+      "end": 292.94,
+      "duration": 5.920000000000016,
+      "text": "about this is i have so much time to explore all sorts of interests in college such as what i'm"
+    },
+    {
+      "start": 292.94,
+      "end": 298.78,
+      "duration": 5.839999999999975,
+      "text": "doing right now which is making videos i haven't had anything to eat all day just got out of my"
+    },
+    {
+      "start": 298.78,
+      "end": 305.74,
+      "duration": 6.960000000000036,
+      "text": "last class for today so i'm gonna go to get lunch and the dining halls and show you around how it"
+    },
+    {
+      "start": 305.74,
+      "end": 341.2,
+      "duration": 35.45999999999998,
+      "text": "it looks like in there. Finance meeting in five minutes. I got it. Allow me. Hi, handsome."
+    },
+    {
+      "start": 342.04,
+      "end": 350.12,
+      "duration": 8.079999999999984,
+      "text": "We're saving so much time. Policy violation coming through. Travel, meals, hotels. How's this?"
+    },
+    {
+      "start": 350.42,
+      "end": 358.32,
+      "duration": 7.899999999999977,
+      "text": "Beautiful. Everybody's happy. Ramp. Ramp. Nailed it. Multiply what's possible at ramp.com. Careful."
+    },
+    {
+      "start": 358.56,
+      "end": 390.77,
+      "duration": 32.20999999999998,
+      "text": "Got it. Care. It's an absolutely beautiful day to be outside studying, but because I'm a"
+    },
+    {
+      "start": 390.77,
+      "end": 394.31,
+      "duration": 3.5400000000000205,
+      "text": "business major there isn't anything to study aside from like a 10 minute"
+    },
+    {
+      "start": 394.31,
+      "end": 398.57,
+      "duration": 4.259999999999991,
+      "text": "reading that I have so I'm gonna do that and also get a little bit of more"
+    },
+    {
+      "start": 398.57,
+      "end": 403.31,
+      "duration": 4.740000000000009,
+      "text": "footage of campus so I can show you how it's like here at this time of the day"
+    },
+    {
+      "start": 403.31,
+      "end": 460.14,
+      "duration": 56.829999999999984,
+      "text": "it's currently about five o'clock and I really need to go to the gym right now"
+    },
+    {
+      "start": 460.14,
+      "end": 465.44,
+      "duration": 5.300000000000011,
+      "text": "because at the beginning of this month I set a goal with my roommates that if I"
+    },
+    {
+      "start": 465.44,
+      "end": 470.96,
+      "duration": 5.519999999999982,
+      "text": "don't bench 120 pounds eight reps by the end of the month I'll let them shave my"
+    },
+    {
+      "start": 470.96,
+      "end": 476.24,
+      "duration": 5.28000000000003,
+      "text": "eyebrows and I know it sounds extremely silly but it's actually a really fun and"
+    },
+    {
+      "start": 476.24,
+      "end": 480.08,
+      "duration": 3.839999999999975,
+      "text": "encouraging way for me to fix bad habits and achieve my goals in life so I'm"
+    },
+    {
+      "start": 480.08,
+      "end": 545.33,
+      "duration": 65.25000000000006,
+      "text": "gonna go to that and I'll see you soon runs they call it a scramble you want a"
+    },
+    {
+      "start": 545.33,
+      "end": 550.49,
+      "duration": 5.159999999999968,
+      "text": "morning scramble Bradley don't you have somewhere else to be think about it"
+    },
+    {
+      "start": 550.49,
+      "end": 554.27,
+      "duration": 3.7799999999999727,
+      "text": "field goal post designed after a fork and I can't be true football is not"
+    },
+    {
+      "start": 554.27,
+      "end": 559.13,
+      "duration": 4.860000000000014,
+      "text": "selling food you cannot keep this up players names CJ ham Malik ham you're"
+    },
+    {
+      "start": 559.13,
+      "end": 560.73,
+      "duration": 1.6000000000000227,
+      "text": "Cherry pickin'."
+    },
+    {
+      "start": 560.73,
+      "end": 561.97,
+      "duration": 1.240000000000009,
+      "text": "Gerard Cherry."
+    },
+    {
+      "start": 561.97,
+      "end": 563.29,
+      "duration": 1.3199999999999363,
+      "text": "Duran Cherry."
+    },
+    {
+      "start": 563.29,
+      "end": 565.51,
+      "duration": 2.2200000000000273,
+      "text": "Oh, did you tell him about pancake blocks?"
+    },
+    {
+      "start": 565.51,
+      "end": 566.09,
+      "duration": 0.5800000000000409,
+      "text": "Several times."
+    },
+    {
+      "start": 566.09,
+      "end": 567.59,
+      "duration": 1.5,
+      "text": "Take a closer look, Mr. Bradley."
+    },
+    {
+      "start": 567.59,
+      "end": 568.91,
+      "duration": 1.3199999999999363,
+      "text": "Tell me, what do you see?"
+    },
+    {
+      "start": 568.91,
+      "end": 570.37,
+      "duration": 1.4600000000000364,
+      "text": "Pro Football Hall of Fame?"
+    },
+    {
+      "start": 570.37,
+      "end": 571.61,
+      "duration": 1.240000000000009,
+      "text": "It's a juicer."
+    },
+    {
+      "start": 571.61,
+      "end": 572.45,
+      "duration": 0.8400000000000318,
+      "text": "What?"
+    },
+    {
+      "start": 572.45,
+      "end": 574.53,
+      "duration": 2.0799999999999272,
+      "text": "The Hall of Fame's a juicer, Bradley!"
+    },
+    {
+      "start": 574.53,
+      "end": 575.19,
+      "duration": 0.6600000000000819,
+      "text": "Make it out!"
+    },
+    {
+      "start": 575.19,
+      "end": 577.39,
+      "duration": 2.199999999999932,
+      "text": "It's all food, Bradley!"
+    },
+    {
+      "start": 577.39,
+      "end": 577.89,
+      "duration": 0.5,
+      "text": "Food."
+    },
+    {
+      "start": 577.89,
+      "end": 578.39,
+      "duration": 0.5,
+      "text": "No."
+    },
+    {
+      "start": 578.39,
+      "end": 578.89,
+      "duration": 0.5,
+      "text": "No."
+    },
+    {
+      "start": 578.89,
+      "end": 579.39,
+      "duration": 0.5,
+      "text": "No."
+    },
+    {
+      "start": 579.39,
+      "end": 579.89,
+      "duration": 0.5,
+      "text": "No."
+    },
+    {
+      "start": 579.89,
+      "end": 580.89,
+      "duration": 1.0,
+      "text": "Enough!"
+    },
+    {
+      "start": 580.89,
+      "end": 581.39,
+      "duration": 0.5,
+      "text": "Enough!"
+    },
+    {
+      "start": 581.39,
+      "end": 583.93,
+      "duration": 2.5399999999999636,
+      "text": "You're never going to convince me that football's selling food."
+    },
+    {
+      "start": 583.93,
+      "end": 587.73,
+      "duration": 3.800000000000068,
+      "text": "So what do you say we just squash this beef?"
+    },
+    {
+      "start": 587.73,
+      "end": 589.11,
+      "duration": 1.3799999999999955,
+      "text": "These foods are squashed."
+    },
+    {
+      "start": 589.65,
+      "end": 591.85,
+      "duration": 2.2000000000000455,
+      "text": "You son of a..."
+    },
+    {
+      "start": 591.85,
+      "end": 593.83,
+      "duration": 1.9800000000000182,
+      "text": "Burgers! When football makes you hungry!"
+    },
+    {
+      "start": 620.4,
+      "end": 625.0,
+      "duration": 4.600000000000023,
+      "text": "Alright, just got home, took a shower, and now I'm getting ready to go to UCLA."
+    },
+    {
+      "start": 625.64,
+      "end": 629.74,
+      "duration": 4.100000000000023,
+      "text": "To make things simple, one of my biggest obsessions in life is anything that's camera related."
+    },
+    {
+      "start": 630.0,
+      "end": 632.6,
+      "duration": 2.6000000000000227,
+      "text": "And that's exactly why I'm going to UCLA today."
+    },
+    {
+      "start": 632.92,
+      "end": 637.78,
+      "duration": 4.860000000000014,
+      "text": "Because as a photographer for USC's newspaper, which is called The Daily Trojan,"
+    },
+    {
+      "start": 637.78,
+      "end": 641.26,
+      "duration": 3.480000000000018,
+      "text": "I get to go to all sorts of cool events and take pictures of them,"
+    },
+    {
+      "start": 641.56,
+      "end": 642.94,
+      "duration": 1.3800000000001091,
+      "text": "like the event that's happening today."
+    },
+    {
+      "start": 643.1,
+      "end": 647.1,
+      "duration": 4.0,
+      "text": "which is USC vs UCLA's women's volleyball game."
+    },
+    {
+      "start": 647.1,
+      "end": 649.9,
+      "duration": 2.7999999999999545,
+      "text": "I don't think I'm going to vlog the whole car ride there"
+    },
+    {
+      "start": 649.9,
+      "end": 652.3,
+      "duration": 2.3999999999999773,
+      "text": "because that's not the most interesting stuff to see."
+    },
+    {
+      "start": 652.3,
+      "end": 655.9,
+      "duration": 3.6000000000000227,
+      "text": "So, transition of me, already there, taking pictures."
+    },
+    {
+      "start": 694.22,
+      "end": 695.62,
+      "duration": 1.3999999999999773,
+      "text": "Alright, I just got back from the game"
+    },
+    {
+      "start": 695.62,
+      "end": 698.62,
+      "duration": 3.0,
+      "text": "and I'm currently editing these pictures that I took from that game"
+    },
+    {
+      "start": 698.62,
+      "end": 701.22,
+      "duration": 2.6000000000000227,
+      "text": "so I can send it over to Daily Trojan tonight"
+    },
+    {
+      "start": 701.22,
+      "end": 704.62,
+      "duration": 3.3999999999999773,
+      "text": "and they can get it up on their website and paper by tomorrow morning."
+    },
+    {
+      "start": 704.62,
+      "end": 706.62,
+      "duration": 2.0,
+      "text": "Anyway, I hope you enjoyed watching this video."
+    },
+    {
+      "start": 706.62,
+      "end": 708.22,
+      "duration": 1.6000000000000227,
+      "text": "I had a lot of fun making it"
+    },
+    {
+      "start": 708.22,
+      "end": 711.26,
+      "duration": 3.0399999999999636,
+      "text": "I'll see you in the next one. Bye"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "module": "backend_integration",
+  "video_dir": "demo_video",
+  "audio_pipeline": "/home/desktop/projects/main/Multimodal-Segmentation/backend/audio/audio_speech_music_pipeline.py",
+  "output_dir": "demo_backend_output",
+  "videos": [
+    {
+      "video_id": "test_009",
+      "num_ad_segments": 3,
+      "debug_counts": {
+        "audio_candidates": 3,
+        "visual_candidates": 3,
+        "text_candidates": 1
+      }
+    }
+  ]
+}
