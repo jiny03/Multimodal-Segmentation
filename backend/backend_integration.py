@@ -14,7 +14,12 @@ AUDIO_PIPELINE_PATH = BACKEND_DIR / "audio" / "audio_speech_music_pipeline.py"
 VIDEO_ANALYZER_PATH = BACKEND_DIR / "video" / "video_analyzer.py"
 TEXT_ANALYZER_PATH = BACKEND_DIR / "text" / "text_analyzer.py"
 
-TEXT_AD_LABELS = {"sponsorship/advertisement"}
+TEXT_LABEL_MAP = {
+    "sponsorship/advertisement": "ad",
+    "intro/outro": "intro/outro",
+    "transition / intermission": "transition / intermission",
+    "recap": "recap",
+}
 VISUAL_ONLY_MAX_DURATION = 90.0
 MERGE_GAP_SECONDS = 5.0
 FUSED_SCORE_THRESHOLD = 0.58
@@ -22,6 +27,8 @@ VISUAL_ONLY_SCORE_THRESHOLD = 0.75
 SHORT_AUDIO_MAX_DURATION = 12.0
 SHORT_AUDIO_VISUAL_LOOKAHEAD = 45.0
 SHORT_AUDIO_EXTENSION_MAX_DURATION = 45.0
+AUDIO_VISUAL_TRIM_MIN_LEAD = 20.0
+AUDIO_VISUAL_TRIM_MIN_REMAINING = 15.0
 SOURCE_WEIGHTS = {
     "audio_original": 0.70,
     "visual": 0.55,
@@ -50,6 +57,21 @@ def segments_overlap(first, second, gap_seconds=0.0):
 
 def clamp_score(score):
     return max(0.0, min(1.0, float(score)))
+
+
+def normalize_non_content_label(label, default_label="ad"):
+    if label is None:
+        return default_label
+
+    normalized_label = str(label).strip().lower()
+
+    if normalized_label in {"", "content", "core content"}:
+        return None
+
+    if normalized_label == "sponsorship/advertisement":
+        return "ad"
+
+    return normalized_label
 
 
 def load_optional_json(path):
@@ -195,17 +217,22 @@ def load_audio_segments(path):
         return []
 
     data = read_json(path)
-    segments = data.get("ad_segments", [])
+    segments = data.get("non_content_segments", data.get("ad_segments", []))
     transcript_segments = data.get("transcript_segments", [])
     results = []
 
     for segment in segments:
+        label = normalize_non_content_label(segment.get("label"), default_label="ad")
+
+        if label is None:
+            continue
+
         score = clamp_score(segment.get("non_content_score", 0.85))
         speech_start, speech_end = transcript_bounds_for_segment(segment, transcript_segments)
         results.append({
             "start": float(segment["start"]),
             "end": float(segment["end"]),
-            "label": "ad",
+            "label": label,
             "score": score,
             "sources": ["audio_original"],
             "source_scores": {"audio_original": score},
@@ -279,13 +306,15 @@ def load_text_segments(path):
     results = []
 
     for segment in data.get("segments", []):
-        if segment.get("label") not in TEXT_AD_LABELS:
+        label = TEXT_LABEL_MAP.get(segment.get("label"))
+
+        if label is None:
             continue
 
         results.append({
             "start": float(segment["start"]),
             "end": float(segment["end"]) + 2.0,
-            "label": "ad",
+            "label": label,
             "score": 0.80,
             "sources": ["text"],
             "source_scores": {"text": 0.80},
@@ -348,6 +377,23 @@ def score_from_sources(source_scores, profile):
     return clamp_score(score)
 
 
+def label_from_cluster(cluster):
+    label_scores = {}
+
+    for segment in cluster:
+        label = normalize_non_content_label(segment.get("label"))
+
+        if label is None:
+            continue
+
+        label_scores[label] = label_scores.get(label, 0.0) + clamp_score(segment.get("score", 0.0))
+
+    if len(label_scores) == 0:
+        return "ad"
+
+    return max(label_scores, key=label_scores.get)
+
+
 def merge_cluster(cluster, profile):
     sources = []
     source_scores = {}
@@ -371,12 +417,13 @@ def merge_cluster(cluster, profile):
             source_scores[source] = max(source_scores.get(source, 0.0), clamp_score(source_score))
 
     score = score_from_sources(source_scores, profile)
+    label = label_from_cluster(cluster)
 
     return {
         "start": round(start, 2),
         "end": round(end, 2),
         "duration": round(end - start, 2),
-        "label": "ad",
+        "label": label,
         "score": round(score, 4),
         "sources": sources,
         "source_scores": {source: round(score, 4) for source, score in source_scores.items()},
@@ -400,6 +447,10 @@ def refine_audio_boundaries(start, end, audio_segments, visual_segments, profile
 
     if len(visual_segments) > 0:
         visual_start = min(segment["start"] for segment in visual_segments)
+
+        if start + AUDIO_VISUAL_TRIM_MIN_LEAD <= visual_start and visual_start < end:
+            if end - visual_start >= AUDIO_VISUAL_TRIM_MIN_REMAINING:
+                start = visual_start
 
         for audio_segment in audio_segments:
             source_label = audio_segment.get("audio_source_label", "")
@@ -461,7 +512,7 @@ def keep_cluster(cluster, raw_candidates, profile):
     if sources == {"visual"} and source_scores.get("visual", 0.0) >= visual_only_score_threshold(profile) and cluster["duration"] <= VISUAL_ONLY_MAX_DURATION:
         return True
 
-    if sources == {"text"} and has_support(cluster, raw_candidates, "visual"):
+    if sources == {"text"} and cluster.get("label") == "ad" and has_support(cluster, raw_candidates, "visual"):
         return True
 
     return False
@@ -481,12 +532,15 @@ def integrate_video(stem, audio_dir, visual_dir, text_dir):
         if keep_cluster(candidate, raw_candidates, video_profile):
             final_segments.append(candidate)
 
+    ad_segments = [segment for segment in final_segments if segment.get("label") == "ad"]
+
     return {
         "video_id": stem,
         "module": "backend_integration",
         "audio_pipeline": str(AUDIO_PIPELINE_PATH),
         "video_profile": video_profile,
-        "ad_segments": final_segments,
+        "non_content_segments": final_segments,
+        "ad_segments": ad_segments,
         "debug_counts": {
             "audio_candidates": len(audio_segments),
             "visual_candidates": len(visual_segments),
@@ -572,6 +626,7 @@ def run_integration(video_dir="demo_video", output_dir="demo_backend_output", sk
         "videos": [
             {
                 "video_id": output["video_id"],
+                "num_non_content_segments": len(output["non_content_segments"]),
                 "num_ad_segments": len(output["ad_segments"]),
                 "debug_counts": output["debug_counts"],
             }

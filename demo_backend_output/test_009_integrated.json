@@ -29,11 +29,58 @@
     ],
     "visual_reliability": "high"
   },
+  "non_content_segments": [
+    {
+      "start": 40.0,
+      "end": 89.3,
+      "duration": 49.3,
+      "label": "ad",
+      "score": 1.0,
+      "sources": [
+        "audio_original",
+        "visual"
+      ],
+      "source_scores": {
+        "audio_original": 1.0,
+        "visual": 0.9053
+      }
+    },
+    {
+      "start": 342.0,
+      "end": 358.3,
+      "duration": 16.3,
+      "label": "ad",
+      "score": 1.0,
+      "sources": [
+        "visual",
+        "audio_original"
+      ],
+      "source_scores": {
+        "visual": 0.7138,
+        "audio_original": 1.0
+      }
+    },
+    {
+      "start": 545.3,
+      "end": 593.8,
+      "duration": 48.5,
+      "label": "ad",
+      "score": 1.0,
+      "sources": [
+        "audio_original",
+        "visual"
+      ],
+      "source_scores": {
+        "audio_original": 1.0,
+        "visual": 0.7978
+      }
+    }
+  ],
   "ad_segments": [
     {
-      "start": 0.8,
+      "start": 40.0,
       "end": 89.3,
-      "duration": 88.5,
+      "duration": 49.3,
       "label": "ad",
       "score": 1.0,
       "sources": [
@@ -79,6 +126,6 @@
   "debug_counts": {
     "audio_candidates": 3,
     "visual_candidates": 3,
-    "text_candidates": 1
+    "text_candidates": 3
   }
 }
