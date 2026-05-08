@@ -192,28 +192,11 @@ const App = () => {
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
                         {/* TRACK: AUDIO PREDICTED */}
                         <section>
-                            <TrackHeader title="Audio Prediction" subtitle="Segments inferred from music and acoustic boundaries" color="#ff9800" />
+                            <TrackHeader title="Multimodal Prediction" subtitle="Segments inferred from text, audio, and video processing" color="#ff9800" />
                             {audioPredicted.length > 0 ? (
                                 <ChapterBar chapters={audioPredicted} duration={duration} currentTime={currentTime} onChapterClick={handleSeek} />
-                            ) : <EmptyState message="Awaiting audio-based analysis..." />}
+                            ) : <EmptyState message="Awaiting analysis..." />}
                         </section>
-
-                        {/* TRACK: TEXT PREDICTED */}
-                        <section>
-                            <TrackHeader title="Text Prediction" subtitle="Segments inferred from speech-to-text" color="#2196F3" />
-                            {textPredicted.length > 0 ? (
-                                <ChapterBar chapters={textPredicted} duration={duration} currentTime={currentTime} onChapterClick={handleSeek} />
-                            ) : <EmptyState message="Awaiting text-based analysis..." />}
-                        </section>
-
-                        {/* TRACK: VIDEO PREDICTED */}
-                        <section>
-                            <TrackHeader title="Video Prediction" subtitle="Segments inferred from visual scene detection" color="#9c27b0" />
-                            {videoPredicted.length > 0 ? (
-                                <ChapterBar chapters={videoPredicted} duration={duration} currentTime={currentTime} onChapterClick={handleSeek} />
-                            ) : <EmptyState message="Awaiting visual analysis..." />}
-                        </section>
-
 
                     </div>
                 )}

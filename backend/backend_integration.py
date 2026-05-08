@@ -583,7 +583,7 @@ def run_text_analyzer(video_path, output_path):
     spec = importlib.util.spec_from_file_location("text_analyzer", TEXT_ANALYZER_PATH)
     text_module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(text_module)
-    result = text_module.pipeline(str(video_path))
+    result = text_module.pipeline(str(video_path),require_gpu=True)
 
     with open(output_path, "w") as file:
         json.dump(result, file, indent=2)
@@ -638,21 +638,3 @@ def run_integration(video_dir="demo_video", output_dir="demo_backend_output", sk
         json.dump(summary, file, indent=2)
 
     return outputs
-
-
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--video-dir", default="demo_video")
-    parser.add_argument("--output-dir", default="demo_backend_output")
-    parser.add_argument("--skip-analysis", action="store_true", help="Skip running component analyzers, only integrate existing outputs")
-    args = parser.parse_args()
-
-    run_integration(
-        video_dir=args.video_dir,
-        output_dir=args.output_dir,
-        skip_analysis=args.skip_analysis,
-    )
-
-
-if __name__ == "__main__":
-    main()

@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Intro 1",
+    "type": "intro",
+    "start": 0.0
+  },
+  {
+    "title": "Segment 1",
+    "type": "content",
+    "start": 5.0
+  },
+  {
+    "title": "Ad Break 1",
+    "type": "ad",
+    "start": 60.0
+  },
+  {
+    "title": "Segment 2",
+    "type": "content",
+    "start": 90.016
+  },
+  {
+    "title": "Ad Break 2",
+    "type": "ad",
+    "start": 330.016
+  },
+  {
+    "title": "Segment 3",
+    "type": "content",
+    "start": 361.034
+  },
+  {
+    "title": "Ad Break 3",
+    "type": "ad",
+    "start": 541.034
+  },
+  {
+    "title": "Segment 4",
+    "type": "content",
+    "start": 596.052
+  },
+  {
+    "title": "Outro 1",
+    "type": "outro",
+    "start": 726.052
+  },
+  {
+    "title": "Segment 5",
+    "type": "content",
+    "start": 742.452
+  }
+]

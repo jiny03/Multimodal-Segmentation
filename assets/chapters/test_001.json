@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Segment 1",
+    "type": "content",
+    "start": 0.0
+  },
+  {
+    "title": "Ad Break 1",
+    "type": "ad",
+    "start": 106.159
+  },
+  {
+    "title": "Segment 2",
+    "type": "content",
+    "start": 224.395
+  },
+  {
+    "title": "Ad Break 2",
+    "type": "ad",
+    "start": 628.163
+  },
+  {
+    "title": "Segment 3",
+    "type": "content",
+    "start": 660.276
+  },
+  {
+    "title": "Ad Break 3",
+    "type": "ad",
+    "start": 1088.698
+  },
+  {
+    "title": "Segment 4",
+    "type": "content",
+    "start": 1117.073
+  }
+]

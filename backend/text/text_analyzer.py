@@ -6,14 +6,12 @@ from rapidfuzz import process, fuzz
 
 # Taxonomy based on project requirements 
 TAXONOMY_MAP = {
-    'sponsorship/advertisement': ['sponsored', 'iphone', 'phone', 'check out', 'discount', 'apple.com', 'pepsi',
-                                  'zero sugar', 'sports', 'sport', 'barbecue', 'salt', 'vinegar', 'chips', 'Onion',
-                                  'Cheddar'],
-    'intro/outro': ['ted.com', 'ted talk', 'tedtalk', 'ideas', 'episode', 'welcome back', 'starting soon',
-                    'thanks for watching', 'subscribe', 'copyright'],
-    'transition / intermission': ['break', 'intermission', 'stay tuned'],
-    'recap': ['previously', 'last time', 'recap']
+    'sponsorship/advertisement': ['sponsored','iphone', 'phone', 'check out', 'discount','apple.com','pepsi','zero sugar','sports','sport','travel','ramp','barbecue','salt','vinegar','chips','onion','cheddar','fiber','cereal'], 
+    'intro/outro': ['ted.com','ted talk','tedtalk','ideas','episode','welcome back', 'starting soon','thanks for watching', 'subscribe', 'copyright'], 
+    'transition / intermission': ['break', 'intermission', 'stay tuned'], 
+    'recap': ['previously', 'last time', 'recap'] 
 }
+
 
 
 def get_ocr_reader(require_gpu=True):
@@ -183,7 +181,7 @@ def format_time(seconds):
     return f"{int(seconds // 60)}:{int(seconds % 60):02d}"
 
 
-def pipeline(video, verbose=False, require_gpu=True):
+def pipeline(video, verbose=False, require_gpu=False):
     # Unpack metadata and duration from process_video
 
     metadata, duration = process_video(video, verbose, require_gpu=require_gpu)
@@ -200,6 +198,6 @@ def pipeline(video, verbose=False, require_gpu=True):
 
 if __name__ == "__main__":
     project_root = Path(__file__).resolve().parents[2]
-    path = project_root / "demo_video" / "test_009.mp4"
+    path = project_root / "assets/video/test_009.mp4"
 
     print(pipeline(path, verbose=True))
